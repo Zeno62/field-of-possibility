@@ -300,7 +300,7 @@ For readable link text:
 
 Please preserve this style when editing existing files.
 
-##AI-Assisted Contributions
+## AI-Assisted Contributions
 AI tools may be used to assist translation, editing, comparison, and review.
 
 However:
@@ -316,11 +316,11 @@ AI may assist, but the Chinese source edition remains the source of truth.
 
 ⸻
 
-##License
+## License
 
 By contributing to this project, you agree that your contributions will be released under the project license:
 
-##Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+## Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
 CC BY-NC-SA 4.0
 
 License file:
