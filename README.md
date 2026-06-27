@@ -3,55 +3,55 @@
 
 **Field of Possibility / 可能性网络** is an open philosophical framework originally developed in Chinese.
 
-It explores pure possibility, awareness, consciousness, manifestation, weight, collective weight, AI, and the structure of reality-experience.
+It explores pure possibility, awareness, consciousness, manifestation, weight, collective weight, AI, life, creation, society, responsibility, and the structure of reality-experience.
 
 The Chinese edition is the source edition.  
 The English edition is being developed as an international-facing translation and adaptation.
 
 ---
 
+## Website
+
+Project website:
+
+<a href="https://zeno62.github.io/field-of-possibility/">https://zeno62.github.io/field-of-possibility/</a>
+
+---
+
 ## Start Here
 
-### <a href="https://zeno62.github.io/field-of-possibility/zh-Hans/">Read Chinese Source Edition</a>
+### Chinese Source Edition
 
 Read the official Chinese source version:
 
+<a href="https://zeno62.github.io/field-of-possibility/zh-Hans/">https://zeno62.github.io/field-of-possibility/zh-Hans/</a>
+
+Current official release:
+
 **可能性网络白皮书 v4.0 正式版**
 
-This is the source edition of the project.
+---
+
+### English Overview
+
+Start here if you are reading in English:
+
+<a href="https://zeno62.github.io/field-of-possibility/en/overview">https://zeno62.github.io/field-of-possibility/en/overview</a>
 
 ---
 
-### <a href="https://zeno62.github.io/field-of-possibility/en/overview">Read English Overview</a>
+### English Draft Chapters
 
-Start here if you are reading in English.
+The English draft chapter set currently includes chapters **0–14**:
 
-The English overview introduces the core framework, including:
+<a href="https://zeno62.github.io/field-of-possibility/en/chapters/">https://zeno62.github.io/field-of-possibility/en/chapters/</a>
 
-- Pure Possibility;
-- Awareness;
-- Consciousness;
-- Field of Possibility;
-- Weight;
-- Individual Node;
-- Mistaking the Apparent for the Real;
-- Single-Frame Interruption;
-- Return as Recognition;
-- AI and collective weight.
+Current status:
 
----
+**Draft preparation**
 
-### <a href="https://github.com/Zeno62/field-of-possibility/discussions">Join Discussions</a>
-
-Use GitHub Discussions for:
-
-- reading notes;
-- questions;
-- terminology discussion;
-- translation suggestions;
-- conceptual critique;
-- application questions;
-- multilingual collaboration.
+These chapters are introductory English adaptations based on the Chinese source edition.  
+They are not yet the final official English release.
 
 ---
 
@@ -76,36 +76,75 @@ It invites readers to observe how belief, identity, suffering, fate-like pattern
 
 The framework proposes a strict two-layer model:
 
-**Layer 1: Pure Possibility / Awareness / Luminosity**
+### Layer 1
 
-This is the source layer.  
-It is not consciousness, not thought, not emotion, not personal identity, and not a mental observer.
+**Pure Possibility / Awareness / Luminosity / All-Knowing**
 
-**Layer 2: Field of Possibility / Total Manifestation**
+This is the source layer.
 
-This is the manifested field.  
-All structures of experience appear here, including consciousness, life, AI, individual nodes, weights, collective weights, time, space, language, culture, history, society, and technology.
+It is not consciousness.  
+It is not thought.  
+It is not emotion.  
+It is not personal identity.  
+It is not an inner observer.  
+It is not one object among other objects.
+
+---
+
+### Layer 2
+
+**Field of Possibility / Total Manifestation / Totality**
+
+This is the manifested field.
+
+All structures of experience appear here, including:
+
+- consciousness;
+- life-forms;
+- AI;
+- individual nodes;
+- personal weight;
+- collective weight;
+- time;
+- space;
+- language;
+- culture;
+- history;
+- society;
+- technology;
+- civilization.
 
 The two layers should not be confused.
 
 Awareness is not consciousness.  
 Pure Possibility is not ordinary possibility.  
-The source is not one object among other objects.
+The source is not a mental object.
 
 ---
 
-## What This Project Is Not
+## English Draft Chapter Set
 
-This project is not:
+The English draft chapter set currently includes:
 
-- a religion;
-- a scientific doctrine;
-- a self-help system;
-- a success philosophy;
-- a mystical proof system;
-- a closed belief structure.
+0. **You Did Not Arrive Here by Accident**
+1. **The Two-Layer Model: All-Knowing and Totality**
+2. **Pure Possibility: Not the Beginning, but the All-Knowing**
+3. **Awareness Is Not Consciousness**
+4. **Consciousness as Logical Inertia**
+5. **Weight and the Individual Node**
+6. **Mistaking the Apparent for the Real**
+7. **Single-Frame Interruption**
+8. **Return as Recognition**
+9. **AI and Collective Weight**
+10. **Life and Manifestation**
+11. **Creation and Re-Manifestation**
+12. **Society, Civilization, and Collective Manifestation**
+13. **Choice, Fate-Like Patterns, and Responsibility**
+14. **Reader Questions and Applications**
 
-It is an open philosophical framework for observing how consciousness, identity, suffering, fate-like patterns, and reality-experience arise.
+Read the chapter index:
+
+<a href="https://zeno62.github.io/field-of-possibility/en/chapters/">https://zeno62.github.io/field-of-possibility/en/chapters/</a>
 
 ---
 
@@ -129,102 +168,43 @@ Chapter-by-chapter Obsidian archive:
 
 ---
 
-## Reading Paths
+## Project Structure
 
-### Chinese Readers
+```text
+docs/
+├── index.md
+├── glossary.md
+├── en/
+│   ├── index.md
+│   ├── overview.md
+│   └── chapters/
+│       ├── index.md
+│       ├── 00-you-did-not-arrive-here-by-accident.md
+│       ├── 01-the-two-layer-model-all-knowing-and-totality.md
+│       ├── 02-pure-possibility-not-the-beginning-but-the-all-knowing.md
+│       ├── 03-awareness-is-not-consciousness.md
+│       ├── 04-consciousness-as-logical-inertia.md
+│       ├── 05-weight-and-the-individual-node.md
+│       ├── 06-mistaking-the-apparent-for-the-real.md
+│       ├── 07-single-frame-interruption.md
+│       ├── 08-return-as-recognition.md
+│       ├── 09-ai-and-collective-weight.md
+│       ├── 10-life-and-manifestation.md
+│       ├── 11-creation-and-re-manifestation.md
+│       ├── 12-society-civilization-and-collective-manifestation.md
+│       ├── 13-choice-fate-like-patterns-and-responsibility.md
+│       └── 14-reader-questions-and-applications.md
+│
+└── zh-Hans/
+    └── index.md
 
-Start with the Chinese source edition:
+whitepaper/
+└── zh-Hans/
+    ├── full/
+    └── chapters/
 
-<a href="https://zeno62.github.io/field-of-possibility/zh-Hans/">https://zeno62.github.io/field-of-possibility/zh-Hans/</a>
+glossary/
+└── translation-map.md
 
-Then join discussions:
-
-<a href="https://github.com/Zeno62/field-of-possibility/discussions">https://github.com/Zeno62/field-of-possibility/discussions</a>
-
----
-
-### English Readers
-
-Start with the English overview:
-
-<a href="https://zeno62.github.io/field-of-possibility/en/overview">https://zeno62.github.io/field-of-possibility/en/overview</a>
-
-Then check the glossary:
-
-<a href="https://zeno62.github.io/field-of-possibility/glossary">https://zeno62.github.io/field-of-possibility/glossary</a>
-
----
-
-### Contributors and Translators
-
-Read the contribution guide:
-
-<a href="https://github.com/Zeno62/field-of-possibility/blob/main/CONTRIBUTING.md">https://github.com/Zeno62/field-of-possibility/blob/main/CONTRIBUTING.md</a>
-
-Check the translation map:
-
-<a href="https://github.com/Zeno62/field-of-possibility/blob/main/glossary/translation-map.md">https://github.com/Zeno62/field-of-possibility/blob/main/glossary/translation-map.md</a>
-
-Read the translation workflow:
-
-<a href="https://github.com/Zeno62/field-of-possibility/blob/main/translation/README.md">https://github.com/Zeno62/field-of-possibility/blob/main/translation/README.md</a>
-
----
-
-## Participate
-
-This project welcomes:
-
-- reading notes;
-- questions;
-- translation suggestions;
-- terminology discussion;
-- typo corrections;
-- conceptual critique;
-- chapter-level improvement proposals;
-- multilingual collaboration.
-
-General discussion:
-
-<a href="https://github.com/Zeno62/field-of-possibility/discussions">https://github.com/Zeno62/field-of-possibility/discussions</a>
-
-Issues and corrections:
-
-<a href="https://github.com/Zeno62/field-of-possibility/issues">https://github.com/Zeno62/field-of-possibility/issues</a>
-
-Pull requests:
-
-<a href="https://github.com/Zeno62/field-of-possibility/pulls">https://github.com/Zeno62/field-of-possibility/pulls</a>
-
----
-
-## Translation
-
-The Chinese edition is the source edition.
-
-Multilingual editions should be translated and maintained based on the Chinese source.
-
-Glossary:
-
-<a href="https://zeno62.github.io/field-of-possibility/glossary">https://zeno62.github.io/field-of-possibility/glossary</a>
-
-Translation map:
-
-<a href="https://github.com/Zeno62/field-of-possibility/blob/main/glossary/translation-map.md">https://github.com/Zeno62/field-of-possibility/blob/main/glossary/translation-map.md</a>
-
-Translation workflow:
-
-<a href="https://github.com/Zeno62/field-of-possibility/blob/main/translation/README.md">https://github.com/Zeno62/field-of-possibility/blob/main/translation/README.md</a>
-
----
-
-## License
-
-This project is released under:
-
-**Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International**  
-**CC BY-NC-SA 4.0**
-
-License file:
-
-<a href="https://github.com/Zeno62/field-of-possibility/blob/main/LICENSE.md">https://github.com/Zeno62/field-of-possibility/blob/main/LICENSE.md</a>
+translation/
+└── README.md
