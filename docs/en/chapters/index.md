@@ -71,13 +71,21 @@ Status: **draft**
 
 ---
 
+### 5. Weight and the Individual Node
+
+Status: **draft**
+
+<a href="https://zeno62.github.io/field-of-possibility/en/chapters/05-weight-and-the-individual-node">Read chapter 5</a>
+
+---
+
 ## Planned Next Translation
 
 The next English chapter translation may continue with:
 
-5. **Weight and the Individual Node**
+6. **Mistaking the Apparent for the Real**
 
-This chapter will explain how accumulated influence manifests through individual nodes.
+This chapter will focus on the central mechanism of the framework.
 
 ---
 
