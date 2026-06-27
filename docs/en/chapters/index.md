@@ -39,14 +39,21 @@ Status: **draft**
 
 ---
 
-## Planned Next Translations
+### 1. The Two-Layer Model: All-Knowing and Totality
 
-The next English chapter translations will continue with:
+Status: **draft**
 
-1. **The Two-Layer Model: All-Knowing and Totality**
+<a href="https://zeno62.github.io/field-of-possibility/en/chapters/01-the-two-layer-model-all-knowing-and-totality">Read chapter 1</a>
+
+---
+
+## Planned Next Translation
+
+The next English chapter translation will continue with:
+
 2. **Pure Possibility: Not the Beginning, but the All-Knowing**
 
-These chapters will introduce the basic structure of the framework before the full English white paper is released.
+This chapter will further clarify the source layer before the full English white paper is released.
 
 ---
 
