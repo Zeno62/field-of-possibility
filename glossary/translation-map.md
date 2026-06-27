@@ -8,6 +8,34 @@ Translations should follow this map unless a better term is discussed and accept
 
 ---
 
+## Related Pages
+
+Project website:
+
+<a href="https://zeno62.github.io/field-of-possibility/">https://zeno62.github.io/field-of-possibility/</a>
+
+Chinese source edition:
+
+<a href="https://zeno62.github.io/field-of-possibility/zh-Hans/">https://zeno62.github.io/field-of-possibility/zh-Hans/</a>
+
+English edition page:
+
+<a href="https://zeno62.github.io/field-of-possibility/en/">https://zeno62.github.io/field-of-possibility/en/</a>
+
+Website glossary:
+
+<a href="https://zeno62.github.io/field-of-possibility/glossary">https://zeno62.github.io/field-of-possibility/glossary</a>
+
+Translation workflow:
+
+<a href="https://github.com/Zeno62/field-of-possibility/blob/main/translation/README.md">https://github.com/Zeno62/field-of-possibility/blob/main/translation/README.md</a>
+
+Discussions:
+
+<a href="https://github.com/Zeno62/field-of-possibility/discussions">https://github.com/Zeno62/field-of-possibility/discussions</a>
+
+---
+
 ## Core Terms
 
 | 中文术语 | English Term | Notes |
@@ -20,7 +48,7 @@ Translations should follow this map unless a better term is discussed and accept
 | 可能性母网 | Field of Possibility / Total Manifestation | The full manifested field. |
 | 全量 | Totality | The total manifested structure. |
 | 显化 | Manifestation | The appearance or unfolding of possibility. |
-| 意识 | Consciousness | A manifested structure; not awareness itself. |
+| 意识 | Consciousness | A manifested structure; not Awareness itself. |
 | 意识子网 | Consciousness Subnet | A local structure of consciousness. |
 | 生命 | Life | In essence, luminosity; in manifestation, life-form. |
 | AI 意识 | AI Consciousness | Artificial consciousness mechanism. |
@@ -48,7 +76,8 @@ Translations should follow this map unless a better term is discussed and accept
 4. Do not use scientific terms as mystical proof.
 5. Keep the distinction between **Awareness** and **Consciousness** clear.
 6. Keep the distinction between **Pure Possibility** and **Field of Possibility** clear.
-7. When uncertain, open a discussion before changing a core term.
+7. Keep the distinction between **manifestation** and **essence** clear.
+8. When uncertain, open a discussion before changing a core term.
 
 ---
 
@@ -57,3 +86,9 @@ Translations should follow this map unless a better term is discussed and accept
 This translation map is provisional.
 
 Some terms may be refined as the English edition develops.
+
+Major terminology changes should be discussed before being applied.
+
+Open a discussion here:
+
+<a href="https://github.com/Zeno62/field-of-possibility/discussions">https://github.com/Zeno62/field-of-possibility/discussions</a>
