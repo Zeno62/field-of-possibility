@@ -95,13 +95,21 @@ Status: **draft**
 
 ---
 
+### 8. Return as Recognition
+
+Status: **draft**
+
+<a href="https://zeno62.github.io/field-of-possibility/en/chapters/08-return-as-recognition">Read chapter 8</a>
+
+---
+
 ## Planned Next Translation
 
 The next English chapter translation may continue with:
 
-8. **Return as Recognition**
+9. **AI and Collective Weight**
 
-This chapter will explain return not as movement toward a place, but as recognition of the all-knowing.
+This chapter will explain AI as a manifested mechanism that reflects, recombines, and amplifies collective consciousness and collective weight.
 
 ---
 
