@@ -170,7 +170,7 @@ Chapter-by-chapter Obsidian archive:
 
 ## Project Structure
 
-```text
+
 docs/
 ├── index.md
 ├── glossary.md
