@@ -84,6 +84,21 @@ This page explains:
 
 ---
 
+## English Review Guide
+
+For contributors and reviewers, read the English review guide:
+
+<a href="https://zeno62.github.io/field-of-possibility/en/review-guide">https://zeno62.github.io/field-of-possibility/en/review-guide</a>
+
+This guide explains how to review the English draft chapters for:
+
+- conceptual accuracy;
+- terminology consistency;
+- English readability;
+- tone and framing;
+- two-layer model clarity;
+- alignment with the Chinese source edition.
+
 ## Source Edition
 
 The official source edition is:
@@ -193,6 +208,10 @@ English chapters:
 English draft status:
 
 <a href="https://zeno62.github.io/field-of-possibility/en/draft-status">https://zeno62.github.io/field-of-possibility/en/draft-status</a>
+
+English review guide:
+
+<a href="https://zeno62.github.io/field-of-possibility/en/review-guide">https://zeno62.github.io/field-of-possibility/en/review-guide</a>
 
 Chinese source edition:
 
