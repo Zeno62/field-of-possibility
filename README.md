@@ -38,7 +38,7 @@ The Chinese edition is the source edition of this project.
 
 * Chinese title: 可能性网络
 * English project name: Field of Possibility
-* Current version: v4.0 Official Edition
+* Current version: v4.0.0 Official Chinese Edition
 * Source language: Simplified Chinese
 
 The English edition will be developed as an international-facing translation and adaptation.
@@ -51,12 +51,32 @@ The current official white paper is:
 
 可能性网络白皮书 v4.0 正式版
 
-The Chinese source files will be organized as:
+Available files:
 
-* Full version
-* Chapter-by-chapter version
-* Glossary
-* Translation map
+* Full Chinese Markdown edition
+    whitepaper/zh-Hans/full/field-of-possibility-whitepaper-v4.0-zh-Hans.md
+* Chapter-by-chapter Obsidian archive
+    whitepaper/zh-Hans/chapters/field-of-possibility-whitepaper-v4.0-zh-Hans-chapters.zip
+
+The first official release is available under:
+
+Release v4.0.0
+
+⸻
+
+Repository Structure
+
+field-of-possibility/
+├── README.md
+├── LICENSE.md
+├── CHANGELOG.md
+├── CONTRIBUTING.md
+├── glossary/
+│   └── translation-map.md
+└── whitepaper/
+    └── zh-Hans/
+        ├── full/
+        └── chapters/
 
 ⸻
 
@@ -72,27 +92,58 @@ This project welcomes:
 * conceptual critique
 * chapter-level improvement proposals
 
+For general questions, reading notes, and open discussion, please use Discussions.
+
+For typo corrections, unclear wording, broken links, or structural issues, please use Issues.
+
+For specific text changes, translation improvements, or file updates, please use Pull Requests.
+
 However, all contributions should serve one purpose:
 
 To help readers see the mechanism of mistaking the apparent for the real, rather than creating a new object of belief.
 
 ⸻
 
+Translation
+
+The Chinese edition is the source edition.
+
+Future multilingual editions should be translated and maintained based on the Chinese source.
+
+A terminology map is available here:
+
+glossary/translation-map.md
+
+Translation status may include:
+
+* draft
+* reviewed
+* official
+* outdated
+
+⸻
+
 License
 
-This project is intended to be released under:
+This project is released under:
 
 Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
 CC BY-NC-SA 4.0
 
-A full license file will be added separately.
+See:
+
+LICENSE.md
 
 ⸻
 
 Status
 
-This repository is currently being prepared.
+The Chinese v4.0 official edition has been published.
 
-The Chinese v4.0 official edition will be uploaded first.
+Next planned work:
 
-Multilingual versions and contribution guidelines will be added gradually.
+* English translation
+* expanded glossary
+* GitHub Discussions setup
+* GitHub Pages reading website
+* multilingual maintenance workflow
