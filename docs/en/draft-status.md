@@ -151,6 +151,10 @@ English chapters:
 
 <a href="https://zeno62.github.io/field-of-possibility/en/chapters/">https://zeno62.github.io/field-of-possibility/en/chapters/</a>
 
+English review guide:
+
+<a href="https://zeno62.github.io/field-of-possibility/en/review-guide">https://zeno62.github.io/field-of-possibility/en/review-guide</a>
+
 Project home:
 
 <a href="https://zeno62.github.io/field-of-possibility/">https://zeno62.github.io/field-of-possibility/</a>
