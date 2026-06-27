@@ -180,6 +180,7 @@ docs/
 ├── en/
 │   ├── index.md
 │   ├── overview.md
+│   ├── draft-status.md
 │   └── chapters/
 │       ├── index.md
 │       ├── 00-you-did-not-arrive-here-by-accident.md
@@ -211,7 +212,6 @@ glossary/
 
 translation/
 └── README.md
-
 ```
 
 ## What This Project Is Not
