@@ -208,3 +208,80 @@ glossary/
 
 translation/
 └── README.md
+
+## What This Project Is Not
+
+This project is not:
+
+- a religion;
+- a scientific doctrine;
+- a self-help system;
+- a success philosophy;
+- a mystical proof system;
+- a closed belief structure.
+
+It is an open philosophical framework for observing how consciousness, identity, suffering, fate-like patterns, and reality-experience arise.
+
+---
+
+## Contributing
+
+This project welcomes:
+
+- reading notes;
+- questions;
+- terminology discussion;
+- translation suggestions;
+- typo corrections;
+- conceptual critique;
+- chapter-level improvement proposals;
+- multilingual collaboration.
+
+Contribution guide:
+
+<a href="https://github.com/Zeno62/field-of-possibility/blob/main/CONTRIBUTING.md">https://github.com/Zeno62/field-of-possibility/blob/main/CONTRIBUTING.md</a>
+
+GitHub Discussions:
+
+<a href="https://github.com/Zeno62/field-of-possibility/discussions">https://github.com/Zeno62/field-of-possibility/discussions</a>
+
+Issues:
+
+<a href="https://github.com/Zeno62/field-of-possibility/issues">https://github.com/Zeno62/field-of-possibility/issues</a>
+
+Pull requests:
+
+<a href="https://github.com/Zeno62/field-of-possibility/pulls">https://github.com/Zeno62/field-of-possibility/pulls</a>
+
+---
+
+## Translation
+
+The Chinese edition is the source edition.
+
+Multilingual editions should be translated and maintained based on the Chinese source.
+
+Glossary:
+
+<a href="https://zeno62.github.io/field-of-possibility/glossary">https://zeno62.github.io/field-of-possibility/glossary</a>
+
+Translation map:
+
+<a href="https://github.com/Zeno62/field-of-possibility/blob/main/glossary/translation-map.md">https://github.com/Zeno62/field-of-possibility/blob/main/glossary/translation-map.md</a>
+
+Translation workflow:
+
+<a href="https://github.com/Zeno62/field-of-possibility/blob/main/translation/README.md">https://github.com/Zeno62/field-of-possibility/blob/main/translation/README.md</a>
+
+---
+
+## License
+
+This project is released under:
+
+**Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International**  
+**CC BY-NC-SA 4.0**
+
+License file:
+
+<a href="https://github.com/Zeno62/field-of-possibility/blob/main/LICENSE.md">https://github.com/Zeno62/field-of-possibility/blob/main/LICENSE.md</a>
