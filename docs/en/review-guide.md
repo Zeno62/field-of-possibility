@@ -220,8 +220,7 @@ They should not become motivational slogans or fixed psychological advice.
 
 When opening an issue, please include:
 
-```text
-File:
+<pre><code>File:
 Section:
 Current text:
 Suggested revision:
@@ -233,3 +232,64 @@ Type of suggestion:
 - tone
 - structure
 - formatting
+</code></pre>
+
+Issues:
+
+<a href="https://github.com/Zeno62/field-of-possibility/issues">https://github.com/Zeno62/field-of-possibility/issues</a>
+
+---
+
+## 11. Suggested Pull Request Notes
+
+When submitting a pull request, please explain:
+
+- what file was changed;
+- what problem the change solves;
+- whether the change affects terminology;
+- whether the change affects conceptual meaning;
+- whether the change was checked against the Chinese source edition;
+- whether links and Markdown formatting were preserved.
+
+Pull requests:
+
+<a href="https://github.com/Zeno62/field-of-possibility/pulls">https://github.com/Zeno62/field-of-possibility/pulls</a>
+
+---
+
+## 12. Review Outcome Labels
+
+A chapter may be reviewed toward one of these statuses:
+
+- **draft** — initial translation or adaptation, not yet reviewed;
+- **reviewed** — reviewed by contributors, but not yet final;
+- **official** — accepted as an official translation;
+- **outdated** — source version has changed and translation needs updating.
+
+The current English chapters remain:
+
+**draft**
+
+---
+
+## Related Pages
+
+English edition home:
+
+<a href="https://zeno62.github.io/field-of-possibility/en/">https://zeno62.github.io/field-of-possibility/en/</a>
+
+English draft status:
+
+<a href="https://zeno62.github.io/field-of-possibility/en/draft-status">https://zeno62.github.io/field-of-possibility/en/draft-status</a>
+
+English chapters:
+
+<a href="https://zeno62.github.io/field-of-possibility/en/chapters/">https://zeno62.github.io/field-of-possibility/en/chapters/</a>
+
+Contributing guide:
+
+<a href="https://github.com/Zeno62/field-of-possibility/blob/main/CONTRIBUTING.md">https://github.com/Zeno62/field-of-possibility/blob/main/CONTRIBUTING.md</a>
+
+Translation workflow:
+
+<a href="https://github.com/Zeno62/field-of-possibility/blob/main/translation/README.md">https://github.com/Zeno62/field-of-possibility/blob/main/translation/README.md</a>
