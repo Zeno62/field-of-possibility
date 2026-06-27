@@ -11,6 +11,18 @@ Current source version:
 
 ---
 
+## Start Here
+
+For English readers, start with the overview:
+
+<a href="https://zeno62.github.io/field-of-possibility/en/overview">English Overview</a>
+
+Then follow the chapter translation progress:
+
+<a href="https://zeno62.github.io/field-of-possibility/en/chapters/">English Chapters</a>
+
+---
+
 ## Translation Status
 
 Status:
