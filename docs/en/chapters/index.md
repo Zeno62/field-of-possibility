@@ -79,13 +79,21 @@ Status: **draft**
 
 ---
 
+### 6. Mistaking the Apparent for the Real
+
+Status: **draft**
+
+<a href="https://zeno62.github.io/field-of-possibility/en/chapters/06-mistaking-the-apparent-for-the-real">Read chapter 6</a>
+
+---
+
 ## Planned Next Translation
 
 The next English chapter translation may continue with:
 
-6. **Mistaking the Apparent for the Real**
+7. **Single-Frame Interruption**
 
-This chapter will focus on the central mechanism of the framework.
+This chapter will explain how the chain of automatic identification may be interrupted at the moment of arising.
 
 ---
 
