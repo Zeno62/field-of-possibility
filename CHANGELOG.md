@@ -43,6 +43,14 @@ English edition home:
 
 <a href="https://zeno62.github.io/field-of-possibility/en/">https://zeno62.github.io/field-of-possibility/en/</a>
 
+English draft status:
+
+<a href="https://zeno62.github.io/field-of-possibility/en/draft-status">https://zeno62.github.io/field-of-possibility/en/draft-status</a>
+
+English review guide:
+
+<a href="https://zeno62.github.io/field-of-possibility/en/review-guide">https://zeno62.github.io/field-of-possibility/en/review-guide</a>
+
 ### Notes
 
 These English chapters are currently in **draft preparation**.
