@@ -93,6 +93,7 @@ The Chinese edition is the source edition.
 
 Multilingual editions should be translated and maintained based on the Chinese source.
 
+* Glossary
 * Translation Map
 * Translation Workflow
 
