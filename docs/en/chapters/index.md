@@ -87,13 +87,21 @@ Status: **draft**
 
 ---
 
+### 7. Single-Frame Interruption
+
+Status: **draft**
+
+<a href="https://zeno62.github.io/field-of-possibility/en/chapters/07-single-frame-interruption">Read chapter 7</a>
+
+---
+
 ## Planned Next Translation
 
 The next English chapter translation may continue with:
 
-7. **Single-Frame Interruption**
+8. **Return as Recognition**
 
-This chapter will explain how the chain of automatic identification may be interrupted at the moment of arising.
+This chapter will explain return not as movement toward a place, but as recognition of the all-knowing.
 
 ---
 
