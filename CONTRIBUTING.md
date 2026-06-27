@@ -292,3 +292,41 @@ Preferred link style:
 
 ```html
 <a href="https://example.com">https://example.com</a>
+```
+For readable link text:
+ ```html
+<a href="https://example.com">Readable Link Text</a>
+```
+
+Please preserve this style when editing existing files.
+
+##AI-Assisted Contributions
+AI tools may be used to assist translation, editing, comparison, and review.
+
+However:
+
+* AI output should not be treated as final authority;
+* AI may flatten important distinctions;
+* AI may introduce familiar but inaccurate language;
+* AI may make the project sound like religion or self-help;
+* AI may miss conceptual boundaries;
+* human review remains necessary.
+
+AI may assist, but the Chinese source edition remains the source of truth.
+
+⸻
+
+##License
+
+By contributing to this project, you agree that your contributions will be released under the project license:
+
+##Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+CC BY-NC-SA 4.0
+
+License file:
+ ```text
+https://github.com/Zeno62/field-of-possibility/blob/main/LICENSE.md
+ ```
+
+
+
