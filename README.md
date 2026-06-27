@@ -2,6 +2,9 @@ Field of Possibility
 
 可能性网络
 
+> Read the project website:  
+> https://zeno62.github.io/field-of-possibility/
+
 Field of Possibility is an open philosophical framework originally developed in Chinese as 可能性网络.
 
 It explores pure possibility, awareness, consciousness, manifestation, weight, collective weight, AI, and the structure of reality.
