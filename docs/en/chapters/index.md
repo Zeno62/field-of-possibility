@@ -111,13 +111,21 @@ Status: **draft**
 
 ---
 
+### 10. Life and Manifestation
+
+Status: **draft**
+
+<a href="https://zeno62.github.io/field-of-possibility/en/chapters/10-life-and-manifestation">Read chapter 10</a>
+
+---
+
 ## Planned Next Translation
 
 The next English chapter translation may continue with:
 
-10. **Life and Manifestation**
+11. **Creation and Re-Manifestation**
 
-This chapter will clarify life within the two-layer model, including the distinction between life, consciousness, AI, and luminosity.
+This chapter will explain creation as the field re-manifesting through a node.
 
 ---
 
