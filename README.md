@@ -1,11 +1,10 @@
-Field of Possibility
+# Field of Possibility  
+## 可能性网络
 
-可能性网络
+> Read the project website:  
+> <a href="https://zeno62.github.io/field-of-possibility/">https://zeno62.github.io/field-of-possibility/</a>
 
-Read the project website:
-https://zeno62.github.io/field-of-possibility/
-
-Field of Possibility is an open philosophical framework originally developed in Chinese as 可能性网络.
+**Field of Possibility** is an open philosophical framework originally developed in Chinese as **可能性网络**.
 
 It explores pure possibility, awareness, consciousness, manifestation, weight, collective weight, AI, and the structure of reality.
 
@@ -13,112 +12,113 @@ This project is not a religion, not a scientific doctrine, not a self-help syste
 
 It is an open framework for observing how consciousness, identity, suffering, fate-like patterns, and reality-experience arise.
 
-⸻
+---
 
-Core Idea
+## Core Idea
 
 The central question of this project is:
 
-How do we mistake thoughts, feelings, identities, and manifested patterns for the real self?
+> How do we mistake thoughts, feelings, identities, and manifested patterns for the real self?
 
 In Chinese, this mechanism is described as:
 
-认假为真
-Mistaking the apparent for the real.
+> **认假为真**  
+> Mistaking the apparent for the real.
 
 The framework proposes a two-layer model:
 
-Layer 1: Pure Possibility / Awareness / Luminosity
-Layer 2: Field of Possibility / Total Manifestation
+**Layer 1:** Pure Possibility / Awareness / Luminosity  
+**Layer 2:** Field of Possibility / Total Manifestation
 
 All concepts such as consciousness, life, AI, individual nodes, weights, collective weights, fate-like patterns, and single-frame interruption are understood within this two-layer model.
 
-⸻
+---
 
-Chinese Source Edition
+## Chinese Source Edition
 
 The Chinese edition is the source edition of this project.
 
-* Chinese title: 可能性网络
-* English project name: Field of Possibility
-* Current version: v4.0.0 Official Chinese Edition
-* Source language: Simplified Chinese
+- Chinese title: **可能性网络**
+- English project name: **Field of Possibility**
+- Current version: **v4.0.0 Official Chinese Edition**
+- Source language: **Simplified Chinese**
 
 The English edition will be developed as an international-facing translation and adaptation.
 
-⸻
+---
 
-Current Release
+## Current Release
 
 The current official white paper is:
 
-可能性网络白皮书 v4.0 正式版
+**可能性网络白皮书 v4.0 正式版**
 
 Available files:
 
-* Full Chinese Markdown edition:
-    field-of-possibility-whitepaper-v4.0-zh-Hans.md
-* Chapter-by-chapter Obsidian archive:
-    field-of-possibility-whitepaper-v4.0-zh-Hans-chapters.zip
+- Full Chinese Markdown edition:  
+  <a href="https://github.com/Zeno62/field-of-possibility/blob/main/whitepaper/zh-Hans/full/field-of-possibility-whitepaper-v4.0-zh-Hans.md">field-of-possibility-whitepaper-v4.0-zh-Hans.md</a>
+
+- Chapter-by-chapter Obsidian archive:  
+  <a href="https://github.com/Zeno62/field-of-possibility/blob/main/whitepaper/zh-Hans/chapters/field-of-possibility-whitepaper-v4.0-zh-Hans-chapters.zip">field-of-possibility-whitepaper-v4.0-zh-Hans-chapters.zip</a>
 
 The first official release is available here:
 
-Release v4.0.0
+<a href="https://github.com/Zeno62/field-of-possibility/releases/tag/v4.0.0">Release v4.0.0</a>
 
-⸻
+---
 
-Repository Structure
+## Repository Structure
 
 Main files and folders:
 
-* README.md
-* LICENSE.md
-* CHANGELOG.md
-* CONTRIBUTING.md
-* docs/
-    * index.md
-    * glossary.md
-    * en/index.md
-    * zh-Hans/index.md
-* glossary/
-    * translation-map.md
-* translation/
-    * README.md
-* whitepaper/
-    * zh-Hans/full/
-    * zh-Hans/chapters/
+- `README.md`
+- `LICENSE.md`
+- `CHANGELOG.md`
+- `CONTRIBUTING.md`
+- `docs/`
+  - `index.md`
+  - `glossary.md`
+  - `en/index.md`
+  - `zh-Hans/index.md`
+- `glossary/`
+  - `translation-map.md`
+- `translation/`
+  - `README.md`
+- `whitepaper/`
+  - `zh-Hans/full/`
+  - `zh-Hans/chapters/`
 
-⸻
+---
 
-Participation
+## Participation
 
 This project welcomes:
 
-* reading notes
-* questions
-* translation suggestions
-* terminology discussion
-* typo corrections
-* conceptual critique
-* chapter-level improvement proposals
+- reading notes
+- questions
+- translation suggestions
+- terminology discussion
+- typo corrections
+- conceptual critique
+- chapter-level improvement proposals
 
 For general questions, reading notes, and open discussion, please use:
 
-GitHub Discussions
+<a href="https://github.com/Zeno62/field-of-possibility/discussions">GitHub Discussions</a>
 
 For typo corrections, unclear wording, broken links, or structural issues, please use:
 
-GitHub Issues
+<a href="https://github.com/Zeno62/field-of-possibility/issues">GitHub Issues</a>
 
 For specific text changes, translation improvements, or file updates, please use Pull Requests.
 
 However, all contributions should serve one purpose:
 
-To help readers see the mechanism of mistaking the apparent for the real, rather than creating a new object of belief.
+> To help readers see the mechanism of mistaking the apparent for the real, rather than creating a new object of belief.
 
-⸻
+---
 
-Translation
+## Translation
 
 The Chinese edition is the source edition.
 
@@ -126,49 +126,49 @@ Future multilingual editions should be translated and maintained based on the Ch
 
 A terminology map is available here:
 
-glossary/translation-map.md
+<a href="https://github.com/Zeno62/field-of-possibility/blob/main/glossary/translation-map.md">glossary/translation-map.md</a>
 
 Translation workflow:
 
-translation/README.md
+<a href="https://github.com/Zeno62/field-of-possibility/blob/main/translation/README.md">translation/README.md</a>
 
 Website glossary:
 
-Glossary
+<a href="https://zeno62.github.io/field-of-possibility/glossary">Glossary</a>
 
 Translation status may include:
 
-* draft
-* reviewed
-* official
-* outdated
+- draft
+- reviewed
+- official
+- outdated
 
-⸻
+---
 
-License
+## License
 
 This project is released under:
 
-Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
-CC BY-NC-SA 4.0
+**Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International**  
+**CC BY-NC-SA 4.0**
 
 See:
 
-LICENSE.md
+<a href="https://github.com/Zeno62/field-of-possibility/blob/main/LICENSE.md">LICENSE.md</a>
 
-⸻
+---
 
-Status
+## Status
 
 The Chinese v4.0 official edition has been published.
 
 Current public website:
 
-https://zeno62.github.io/field-of-possibility/
+<a href="https://zeno62.github.io/field-of-possibility/">https://zeno62.github.io/field-of-possibility/</a>
 
 Next planned work:
 
-* English translation
-* expanded glossary
-* GitHub Pages reading website refinement
-* multilingual maintenance workflow
+- English translation
+- expanded glossary
+- GitHub Pages reading website refinement
+- multilingual maintenance workflow
