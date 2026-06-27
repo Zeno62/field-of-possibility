@@ -53,6 +53,9 @@ Current status:
 These chapters are introductory English adaptations based on the Chinese source edition.  
 They are not yet the final official English release.
 
+English draft status note:
+
+<a href="https://zeno62.github.io/field-of-possibility/en/draft-status">https://zeno62.github.io/field-of-possibility/en/draft-status</a>
 ---
 
 ## Core Question
