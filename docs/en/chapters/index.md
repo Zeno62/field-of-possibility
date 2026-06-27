@@ -135,13 +135,21 @@ Status: **draft**
 
 ---
 
+### 13. Choice, Fate-Like Patterns, and Responsibility
+
+Status: **draft**
+
+<a href="https://zeno62.github.io/field-of-possibility/en/chapters/13-choice-fate-like-patterns-and-responsibility">Read chapter 13</a>
+
+---
+
 ## Planned Next Translation
 
 The next English chapter translation may continue with:
 
-13. **Choice, Fate-Like Patterns, and Responsibility**
+14. **Reader Questions and Applications**
 
-This chapter will explain choice and responsibility within weight, individual nodes, and collective manifestation.
+This chapter will translate the framework into practical questions for psychology, relationships, family, work, money, AI, society, creation, and everyday life.
 
 ---
 
