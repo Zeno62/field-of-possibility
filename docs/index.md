@@ -6,9 +6,23 @@ Field of Possibility is an open philosophical framework originally developed in 
 
 It explores pure possibility, awareness, consciousness, manifestation, weight, collective weight, AI, and the structure of reality.
 
-This project is not a religion, not a scientific doctrine, not a self-help system, and not a closed belief structure.
+⸻
 
-It is an open framework for observing how consciousness, identity, suffering, fate-like patterns, and reality-experience arise.
+Read
+
+Chinese Source Edition
+
+The Chinese edition is the source edition of this project.
+
+* 中文正式版 / Chinese Source Edition
+* Full Chinese Markdown on GitHub
+* Release v4.0.0
+
+English Edition
+
+The English edition is being developed as an international-facing translation and adaptation.
+
+* English Edition / In Progress
 
 ⸻
 
@@ -32,59 +46,40 @@ All concepts such as consciousness, life, AI, individual nodes, weights, collect
 
 ⸻
 
-Current Official Release
+What This Project Is Not
 
-The current official white paper is:
+This project is not:
 
-可能性网络白皮书 v4.0 正式版
+* a religion;
+* a scientific doctrine;
+* a self-help system;
+* a success philosophy;
+* a mystical proof system;
+* a closed belief structure.
 
-Source language:
-
-Simplified Chinese
-
-Current version:
-
-v4.0.0 Official Chinese Edition
-
-Read or download:
-
-* Release v4.0.0
-* Full Chinese Markdown Edition
-* Chapter-by-Chapter Obsidian Archive
+It is an open framework for observing how consciousness, identity, suffering, fate-like patterns, and reality-experience arise.
 
 ⸻
 
-Chinese Source Edition
-
-The Chinese edition is the source edition of this project.
-
-Other language versions will be translated and maintained based on the Chinese source.
-
-A terminology map is available here:
-
-* Translation Map
-
-⸻
-
-Participation
+Participate
 
 This project welcomes:
 
-* reading notes
-* questions
-* translation suggestions
-* terminology discussion
-* typo corrections
-* conceptual critique
-* chapter-level improvement proposals
+* reading notes;
+* questions;
+* translation suggestions;
+* terminology discussion;
+* typo corrections;
+* conceptual critique;
+* chapter-level improvement proposals.
 
-Join the community discussion:
+Join the discussion:
 
-* Discussions
+* GitHub Discussions
 
-Report issues or suggestions:
+Report issues:
 
-* Issues
+* GitHub Issues
 
 Contribution guidelines:
 
@@ -92,17 +87,14 @@ Contribution guidelines:
 
 ⸻
 
-Core Boundary
+Translation
 
-All contributions should serve one purpose:
+The Chinese edition is the source edition.
 
-To help readers see the mechanism of mistaking the apparent for the real, rather than creating a new object of belief.
+Multilingual editions should be translated and maintained based on the Chinese source.
 
-This project is open, but not conceptually shapeless.
-
-It welcomes discussion, questioning, translation, refinement, and careful critique.
-
-It does not aim to become a religion, a self-help doctrine, a success system, or a mystical proof system.
+* Translation Map
+* Translation Workflow
 
 ⸻
 
@@ -112,7 +104,5 @@ This project is released under:
 
 Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
 CC BY-NC-SA 4.0
-
-See:
 
 * LICENSE.md
