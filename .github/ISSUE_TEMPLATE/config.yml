@@ -1,13 +1,14 @@
 blank_issues_enabled: false
 
 contact_links:
-
-* name: General Discussion / Open Questions
-    url: ../../discussions
+  - name: General Discussion / Open Questions
+    url: https://github.com/Zeno62/field-of-possibility/discussions
     about: For reading notes, open questions, conceptual discussion, and general conversation, please use Discussions.
-* name: Contribution Guidelines
-    url: ../../blob/main/CONTRIBUTING.md
+
+  - name: Contribution Guidelines
+    url: https://github.com/Zeno62/field-of-possibility/blob/main/CONTRIBUTING.md
     about: Please read the contribution guidelines before submitting major changes.
-* name: Translation Map
-    url: ../../blob/main/glossary/translation-map.md
+
+  - name: Translation Map
+    url: https://github.com/Zeno62/field-of-possibility/blob/main/glossary/translation-map.md
     about: Check the terminology map before suggesting translation changes.
