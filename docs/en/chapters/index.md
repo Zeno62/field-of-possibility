@@ -47,13 +47,21 @@ Status: **draft**
 
 ---
 
+### 2. Pure Possibility: Not the Beginning, but the All-Knowing
+
+Status: **draft**
+
+<a href="https://zeno62.github.io/field-of-possibility/en/chapters/02-pure-possibility-not-the-beginning-but-the-all-knowing">Read chapter 2</a>
+
+---
+
 ## Planned Next Translation
 
-The next English chapter translation will continue with:
+The next English chapter translation may continue with:
 
-2. **Pure Possibility: Not the Beginning, but the All-Knowing**
+3. **Awareness Is Not Consciousness**
 
-This chapter will further clarify the source layer before the full English white paper is released.
+This chapter will clarify one of the most important distinctions in the framework.
 
 ---
 
