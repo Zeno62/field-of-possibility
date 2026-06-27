@@ -1,33 +1,95 @@
-# Changelog
+# Changelog  
+## Field of Possibility / 可能性网络
 
 All notable changes to this project will be documented in this file.
 
-This project uses a versioning style adapted for philosophical and textual works:
-
-- Patch version: typo, formatting, link, or reference corrections.
-- Minor version: chapter-level additions or clarifications without changing the core framework.
-- Major version: structural or conceptual changes to the framework.
+The Chinese edition remains the source edition.  
+English and other language versions are maintained as translations and adaptations based on the Chinese source edition.
 
 ---
 
-## v4.0.0｜Official Chinese Edition
+## Unreleased  
+### English Draft Preparation
 
-Release type: Official release  
-Source language: Simplified Chinese  
-Project name: Field of Possibility  
-Chinese title: 可能性网络
+The English draft chapter set has been added.
+
+Current English draft chapters include chapters **0–14**:
+
+0. **You Did Not Arrive Here by Accident**
+1. **The Two-Layer Model: All-Knowing and Totality**
+2. **Pure Possibility: Not the Beginning, but the All-Knowing**
+3. **Awareness Is Not Consciousness**
+4. **Consciousness as Logical Inertia**
+5. **Weight and the Individual Node**
+6. **Mistaking the Apparent for the Real**
+7. **Single-Frame Interruption**
+8. **Return as Recognition**
+9. **AI and Collective Weight**
+10. **Life and Manifestation**
+11. **Creation and Re-Manifestation**
+12. **Society, Civilization, and Collective Manifestation**
+13. **Choice, Fate-Like Patterns, and Responsibility**
+14. **Reader Questions and Applications**
+
+Chapter index:
+
+<a href="https://zeno62.github.io/field-of-possibility/en/chapters/">https://zeno62.github.io/field-of-possibility/en/chapters/</a>
+
+English overview:
+
+<a href="https://zeno62.github.io/field-of-possibility/en/overview">https://zeno62.github.io/field-of-possibility/en/overview</a>
+
+English edition home:
+
+<a href="https://zeno62.github.io/field-of-possibility/en/">https://zeno62.github.io/field-of-possibility/en/</a>
+
+### Notes
+
+These English chapters are currently in **draft preparation**.
+
+They are introductory English adaptations based on the Chinese source edition.  
+They are not yet the final official English release.
+
+Future work may include:
+
+- English language review;
+- terminology refinement;
+- chapter-level editing;
+- contributor feedback;
+- issue-based corrections;
+- preparation of a future official English release.
+
+---
+
+## v4.0.0  
+### Official Chinese Edition
+
+Initial public release of the official Chinese source edition:
+
+**可能性网络白皮书 v4.0 正式版**
 
 Release page:
 
 <a href="https://github.com/Zeno62/field-of-possibility/releases/tag/v4.0.0">https://github.com/Zeno62/field-of-possibility/releases/tag/v4.0.0</a>
 
-Project website:
+### Added
 
-<a href="https://zeno62.github.io/field-of-possibility/">https://zeno62.github.io/field-of-possibility/</a>
+- Full Chinese whitepaper source in Markdown.
+- Chapter-by-chapter Obsidian archive.
+- Project README.
+- GitHub Pages website.
+- Chinese source edition entry page.
+- English edition entry page.
+- English overview page.
+- Glossary page.
+- Translation map.
+- Translation workflow.
+- Contribution guide.
+- Creative Commons license.
+- GitHub issue templates.
+- GitHub Discussions structure.
 
-Chinese source edition page:
-
-<a href="https://zeno62.github.io/field-of-possibility/zh-Hans/">https://zeno62.github.io/field-of-possibility/zh-Hans/</a>
+### Source Files
 
 Full Chinese Markdown source:
 
@@ -37,53 +99,6 @@ Chapter-by-chapter Obsidian archive:
 
 <a href="https://github.com/Zeno62/field-of-possibility/blob/main/whitepaper/zh-Hans/chapters/field-of-possibility-whitepaper-v4.0-zh-Hans-chapters.zip">field-of-possibility-whitepaper-v4.0-zh-Hans-chapters.zip</a>
 
----
+Project website:
 
-### Added
-
-- Published the Chinese official white paper: **可能性网络白皮书 v4.0 正式版**.
-- Added a full Markdown edition.
-- Added a chapter-by-chapter Markdown archive.
-- Added project README.
-- Added Creative Commons BY-NC-SA 4.0 license.
-- Added contribution guidelines.
-- Added translation map.
-- Added translation workflow.
-- Added GitHub Discussions.
-- Added GitHub Pages website.
-- Added Chinese source edition page.
-- Added English edition placeholder page.
-- Added website glossary page.
-- Added issue templates for corrections and conceptual discussions.
-
----
-
-### Core Framework
-
-This version establishes the core framework of the project:
-
-- Pure Possibility / Awareness / Luminosity
-- Field of Possibility / Total Manifestation
-- Consciousness as logical inertia
-- Life as manifestation of luminosity within a consciousness subnet
-- Individual node
-- Weight, individual weight, and collective weight
-- Fate-like patterns
-- Single-frame interruption
-- Mistaking the apparent for the real
-- Return as recognition of the all-knowing
-
----
-
-### Notes
-
-The Chinese edition is the source edition of the project.
-
-Future versions may include:
-
-- English translation
-- expanded terminology glossary
-- translation map refinement
-- contribution workflow refinement
-- GitHub Pages reading website refinement
-- multilingual maintenance workflow
+<a href="https://zeno62.github.io/field-of-possibility/">https://zeno62.github.io/field-of-possibility/</a>
