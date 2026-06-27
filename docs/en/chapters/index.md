@@ -55,13 +55,21 @@ Status: **draft**
 
 ---
 
+### 3. Awareness Is Not Consciousness
+
+Status: **draft**
+
+<a href="https://zeno62.github.io/field-of-possibility/en/chapters/03-awareness-is-not-consciousness">Read chapter 3</a>
+
+---
+
 ## Planned Next Translation
 
 The next English chapter translation may continue with:
 
-3. **Awareness Is Not Consciousness**
+4. **Consciousness as Logical Inertia**
 
-This chapter will clarify one of the most important distinctions in the framework.
+This chapter will explain consciousness as a repeated, self-reinforcing manifested structure.
 
 ---
 
