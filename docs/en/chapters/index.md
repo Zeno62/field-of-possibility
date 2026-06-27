@@ -1,7 +1,7 @@
 # English Chapters  
 ## Field of Possibility
 
-This section will contain translated and adapted English chapters of **Field of Possibility / 可能性网络**.
+This section contains translated and adapted English chapters of **Field of Possibility / 可能性网络**.
 
 The Chinese edition remains the source edition of the project.  
 All English chapters are translated from, or based on, the Chinese source version.
@@ -29,21 +29,22 @@ Each translated chapter may have one of the following statuses:
 
 ---
 
-## Chapters
+## Available Chapters
 
-### Available
+### 0. You Did Not Arrive Here by Accident
 
-No full chapter translation has been released yet.
+Status: **draft**
+
+<a href="https://zeno62.github.io/field-of-possibility/en/chapters/00-you-did-not-arrive-here-by-accident">Read chapter 0</a>
 
 ---
 
-### Planned First Translations
+## Planned Next Translations
 
-The first English chapter translations will begin with the core entry chapters:
+The next English chapter translations will continue with:
 
-1. **You Did Not Arrive Here by Accident**
-2. **The Two-Layer Model: All-Knowing and Totality**
-3. **Pure Possibility: Not the Beginning, but the All-Knowing**
+1. **The Two-Layer Model: All-Knowing and Totality**
+2. **Pure Possibility: Not the Beginning, but the All-Knowing**
 
 These chapters will introduce the basic structure of the framework before the full English white paper is released.
 
@@ -55,7 +56,7 @@ English readers may start with the overview first:
 
 <a href="https://zeno62.github.io/field-of-possibility/en/overview">https://zeno62.github.io/field-of-possibility/en/overview</a>
 
-Then return to this page as translated chapters are added.
+Then continue with the available chapters listed above.
 
 ---
 
