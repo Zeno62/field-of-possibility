@@ -119,13 +119,21 @@ Status: **draft**
 
 ---
 
+### 11. Creation and Re-Manifestation
+
+Status: **draft**
+
+<a href="https://zeno62.github.io/field-of-possibility/en/chapters/11-creation-and-re-manifestation">Read chapter 11</a>
+
+---
+
 ## Planned Next Translation
 
 The next English chapter translation may continue with:
 
-11. **Creation and Re-Manifestation**
+12. **Society, Civilization, and Collective Manifestation**
 
-This chapter will explain creation as the field re-manifesting through a node.
+This chapter will explain how collective structures, culture, history, and civilization appear within the Field of Possibility.
 
 ---
 
