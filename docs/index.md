@@ -135,6 +135,9 @@ English draft status note:
 
 <a href="https://zeno62.github.io/field-of-possibility/en/draft-status">https://zeno62.github.io/field-of-possibility/en/draft-status</a>
 
+English review guide:
+
+<a href="https://zeno62.github.io/field-of-possibility/en/review-guide">https://zeno62.github.io/field-of-possibility/en/review-guide</a>
 ---
 
 ## What This Project Is Not
@@ -216,6 +219,9 @@ Read the translation workflow:
 
 <a href="https://github.com/Zeno62/field-of-possibility/blob/main/translation/README.md">https://github.com/Zeno62/field-of-possibility/blob/main/translation/README.md</a>
 
+Read the English review guide:
+
+<a href="https://zeno62.github.io/field-of-possibility/en/review-guide">https://zeno62.github.io/field-of-possibility/en/review-guide</a>
 ---
 
 ## Participate
