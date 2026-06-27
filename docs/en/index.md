@@ -68,6 +68,22 @@ They are not yet the final official English release.
 
 ---
 
+## English Draft Status
+
+Read the current English draft status note:
+
+<a href="https://zeno62.github.io/field-of-possibility/en/draft-status">https://zeno62.github.io/field-of-possibility/en/draft-status</a>
+
+This page explains:
+
+- what “draft preparation” means;
+- what the current English draft is for;
+- why the Chinese edition remains the source edition;
+- what future review may focus on;
+- how readers can contribute feedback.
+
+---
+
 ## Source Edition
 
 The official source edition is:
@@ -173,6 +189,10 @@ English overview:
 English chapters:
 
 <a href="https://zeno62.github.io/field-of-possibility/en/chapters/">https://zeno62.github.io/field-of-possibility/en/chapters/</a>
+
+English draft status:
+
+<a href="https://zeno62.github.io/field-of-possibility/en/draft-status">https://zeno62.github.io/field-of-possibility/en/draft-status</a>
 
 Chinese source edition:
 
