@@ -3,7 +3,7 @@
 
 **Field of Possibility / 可能性网络** is an open philosophical framework originally developed in Chinese.
 
-It explores pure possibility, awareness, consciousness, manifestation, weight, collective weight, AI, and the structure of reality-experience.
+It explores pure possibility, awareness, consciousness, manifestation, weight, collective weight, AI, life, creation, society, responsibility, and the structure of reality-experience.
 
 The Chinese edition is the source edition.  
 The English edition is being developed as an international-facing translation and adaptation.
@@ -41,15 +41,27 @@ The English overview introduces the core framework, including:
 
 ---
 
-### <a href="https://zeno62.github.io/field-of-possibility/en/chapters/">Read English Chapters</a>
+### <a href="https://zeno62.github.io/field-of-possibility/en/chapters/">Read English Draft Chapters</a>
 
-Read the English draft chapters currently available.
+The English draft chapter set currently includes chapters **0–14**.
 
 Available chapters include:
 
 - You Did Not Arrive Here by Accident;
 - The Two-Layer Model: All-Knowing and Totality;
-- Pure Possibility: Not the Beginning, but the All-Knowing.
+- Pure Possibility: Not the Beginning, but the All-Knowing;
+- Awareness Is Not Consciousness;
+- Consciousness as Logical Inertia;
+- Weight and the Individual Node;
+- Mistaking the Apparent for the Real;
+- Single-Frame Interruption;
+- Return as Recognition;
+- AI and Collective Weight;
+- Life and Manifestation;
+- Creation and Re-Manifestation;
+- Society, Civilization, and Collective Manifestation;
+- Choice, Fate-Like Patterns, and Responsibility;
+- Reader Questions and Applications.
 
 ---
 
@@ -96,13 +108,28 @@ It is not consciousness, not thought, not emotion, not personal identity, and no
 **Layer 2: Field of Possibility / Total Manifestation**
 
 This is the manifested field.  
-All structures of experience appear here, including consciousness, life, AI, individual nodes, weights, collective weights, time, space, language, culture, history, society, and technology.
+All structures of experience appear here, including consciousness, life, AI, individual nodes, weights, collective weights, time, space, language, culture, history, society, technology, and civilization.
 
 The two layers should not be confused.
 
 Awareness is not consciousness.  
 Pure Possibility is not ordinary possibility.  
 The source is not one object among other objects.
+
+---
+
+## English Draft Chapter Set
+
+The English draft chapter set is now available here:
+
+<a href="https://zeno62.github.io/field-of-possibility/en/chapters/">https://zeno62.github.io/field-of-possibility/en/chapters/</a>
+
+Current status:
+
+**Draft preparation**
+
+These chapters are introductory English adaptations based on the Chinese source edition.  
+They are not yet the final official English release.
 
 ---
 
