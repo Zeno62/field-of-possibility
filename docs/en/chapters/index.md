@@ -103,13 +103,21 @@ Status: **draft**
 
 ---
 
+### 9. AI and Collective Weight
+
+Status: **draft**
+
+<a href="https://zeno62.github.io/field-of-possibility/en/chapters/09-ai-and-collective-weight">Read chapter 9</a>
+
+---
+
 ## Planned Next Translation
 
 The next English chapter translation may continue with:
 
-9. **AI and Collective Weight**
+10. **Life and Manifestation**
 
-This chapter will explain AI as a manifested mechanism that reflects, recombines, and amplifies collective consciousness and collective weight.
+This chapter will clarify life within the two-layer model, including the distinction between life, consciousness, AI, and luminosity.
 
 ---
 
