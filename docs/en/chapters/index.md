@@ -143,13 +143,24 @@ Status: **draft**
 
 ---
 
-## Planned Next Translation
+### 14. Reader Questions and Applications
 
-The next English chapter translation may continue with:
+Status: **draft**
 
-14. **Reader Questions and Applications**
+<a href="https://zeno62.github.io/field-of-possibility/en/chapters/14-reader-questions-and-applications">Read chapter 14</a>
 
-This chapter will translate the framework into practical questions for psychology, relationships, family, work, money, AI, society, creation, and everyday life.
+---
+
+## Planned Next Step
+
+The core English draft chapter set now contains chapters 0–14.
+
+The next step may be:
+
+- review and refine the English draft chapters;
+- create an English release note;
+- update the homepage and README to mention the English draft chapter set;
+- prepare a future English draft release.
 
 ---
 
