@@ -54,14 +54,14 @@ English terms are provisional and may be refined as the English edition develops
 
 ## Related Files
 
-- [Translation Map on GitHub](https://github.com/Zeno62/field-of-possibility/blob/main/glossary/translation-map.md)
-- [Translation Workflow](https://github.com/Zeno62/field-of-possibility/blob/main/translation/README.md)
-- [Discussions](https://github.com/Zeno62/field-of-possibility/discussions)
+- <a href="https://github.com/Zeno62/field-of-possibility/blob/main/glossary/translation-map.md">Translation Map on GitHub</a>
+- <a href="https://github.com/Zeno62/field-of-possibility/blob/main/translation/README.md">Translation Workflow</a>
+- <a href="https://github.com/Zeno62/field-of-possibility/discussions">Discussions</a>
 
 ---
 
 ## Back
 
-- [Home](./)
-- [Chinese Source Edition](./zh-Hans/)
-- [English Edition](./en/)
+- <a href="https://zeno62.github.io/field-of-possibility/">Home</a>
+- <a href="https://zeno62.github.io/field-of-possibility/zh-Hans/">Chinese Source Edition</a>
+- <a href="https://zeno62.github.io/field-of-possibility/en/">English Edition</a>
