@@ -127,13 +127,21 @@ Status: **draft**
 
 ---
 
+### 12. Society, Civilization, and Collective Manifestation
+
+Status: **draft**
+
+<a href="https://zeno62.github.io/field-of-possibility/en/chapters/12-society-civilization-and-collective-manifestation">Read chapter 12</a>
+
+---
+
 ## Planned Next Translation
 
 The next English chapter translation may continue with:
 
-12. **Society, Civilization, and Collective Manifestation**
+13. **Choice, Fate-Like Patterns, and Responsibility**
 
-This chapter will explain how collective structures, culture, history, and civilization appear within the Field of Possibility.
+This chapter will explain choice and responsibility within weight, individual nodes, and collective manifestation.
 
 ---
 
