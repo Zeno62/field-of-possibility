@@ -290,11 +290,11 @@ For stable display across GitHub and GitHub Pages, this project uses HTML links 
 
 Preferred link style:
 
-```html
+```text
 <a href="https://example.com">https://example.com</a>
 ```
 For readable link text:
- ```html
+```text
 <a href="https://example.com">Readable Link Text</a>
 ```
 
