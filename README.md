@@ -2,8 +2,8 @@ Field of Possibility
 
 可能性网络
 
-> Read the project website:  
-> https://zeno62.github.io/field-of-possibility/
+Read the project website:
+https://zeno62.github.io/field-of-possibility/
 
 Field of Possibility is an open philosophical framework originally developed in Chinese as 可能性网络.
 
@@ -56,12 +56,12 @@ The current official white paper is:
 
 Available files:
 
-* Full Chinese Markdown edition
-    whitepaper/zh-Hans/full/field-of-possibility-whitepaper-v4.0-zh-Hans.md
-* Chapter-by-chapter Obsidian archive
-    whitepaper/zh-Hans/chapters/field-of-possibility-whitepaper-v4.0-zh-Hans-chapters.zip
+* Full Chinese Markdown edition:
+    field-of-possibility-whitepaper-v4.0-zh-Hans.md
+* Chapter-by-chapter Obsidian archive:
+    field-of-possibility-whitepaper-v4.0-zh-Hans-chapters.zip
 
-The first official release is available under:
+The first official release is available here:
 
 Release v4.0.0
 
@@ -69,17 +69,24 @@ Release v4.0.0
 
 Repository Structure
 
-field-of-possibility/
-├── README.md
-├── LICENSE.md
-├── CHANGELOG.md
-├── CONTRIBUTING.md
-├── glossary/
-│   └── translation-map.md
-└── whitepaper/
-    └── zh-Hans/
-        ├── full/
-        └── chapters/
+Main files and folders:
+
+* README.md
+* LICENSE.md
+* CHANGELOG.md
+* CONTRIBUTING.md
+* docs/
+    * index.md
+    * glossary.md
+    * en/index.md
+    * zh-Hans/index.md
+* glossary/
+    * translation-map.md
+* translation/
+    * README.md
+* whitepaper/
+    * zh-Hans/full/
+    * zh-Hans/chapters/
 
 ⸻
 
@@ -95,9 +102,13 @@ This project welcomes:
 * conceptual critique
 * chapter-level improvement proposals
 
-For general questions, reading notes, and open discussion, please use Discussions.
+For general questions, reading notes, and open discussion, please use:
 
-For typo corrections, unclear wording, broken links, or structural issues, please use Issues.
+GitHub Discussions
+
+For typo corrections, unclear wording, broken links, or structural issues, please use:
+
+GitHub Issues
 
 For specific text changes, translation improvements, or file updates, please use Pull Requests.
 
@@ -116,6 +127,14 @@ Future multilingual editions should be translated and maintained based on the Ch
 A terminology map is available here:
 
 glossary/translation-map.md
+
+Translation workflow:
+
+translation/README.md
+
+Website glossary:
+
+Glossary
 
 Translation status may include:
 
@@ -143,10 +162,13 @@ Status
 
 The Chinese v4.0 official edition has been published.
 
+Current public website:
+
+https://zeno62.github.io/field-of-possibility/
+
 Next planned work:
 
 * English translation
 * expanded glossary
-* GitHub Discussions setup
-* GitHub Pages reading website
+* GitHub Pages reading website refinement
 * multilingual maintenance workflow
