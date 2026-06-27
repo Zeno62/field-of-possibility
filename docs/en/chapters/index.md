@@ -63,13 +63,21 @@ Status: **draft**
 
 ---
 
+### 4. Consciousness as Logical Inertia
+
+Status: **draft**
+
+<a href="https://zeno62.github.io/field-of-possibility/en/chapters/04-consciousness-as-logical-inertia">Read chapter 4</a>
+
+---
+
 ## Planned Next Translation
 
 The next English chapter translation may continue with:
 
-4. **Consciousness as Logical Inertia**
+5. **Weight and the Individual Node**
 
-This chapter will explain consciousness as a repeated, self-reinforcing manifested structure.
+This chapter will explain how accumulated influence manifests through individual nodes.
 
 ---
 
