@@ -30,6 +30,10 @@ English draft status note:
 
 <a href="https://zeno62.github.io/field-of-possibility/en/draft-status">https://zeno62.github.io/field-of-possibility/en/draft-status</a>
 
+English review guide:
+
+<a href="https://zeno62.github.io/field-of-possibility/en/review-guide">https://zeno62.github.io/field-of-possibility/en/review-guide</a>
+
 ---
 
 ## Ways to Contribute
@@ -69,6 +73,10 @@ English overview:
 English draft chapters:
 
 <a href="https://zeno62.github.io/field-of-possibility/en/chapters/">https://zeno62.github.io/field-of-possibility/en/chapters/</a>
+
+English review guide:
+
+<a href="https://zeno62.github.io/field-of-possibility/en/review-guide">https://zeno62.github.io/field-of-possibility/en/review-guide</a>
 
 Glossary:
 
