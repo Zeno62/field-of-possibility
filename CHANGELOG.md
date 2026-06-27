@@ -17,6 +17,28 @@ Source language: Simplified Chinese
 Project name: Field of Possibility  
 Chinese title: 可能性网络
 
+Release page:
+
+<a href="https://github.com/Zeno62/field-of-possibility/releases/tag/v4.0.0">https://github.com/Zeno62/field-of-possibility/releases/tag/v4.0.0</a>
+
+Project website:
+
+<a href="https://zeno62.github.io/field-of-possibility/">https://zeno62.github.io/field-of-possibility/</a>
+
+Chinese source edition page:
+
+<a href="https://zeno62.github.io/field-of-possibility/zh-Hans/">https://zeno62.github.io/field-of-possibility/zh-Hans/</a>
+
+Full Chinese Markdown source:
+
+<a href="https://github.com/Zeno62/field-of-possibility/blob/main/whitepaper/zh-Hans/full/field-of-possibility-whitepaper-v4.0-zh-Hans.md">field-of-possibility-whitepaper-v4.0-zh-Hans.md</a>
+
+Chapter-by-chapter Obsidian archive:
+
+<a href="https://github.com/Zeno62/field-of-possibility/blob/main/whitepaper/zh-Hans/chapters/field-of-possibility-whitepaper-v4.0-zh-Hans-chapters.zip">field-of-possibility-whitepaper-v4.0-zh-Hans-chapters.zip</a>
+
+---
+
 ### Added
 
 - Published the Chinese official white paper: **可能性网络白皮书 v4.0 正式版**.
@@ -24,6 +46,17 @@ Chinese title: 可能性网络
 - Added a chapter-by-chapter Markdown archive.
 - Added project README.
 - Added Creative Commons BY-NC-SA 4.0 license.
+- Added contribution guidelines.
+- Added translation map.
+- Added translation workflow.
+- Added GitHub Discussions.
+- Added GitHub Pages website.
+- Added Chinese source edition page.
+- Added English edition placeholder page.
+- Added website glossary page.
+- Added issue templates for corrections and conceptual discussions.
+
+---
 
 ### Core Framework
 
@@ -40,6 +73,8 @@ This version establishes the core framework of the project:
 - Mistaking the apparent for the real
 - Return as recognition of the all-knowing
 
+---
+
 ### Notes
 
 The Chinese edition is the source edition of the project.
@@ -47,8 +82,8 @@ The Chinese edition is the source edition of the project.
 Future versions may include:
 
 - English translation
-- terminology glossary
-- translation map
-- contribution guidelines
-- GitHub Discussions
-- GitHub Pages website
+- expanded terminology glossary
+- translation map refinement
+- contribution workflow refinement
+- GitHub Pages reading website refinement
+- multilingual maintenance workflow
