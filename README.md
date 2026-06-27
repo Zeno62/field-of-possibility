@@ -56,6 +56,14 @@ They are not yet the final official English release.
 English draft status note:
 
 <a href="https://zeno62.github.io/field-of-possibility/en/draft-status">https://zeno62.github.io/field-of-possibility/en/draft-status</a>
+
+English review guide:
+
+<a href="https://zeno62.github.io/field-of-possibility/en/review-guide">https://zeno62.github.io/field-of-possibility/en/review-guide</a>
+
+English draft status note:
+
+<a href="https://zeno62.github.io/field-of-possibility/en/draft-status">https://zeno62.github.io/field-of-possibility/en/draft-status</a>
 ---
 
 ## Core Question
@@ -181,6 +189,7 @@ docs/
 │   ├── index.md
 │   ├── overview.md
 │   ├── draft-status.md
+│   ├── review-guide.md
 │   └── chapters/
 │       ├── index.md
 │       ├── 00-you-did-not-arrive-here-by-accident.md
@@ -245,6 +254,10 @@ This project welcomes:
 Contribution guide:
 
 <a href="https://github.com/Zeno62/field-of-possibility/blob/main/CONTRIBUTING.md">https://github.com/Zeno62/field-of-possibility/blob/main/CONTRIBUTING.md</a>
+
+English review guide:
+
+<a href="https://zeno62.github.io/field-of-possibility/en/review-guide">https://zeno62.github.io/field-of-possibility/en/review-guide</a>
 
 GitHub Discussions:
 
