@@ -1,20 +1,62 @@
 ---
-title: Field of Possibility Whitepaper v4.0 Official English Edition
-version: 4.0
-status: official
-source_version: 4.0
-source_language: zh-Hans
-source_created: 2026-06-27
-english_created: 2026-06-28
-tags: [Field of Possibility, Whitepaper, Official English Edition, Luminosity, Total Knowing, Totality, consciousness, life, Weight, Collective Weight, Single-Frame Interruption, Return, AI]
+title: Field of Possibility Whitepaper v4.0｜Official English Edition
 ---
 
-# Field of Possibility Whitepaper v4.0  
-# Official English Edition
+<link rel="stylesheet" href="../assets/css/site.css">
+
+<div class="fop-site" markdown="1">
+
+<nav class="fop-topbar">
+  <span class="fop-brand">Field of Possibility｜可能性网络</span>
+  <span class="fop-nav">
+    <a href="../">Home</a>
+    <a href="../zh-Hans/official-v4">中文阅读</a>
+    <a href="../en/official-v4">English Reader</a>
+    <a href="../downloads">Downloads</a>
+    <a href="https://github.com/Zeno62/field-of-possibility">GitHub</a>
+  </span>
+</nav>
+
+<main class="fop-reader" markdown="1">
+
+<section class="fop-hero" markdown="1">
+<p class="fop-kicker">Official English Edition · v4.0</p>
+<h1 class="fop-title">Field of Possibility<br>Whitepaper v4.0</h1>
+<p class="fop-subtitle">A long-form reader page for the official English edition, based on the Chinese v4.0 source edition.</p>
+<div class="fop-actions">
+  <a class="fop-button" href="../downloads">Download PDF / ZIP</a>
+  <a class="fop-button-secondary" href="../zh-Hans/official-v4">中文源版本</a>
+  <a class="fop-button-secondary" href="https://github.com/Zeno62/field-of-possibility/blob/main/whitepaper/en/full/field-of-possibility-whitepaper-v4.0-en.md">Markdown source</a>
+</div>
+</section>
+
+<div class="fop-callout" markdown="1">
+This page is designed for uninterrupted reading on GitHub Pages. The repository Markdown, PDF, Obsidian file, and chapter ZIP are available from the download center.
+</div>
+
+<div class="fop-toc" markdown="1">
+
+## Table of Contents｜目录
+
+- [Chapter 0｜You Did Not Arrive Here by Accident](#chapter-0)
+- [Chapter 1｜The Two-Layer Model: Total Knowing and Totality](#chapter-1)
+- [Chapter 2｜Pure Possibility: Not the Beginning, but Total Knowing](#chapter-2)
+- [Chapter 3｜The Mother Field of Possibility: Not a Process, but Totality](#chapter-3)
+- [Chapter 4｜Time and Space: The Dimensionally Reduced Felt Experience of Local Life](#chapter-4)
+- [Chapter 5｜Consciousness: Logical Inertia Formed at Low Probability](#chapter-5)
+- [Chapter 6｜Life: Manifested Form and Essential Luminosity](#chapter-6)
+- [Chapter 7｜Lostness and Return: Return Is Not a Destination, but Recognizing Total Knowing](#chapter-7)
+- [Chapter 8｜AI: The Re-Digestion of Collective Weight and the Open Question of Life’s Boundary](#chapter-8)
+- [Chapter 9｜Weight, the Sense of Fate, and Single-Frame Interruption](#chapter-9)
+- [Chapter 10｜Structural Inspirations from Modern Science](#chapter-10)
+- [Chapter 11｜Applied Q&A: Awakening from Mistaking the Apparent for the Real](#chapter-11)
+- [Chapter 12｜What This Project Is Not](#chapter-12)
+- [Chapter 13｜Appendix: An Unfinished Note on the Truth of the Mother Field](#chapter-13)
+- [Chapter 14｜Conclusion: Manifestation Rises and Falls; Luminous Awareness Recognizes Total Knowing](#chapter-14)
+
+</div>
 
 > An open philosophical framework concerning Luminosity, Pure Possibility, the Mother Field of Possibility, consciousness, life, Weight, Collective Weight, Single-Frame Interruption, Return, and AI.
-
-[Download the official English PDF](https://github.com/Zeno62/field-of-possibility/blob/main/whitepaper/en/pdf/field-of-possibility-whitepaper-v4.0-en.pdf) · [View repository assets](https://github.com/Zeno62/field-of-possibility/tree/main/whitepaper/en)
 
 ---
 
@@ -1628,11 +1670,23 @@ And within this illumination, it recognizes that it has always already been Tota
 
 # Related Project Pages
 
-- [Project Website Home](../)
-- [English Edition Home](./)
-- [English Overview](overview)
-- [Project Glossary](../glossary)
-- [Translation Map](https://github.com/Zeno62/field-of-possibility/blob/main/glossary/translation-map.md)
-- [Official Chinese Source Edition](../zh-Hans/)
-- [Official English Markdown Source](https://github.com/Zeno62/field-of-possibility/blob/main/whitepaper/en/full/field-of-possibility-whitepaper-v4.0-en.md)
-- [Official English PDF](https://github.com/Zeno62/field-of-possibility/blob/main/whitepaper/en/pdf/field-of-possibility-whitepaper-v4.0-en.pdf)
+- [Project README](../../../README.md)
+- [Project Website Home](../../../docs/index.md)
+- [English Edition Home](../../../docs/en/index.md)
+- [Project Glossary](../../../docs/glossary.md)
+- [Translation Map](../../../glossary/translation-map.md)
+- [Official Chinese Source Edition](../../zh-Hans/full/field-of-possibility-whitepaper-v4.0-zh-Hans.md)
+
+
+<div class="fop-footer-note" markdown="1">
+
+Version: **v4.0 Official English Edition**  
+Source edition: **可能性网络白皮书 v4.0 正式版**  
+Website: [https://zeno62.github.io/field-of-possibility/](https://zeno62.github.io/field-of-possibility/)  
+Repository: [https://github.com/Zeno62/field-of-possibility](https://github.com/Zeno62/field-of-possibility)  
+License: **CC BY-NC-SA 4.0**
+
+</div>
+
+</main>
+</div>
