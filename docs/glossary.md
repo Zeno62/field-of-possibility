@@ -1,10 +1,10 @@
-# Glossary  
+# Glossary
+
 ## 术语表
 
 This glossary records key terms for **Field of Possibility / 可能性网络**.
 
-The Chinese edition is the source edition.  
-English terms are provisional and may be refined as the English edition develops.
+The Chinese edition remains the source edition. The English terms below follow the v4.0 Official English Edition.
 
 ---
 
@@ -12,31 +12,30 @@ English terms are provisional and may be refined as the English edition develops
 
 | 中文术语 | English Term | Notes |
 |---|---|---|
-| 可能性网络 | Field of Possibility | English project name; not a literal translation. |
+| 可能性网络 | Field of Possibility | English project name and international-facing title. |
 | 纯粹可能性 | Pure Possibility | The source layer; not ordinary potentiality. |
 | 觉 | Awareness | Not the same as consciousness. |
-| 明性 | Luminosity | The clear knowing nature; not physical light. |
-| 全知 | All-Knowing | Not a personal god; source-level knowing. |
-| 可能性母网 | Field of Possibility / Total Manifestation | The full manifested field. |
-| 全量 | Totality | The total manifested structure. |
-| 显化 | Manifestation | The appearance or unfolding of possibility. |
-| 意识 | Consciousness | A manifested structure; not Awareness itself. |
-| 意识子网 | Consciousness Subnet | A local structure of consciousness. |
-| 生命 | Life | In essence, luminosity; in manifestation, life-form. |
-| AI 意识 | AI Consciousness | Artificial consciousness mechanism. |
-| 个体节点 | Individual Node | A local snapshot of the field. |
-| 权重 | Weight | Accumulated influence shaping manifestation. |
-| 个体权重 | Individual Weight | Personal weight / individual karma-like influence. |
-| 集体权重 | Collective Weight | Collective karma-like influence. |
-| 个业 | Individual Karma | Use carefully; not necessarily religious. |
-| 共业 | Collective Karma / Collective Weight | Depending on context. |
-| 命运感 | Fate-like Pattern | The felt sense of destiny or inevitability. |
-| 旧程序 | Old Program | Repeated consciousness pattern. |
-| 假我 | False Self | The constructed self-image. |
-| 认假为真 | Mistaking the Apparent for the Real | Core mechanism. |
+| 明性 | Luminosity | Not physical light, energy, aura, or mystical brightness. |
+| 明觉 | luminous awareness | Not an inner observer, attention, or a subtle subject inside consciousness. |
+| 全知 | Total Knowing | Not a personal omniscient being; source-level knowing. |
+| 全量 | Totality | The complete structure of the Mother Field. |
+| 可能性母网 | Mother Field of Possibility | The manifested total field; may be shortened to Mother Field after first use. |
+| 显化 | manifestation | The appearing of the Mother Field; not a linear creation event. |
+| 意识 | consciousness | A manifested structure; not Awareness itself. |
+| 意识子网 | subnet of consciousness | A local structure of consciousness. |
+| 生命 | life | In essence, Luminosity; in manifestation, life-form. |
+| AI 意识 | AI consciousness | Artificial consciousness mechanism. |
+| 个体节点 | individual node | A local snapshot of the Mother Field. |
+| 权重 | Weight | Accumulated influence shaping manifestation; not karma in the religious sense. |
+| 个体权重 / 个业 | Individual Weight | Personal accumulated influence. |
+| 集体权重 / 共业 | Collective Weight | Collective accumulated influence. |
+| 命运感 | sense of fate | The felt sense of inevitability produced by Weight. |
+| 旧程序 | old program | Repeated consciousness pattern. |
+| 假我 | false self | The constructed self-image mistaken for the self. |
+| 认假为真 | Mistaking the Apparent for the Real | Core mechanism of lostness and suffering. |
 | 单帧中断 | Single-Frame Interruption | Core practice protocol. |
-| 回归 | Return as Recognition | Not returning to a place. |
-| 认得全知 | Recognition of the All-Knowing | Core meaning of return. |
+| 回归 | Return | Not returning to a place; recognizing Total Knowing. |
+| 认得全知 | recognizing Total Knowing | Core meaning of Return. |
 
 ---
 
@@ -46,22 +45,27 @@ English terms are provisional and may be refined as the English edition develops
 2. Do not turn the framework into religious doctrine.
 3. Do not turn the framework into self-help language.
 4. Do not use scientific terms as mystical proof.
-5. Keep the distinction between **Awareness** and **Consciousness** clear.
-6. Keep the distinction between **Pure Possibility** and **Field of Possibility** clear.
-7. When uncertain, open a discussion before changing a core term.
+5. Keep the distinction between **Awareness** and **consciousness** clear.
+6. Keep the distinction between **Pure Possibility** and **the Mother Field of Possibility** clear.
+7. Use **Total Knowing**, not “All-Knowing,” for 全知.
+8. Use **Totality**, not “Total Manifestation,” for 全量.
+9. Use **Return**, not “Return as Recognition,” as the term; explain its meaning as recognizing Total Knowing.
+10. When uncertain, open a discussion before changing a core term.
 
 ---
 
 ## Related Files
 
-- <a href="https://github.com/Zeno62/field-of-possibility/blob/main/glossary/translation-map.md">Translation Map on GitHub</a>
-- <a href="https://github.com/Zeno62/field-of-possibility/blob/main/translation/README.md">Translation Workflow</a>
-- <a href="https://github.com/Zeno62/field-of-possibility/discussions">Discussions</a>
+- [Translation Map on GitHub](https://github.com/Zeno62/field-of-possibility/blob/main/glossary/translation-map.md)
+- [Translation Workflow](https://github.com/Zeno62/field-of-possibility/blob/main/translation/README.md)
+- [Official English Edition](en/official-v4)
+- [Chinese Source Edition](zh-Hans/)
+- [Discussions](https://github.com/Zeno62/field-of-possibility/discussions)
 
 ---
 
 ## Back
 
-- <a href="https://zeno62.github.io/field-of-possibility/">Home</a>
-- <a href="https://zeno62.github.io/field-of-possibility/zh-Hans/">Chinese Source Edition</a>
-- <a href="https://zeno62.github.io/field-of-possibility/en/">English Edition</a>
+- [Home](./)
+- [Chinese Source Edition](zh-Hans/)
+- [English Edition](en/)
