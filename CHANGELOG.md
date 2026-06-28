@@ -1,112 +1,69 @@
-# Changelog  
-## Field of Possibility / 可能性网络
+# Changelog
 
-All notable changes to this project will be documented in this file.
+All notable changes to **Field of Possibility / 可能性网络** are recorded here.
 
-The Chinese edition remains the source edition.  
-English and other language versions are maintained as translations and adaptations based on the Chinese source edition.
+The Chinese edition remains the source edition.
 
 ---
 
-## Unreleased  
-### English Draft Preparation
-
-The English draft chapter set has been added.
-
-Current English draft chapters include chapters **0–14**:
-
-0. **You Did Not Arrive Here by Accident**
-1. **The Two-Layer Model: All-Knowing and Totality**
-2. **Pure Possibility: Not the Beginning, but the All-Knowing**
-3. **Awareness Is Not Consciousness**
-4. **Consciousness as Logical Inertia**
-5. **Weight and the Individual Node**
-6. **Mistaking the Apparent for the Real**
-7. **Single-Frame Interruption**
-8. **Return as Recognition**
-9. **AI and Collective Weight**
-10. **Life and Manifestation**
-11. **Creation and Re-Manifestation**
-12. **Society, Civilization, and Collective Manifestation**
-13. **Choice, Fate-Like Patterns, and Responsibility**
-14. **Reader Questions and Applications**
-
-Chapter index:
-
-<a href="https://zeno62.github.io/field-of-possibility/en/chapters/">https://zeno62.github.io/field-of-possibility/en/chapters/</a>
-
-English overview:
-
-<a href="https://zeno62.github.io/field-of-possibility/en/overview">https://zeno62.github.io/field-of-possibility/en/overview</a>
-
-English edition home:
-
-<a href="https://zeno62.github.io/field-of-possibility/en/">https://zeno62.github.io/field-of-possibility/en/</a>
-
-English draft status:
-
-<a href="https://zeno62.github.io/field-of-possibility/en/draft-status">https://zeno62.github.io/field-of-possibility/en/draft-status</a>
-
-English review guide:
-
-<a href="https://zeno62.github.io/field-of-possibility/en/review-guide">https://zeno62.github.io/field-of-possibility/en/review-guide</a>
-
-### Notes
-
-These English chapters are currently in **draft preparation**.
-
-They are introductory English adaptations based on the Chinese source edition.  
-They are not yet the final official English release.
-
-Future work may include:
-
-- English language review;
-- terminology refinement;
-- chapter-level editing;
-- contributor feedback;
-- issue-based corrections;
-- preparation of a future official English release.
-
----
-
-## v4.0.0  
-### Official Chinese Edition
-
-Initial public release of the official Chinese source edition:
-
-**可能性网络白皮书 v4.0 正式版**
-
-Release page:
-
-<a href="https://github.com/Zeno62/field-of-possibility/releases/tag/v4.0.0">https://github.com/Zeno62/field-of-possibility/releases/tag/v4.0.0</a>
+## 2026-06-28｜Official English Edition v4.0 and Bilingual Asset Alignment
 
 ### Added
 
-- Full Chinese whitepaper source in Markdown.
-- Chapter-by-chapter Obsidian archive.
-- Project README.
-- GitHub Pages website.
-- Chinese source edition entry page.
-- English edition entry page.
-- English overview page.
-- Glossary page.
-- Translation map.
-- Translation workflow.
-- Contribution guide.
-- Creative Commons license.
-- GitHub issue templates.
-- GitHub Discussions structure.
+- Added **Field of Possibility Whitepaper v4.0 — Official English Edition**.
+- Added official English full Markdown asset.
+- Added official English Obsidian Markdown asset.
+- Added official English PDF asset.
+- Added official English chapter-by-chapter Markdown files.
+- Added official English chapter ZIP package.
+- Added GitHub Pages page for the full official English v4.0 edition.
 
-### Source Files
+### Changed
 
-Full Chinese Markdown source:
+- Updated README and website entry pages from “English draft chapters” to **Official English Edition v4.0**.
+- Updated English overview to match the v4.0 official terminology.
+- Updated glossary and translation map to use the official v4.0 English terms:
+  - Total Knowing;
+  - Totality;
+  - Mother Field of Possibility;
+  - Luminosity;
+  - luminous awareness;
+  - Weight;
+  - Individual Weight;
+  - Collective Weight;
+  - Return.
+- Aligned Chinese source asset structure with the English asset structure:
+  - `full/`
+  - `obsidian/`
+  - `pdf/`
+  - `chapters/`
+  - `packages/`
+- Updated translation workflow to treat the Chinese v4.0 source as authoritative and the English v4.0 edition as the official international-facing translation.
 
-<a href="https://github.com/Zeno62/field-of-possibility/blob/main/whitepaper/zh-Hans/full/field-of-possibility-whitepaper-v4.0-zh-Hans.md">field-of-possibility-whitepaper-v4.0-zh-Hans.md</a>
+### Removed / Superseded
 
-Chapter-by-chapter Obsidian archive:
+- Superseded the earlier English draft chapter set in `docs/en/chapters/`.
+- Superseded the old English draft status and review guide pages.
+- Superseded earlier draft terminology such as:
+  - All-Knowing;
+  - Total Manifestation;
+  - Return as Recognition;
+  - karma as the main translation for Weight.
 
-<a href="https://github.com/Zeno62/field-of-possibility/blob/main/whitepaper/zh-Hans/chapters/field-of-possibility-whitepaper-v4.0-zh-Hans-chapters.zip">field-of-possibility-whitepaper-v4.0-zh-Hans-chapters.zip</a>
+### Notes
 
-Project website:
+This update does not change the Chinese source meaning of v4.0. It adds the official English edition and aligns the repository structure for bilingual maintenance.
 
-<a href="https://zeno62.github.io/field-of-possibility/">https://zeno62.github.io/field-of-possibility/</a>
+---
+
+## 2026-06-27｜v4.0 Official Chinese Source Edition
+
+### Added
+
+- Added **可能性网络白皮书 v4.0 正式版** as the official Chinese source edition.
+- Added Chinese full Markdown source.
+- Added Chinese chapter assets for the v4.0 source edition.
+
+### Notes
+
+This version is the source edition for future translations and multilingual maintenance.
