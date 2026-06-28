@@ -1,107 +1,77 @@
-# English Edition
-
-## Field of Possibility
-
-Welcome to the official English edition of **Field of Possibility / 可能性网络**.
-
-This English edition is the international-facing translation of the Chinese v4.0 source edition. The Chinese edition remains the source edition and the final authority for conceptual interpretation.
-
+---
+title: Official English Edition
 ---
 
-## Read Online
+<link rel="stylesheet" href="../assets/css/site.css">
 
-### Full Official English v4.0 Whitepaper
+<div class="fop-site" markdown="1">
 
-- [Read the full Official English Edition](official-v4)
+<nav class="fop-topbar">
+  <span class="fop-brand">Field of Possibility｜可能性网络</span>
+  <span class="fop-nav">
+    <a href="../">Home</a>
+    <a href="../zh-Hans/official-v4">中文阅读</a>
+    <a href="../en/official-v4">English Reader</a>
+    <a href="../downloads">Downloads</a>
+    <a href="https://github.com/Zeno62/field-of-possibility">GitHub</a>
+  </span>
+</nav>
 
-### Overview
+<section class="fop-hero" markdown="1">
+<p class="fop-kicker">Official English Edition</p>
+<h1 class="fop-title">Field of Possibility<br>Whitepaper v4.0</h1>
+<p class="fop-subtitle">The official international-facing translation of the Chinese v4.0 source edition.</p>
+<div class="fop-actions">
+  <a class="fop-button" href="official-v4">Read Full Whitepaper</a>
+  <a class="fop-button-secondary" href="../downloads">Download Assets</a>
+  <a class="fop-button-secondary" href="../zh-Hans/official-v4">中文源版本</a>
+</div>
+</section>
 
-- [Read the English overview](overview)
+## English Reading Path
 
-The overview is a shorter guide for new readers. The full official edition should be used for serious reading, review, citation, and translation work.
+<div class="fop-grid" markdown="1">
+<div class="fop-card" markdown="1">
+### Start with the full edition
 
----
+Read the complete v4.0 whitepaper in a cleaner long-form reader page.
 
-## Download and Repository Assets
+[Read Official English v4.0](official-v4)
+</div>
 
-- [Official English Markdown](https://github.com/Zeno62/field-of-possibility/blob/main/whitepaper/en/full/field-of-possibility-whitepaper-v4.0-en.md)
-- [Official English Obsidian version](https://github.com/Zeno62/field-of-possibility/blob/main/whitepaper/en/obsidian/field-of-possibility-whitepaper-v4.0-en-obsidian.md)
-- [Official English PDF](https://github.com/Zeno62/field-of-possibility/blob/main/whitepaper/en/pdf/field-of-possibility-whitepaper-v4.0-en.pdf)
-- [Official English chapter Markdown files](https://github.com/Zeno62/field-of-possibility/tree/main/whitepaper/en/chapters)
-- [Official English chapter ZIP](https://github.com/Zeno62/field-of-possibility/blob/main/whitepaper/en/packages/field-of-possibility-whitepaper-v4.0-en-chapters.zip)
+<div class="fop-card" markdown="1">
+### Short overview
 
----
+A shorter orientation page for readers who want the basic structure first.
 
-## Source Edition
+[Read the overview](overview)
+</div>
 
-The official source edition is:
+<div class="fop-card" markdown="1">
+### Download
 
-> **可能性网络白皮书 v4.0 正式版**
+PDF, Markdown, Obsidian, chapters, and ZIP packages.
 
-Read the Chinese source edition:
+[Open downloads](../downloads)
+</div>
+</div>
 
-- [中文源版本入口](../zh-Hans/)
+## Source Relationship
 
-Repository assets:
-
-- [Chinese source Markdown](https://github.com/Zeno62/field-of-possibility/blob/main/whitepaper/zh-Hans/full/field-of-possibility-whitepaper-v4.0-zh-Hans.md)
-- [Chinese source PDF](https://github.com/Zeno62/field-of-possibility/blob/main/whitepaper/zh-Hans/pdf/field-of-possibility-whitepaper-v4.0-zh-Hans.pdf)
-
----
+The Chinese edition remains the source edition. The English edition is maintained as the official international-facing translation of the Chinese v4.0 source edition.
 
 ## Core Terms
 
-| Chinese | English |
-|---|---|
-| 可能性网络 | Field of Possibility |
-| 纯粹可能性 | Pure Possibility |
-| 觉 | Awareness |
-| 明性 | Luminosity |
-| 明觉 | luminous awareness |
-| 全知 | Total Knowing |
-| 全量 | Totality |
-| 可能性母网 | Mother Field of Possibility |
-| 显化 | manifestation |
-| 意识 | consciousness |
-| 生命 | life |
-| 权重 | Weight |
-| 个体权重 / 个业 | Individual Weight |
-| 集体权重 / 共业 | Collective Weight |
-| 命运感 | sense of fate |
-| 单帧中断 | Single-Frame Interruption |
-| 假我 | false self |
-| 认假为真 | Mistaking the Apparent for the Real |
-| 回归 | Return |
+- Pure Possibility
+- Awareness
+- Luminosity
+- Total Knowing
+- Totality
+- Mother Field of Possibility
+- Weight
+- Collective Weight
+- Single-Frame Interruption
+- Return
 
-For more details:
 
-- [Glossary](../glossary)
-- [Translation map](https://github.com/Zeno62/field-of-possibility/blob/main/glossary/translation-map.md)
-
----
-
-## About the Previous English Drafts
-
-The earlier English draft chapter set has been superseded by the official v4.0 English edition.
-
-Those older draft pages were introductory adaptations. They should no longer be used as the English reference version.
-
----
-
-## Participate
-
-English readers are welcome to participate through reading notes, questions, terminology discussion, translation suggestions, typo corrections, conceptual critique, and multilingual collaboration.
-
-- [GitHub Discussions](https://github.com/Zeno62/field-of-possibility/discussions)
-- [Issues](https://github.com/Zeno62/field-of-possibility/issues)
-- [Pull requests](https://github.com/Zeno62/field-of-possibility/pulls)
-
----
-
-## Related Pages
-
-- [Project home](../)
-- [English overview](overview)
-- [Full Official English v4.0 Whitepaper](official-v4)
-- [Chinese source edition](../zh-Hans/)
-- [Glossary](../glossary)
+</div>

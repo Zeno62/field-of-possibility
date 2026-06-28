@@ -1,5 +1,15 @@
 # Changelog
 
+## 2026-06-28｜Website reader and PDF experience upgrade
+
+- Redesigned the GitHub Pages homepage into a clearer project landing page.
+- Added a dedicated download center for PDF, Markdown, Obsidian, chapter files, and ZIP packages.
+- Upgraded the English official v4.0 page into a cleaner long-form reader page.
+- Added a full Chinese v4.0 source reader page on GitHub Pages.
+- Added shared site styling under `docs/assets/css/site.css`.
+- Regenerated both Chinese and English PDFs with a cover page, project introduction, website link, repository link, source/translation relationship, and license note.
+- Added reader aliases: `docs/en/read-v4.md` and `docs/zh-Hans/read-v4.md`.
+
 All notable changes to **Field of Possibility / 可能性网络** are recorded here.
 
 The Chinese edition remains the source edition.
