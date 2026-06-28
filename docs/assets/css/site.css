@@ -266,12 +266,75 @@ body {
   .fop-toc ul { columns: 1; }
 }
 
-/* Hide the default GitHub Pages/Jekyll site title header.
-   The project uses its own custom navigation inside the page. */
-.site-header {
+/* Hide the default GitHub Pages / Jekyll theme header.
+   The site uses its own navigation card inside .fop-site.
+   This covers both Minima-style .site-header and Minimal-theme plain header layouts. */
+.site-header,
+header.site-header,
+body > .wrapper > header,
+body > div.wrapper > header,
+.wrapper > header:first-child,
+.wrapper header h1,
+.wrapper header .site-title,
+.wrapper header p,
+.wrapper header nav,
+.wrapper header ul,
+.wrapper header hr {
   display: none !important;
+  visibility: hidden !important;
+  height: 0 !important;
+  min-height: 0 !important;
+  max-height: 0 !important;
+  overflow: hidden !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+}
+
+/* Let the actual article occupy the page after the theme header is hidden. */
+body > .wrapper,
+body > div.wrapper {
+  width: auto !important;
+  max-width: 1180px !important;
+  margin: 0 auto !important;
+  padding: clamp(1rem, 4vw, 2.25rem) !important;
+}
+
+body > .wrapper > section,
+body > div.wrapper > section,
+.wrapper > section {
+  float: none !important;
+  width: 100% !important;
+  max-width: none !important;
+  margin: 0 auto !important;
+  padding: 0 0 2.5rem !important;
 }
 
 .page-content {
   padding-top: 0 !important;
+}
+
+@media (max-width: 960px) {
+  body > .wrapper,
+  body > div.wrapper {
+    padding: 1rem !important;
+  }
+}
+
+/* Hide GitHub Pages' generated repository title rendered as the first Markdown H1.
+   In this theme it is not .site-header; it appears as:
+   .markdown-body > h1:first-child > a#field-of-possibility
+   Keep the custom Field of Possibility navigation and hero sections visible. */
+body > .container-lg.markdown-body > h1:first-child,
+.markdown-body > h1:first-child:has(> a#field-of-possibility),
+.markdown-body > h1:first-child:has(> a[href*="/field-of-possibility/"]) {
+  display: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+}
+
+body > .container-lg.markdown-body {
+  padding-top: 0 !important;
+  margin-top: 0 !important;
 }
