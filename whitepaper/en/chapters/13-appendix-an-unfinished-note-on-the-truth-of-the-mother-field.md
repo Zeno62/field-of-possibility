@@ -5,7 +5,7 @@ source_version: 4.0
 language: en
 part: chapter
 chapter: 13
-status: official-english-draft
+status: official
 ---
 
 # 13｜Appendix: An Unfinished Note on the Truth of the Mother Field

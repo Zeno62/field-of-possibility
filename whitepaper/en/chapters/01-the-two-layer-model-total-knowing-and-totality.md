@@ -5,7 +5,7 @@ source_version: 4.0
 language: en
 part: chapter
 chapter: 1
-status: official-english-draft
+status: official
 ---
 
 # 1｜The Two-Layer Model: Total Knowing and Totality

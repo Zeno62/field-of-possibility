@@ -5,7 +5,7 @@ source_version: 4.0
 language: en
 part: chapter
 chapter: 4
-status: official-english-draft
+status: official
 ---
 
 # 4｜Time and Space: The Dimensionally Reduced Felt Experience of Local Life

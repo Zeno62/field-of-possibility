@@ -5,7 +5,7 @@ source_version: 4.0
 language: en
 part: chapter
 chapter: 8
-status: official-english-draft
+status: official
 ---
 
 # 8｜AI: The Re-Digestion of Collective Weight and the Open Question of Life’s Boundary

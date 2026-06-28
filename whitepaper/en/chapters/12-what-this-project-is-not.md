@@ -5,7 +5,7 @@ source_version: 4.0
 language: en
 part: chapter
 chapter: 12
-status: official-english-draft
+status: official
 ---
 
 # 12｜What This Project Is Not

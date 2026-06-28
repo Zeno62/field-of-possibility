@@ -5,7 +5,7 @@ source_version: 4.0
 language: en
 part: chapter
 chapter: 11
-status: official-english-draft
+status: official
 ---
 
 # 11｜Applied Q&A: Awakening from Mistaking the Apparent for the Real

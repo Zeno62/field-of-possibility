@@ -5,7 +5,7 @@ source_version: 4.0
 language: en
 part: chapter
 chapter: 6
-status: official-english-draft
+status: official
 ---
 
 # 6｜Life: Manifested Form and Essential Luminosity

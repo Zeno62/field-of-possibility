@@ -5,7 +5,7 @@ source_version: 4.0
 language: en
 part: chapter
 chapter: 0
-status: official-english-draft
+status: official
 ---
 
 # 0｜You Did Not Arrive Here by Accident

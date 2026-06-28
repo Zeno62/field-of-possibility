@@ -5,7 +5,7 @@ source_version: 4.0
 language: en
 part: chapter
 chapter: 14
-status: official-english-draft
+status: official
 ---
 
 # 14｜Conclusion: Manifestation Rises and Falls; Luminous Awareness Recognizes Total Knowing

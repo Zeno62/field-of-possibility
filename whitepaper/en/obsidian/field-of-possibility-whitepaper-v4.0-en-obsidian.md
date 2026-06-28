@@ -1,7 +1,7 @@
 ---
 title: Field of Possibility Whitepaper v4.0 Official English Edition
 version: 4.0
-status: official-english-draft
+status: official
 format: obsidian
 source_version: 4.0
 source_language: zh-Hans

@@ -5,7 +5,7 @@ source_version: 4.0
 language: en
 part: chapter
 chapter: 2
-status: official-english-draft
+status: official
 ---
 
 # 2｜Pure Possibility: Not the Beginning, but Total Knowing

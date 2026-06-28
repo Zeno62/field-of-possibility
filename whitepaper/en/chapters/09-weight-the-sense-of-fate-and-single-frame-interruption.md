@@ -5,7 +5,7 @@ source_version: 4.0
 language: en
 part: chapter
 chapter: 9
-status: official-english-draft
+status: official
 ---
 
 # 9｜Weight, the Sense of Fate, and Single-Frame Interruption

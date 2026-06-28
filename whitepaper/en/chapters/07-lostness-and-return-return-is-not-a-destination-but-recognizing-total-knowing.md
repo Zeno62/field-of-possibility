@@ -5,7 +5,7 @@ source_version: 4.0
 language: en
 part: chapter
 chapter: 7
-status: official-english-draft
+status: official
 ---
 
 # 7｜Lostness and Return: Return Is Not a Destination, but Recognizing Total Knowing

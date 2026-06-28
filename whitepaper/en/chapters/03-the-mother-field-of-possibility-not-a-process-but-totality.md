@@ -5,7 +5,7 @@ source_version: 4.0
 language: en
 part: chapter
 chapter: 3
-status: official-english-draft
+status: official
 ---
 
 # 3｜The Mother Field of Possibility: Not a Process, but Totality

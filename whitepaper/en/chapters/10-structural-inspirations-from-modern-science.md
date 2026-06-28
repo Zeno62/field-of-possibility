@@ -5,7 +5,7 @@ source_version: 4.0
 language: en
 part: chapter
 chapter: 10
-status: official-english-draft
+status: official
 ---
 
 # 10｜Structural Inspirations from Modern Science

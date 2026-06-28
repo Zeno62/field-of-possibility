@@ -5,7 +5,7 @@ source_version: 4.0
 language: en
 part: chapter
 chapter: 5
-status: official-english-draft
+status: official
 ---
 
 # 5｜Consciousness: Logical Inertia Formed at Low Probability
