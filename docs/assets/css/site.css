@@ -265,3 +265,13 @@ body {
   .fop-reader { font-size: 16.5px; }
   .fop-toc ul { columns: 1; }
 }
+
+/* Hide the default GitHub Pages/Jekyll site title header.
+   The project uses its own custom navigation inside the page. */
+.site-header {
+  display: none !important;
+}
+
+.page-content {
+  padding-top: 0 !important;
+}
