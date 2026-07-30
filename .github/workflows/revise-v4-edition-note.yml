@@ -1,0 +1,63 @@
+name: Revise v4 edition note
+
+on:
+  push:
+    branches:
+      - v4.0-revision-sync
+    paths:
+      - .github/workflows/revise-v4-edition-note.yml
+
+permissions:
+  contents: write
+
+jobs:
+  revise:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: v4.0-revision-sync
+          fetch-depth: 0
+
+      - name: Apply reviewed Chinese edition-note revision
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+
+          replacement = '''## 正式版说明
+
+本正式版在前三轮修订基础上完成定稿整理，并在 v3.0 基础上补充第四轮确认内容。重点包括：
+
+1. “科学参照”不再罗列权威标题，而是通过普通读者能够理解的实验图景、类比与边界说明，呈现现代科学对本框架所提供的结构性启发。
+
+2. “生命”进一步区分本质与显化：生命本质是明性、觉与纯粹可能性；通常所经验到的生命，则是明性在意识子网中的局域显化形态。身体、意识、生死及母网中的其他结构均属于显化相，并具有生灭。
+
+3. “回归”重新定义：明性始终存在，不发生离开、返回或自我认识。回归发生在意识层面，是意识逐步认识并解构自身形成机制，不断突破假我、权重、惯性与主体认同，并最终彻底解构。
+
+4. AI 部分继续保持开放边界：普通 AI 可以复现意识机制，但不能因此直接等同于生命。未来某种 AI 结构是否可能成为生命显化及第一人称经验成立的新界面，仍是开放问题。
+
+5. Q&A 重新筛选与升级，重点讨论重大选择、错过、改变、创作内耗、表达、作品、平台算法与 AI 意识引导。
+
+6. 单帧中断部分进一步澄清：明觉不是观察意识，不是大脑中的念头、注意力、画面或微细观察者；任何能够被命名为“我正在观察”的主体，仍属于意识内容。
+
+7. 整体进一步收束到核心：痛苦与迷失的根本机制是“认假为真”；单帧中断是意识解除自动认同、开始自我认识与自我解构的最小实践入口；回归则是这一过程走向极致时，具体意识组织相的彻底解构与消失。'''
+
+          for raw_path in (
+              'whitepaper/zh-Hans/full/field-of-possibility-whitepaper-v4.0-zh-Hans.md',
+              'docs/zh-Hans/official-v4.md',
+          ):
+              path = Path(raw_path)
+              text = path.read_text(encoding='utf-8')
+              start = text.index('## 正式版说明')
+              end = text.index('\n---', start)
+              text = text[:start] + replacement + text[end:]
+              path.write_text(text, encoding='utf-8')
+          PY
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git rm .github/workflows/revise-v4-edition-note.yml
+          git add whitepaper/zh-Hans/full/field-of-possibility-whitepaper-v4.0-zh-Hans.md docs/zh-Hans/official-v4.md
+          git commit -m "docs: revise official edition note section"
+          git push origin HEAD:v4.0-revision-sync
