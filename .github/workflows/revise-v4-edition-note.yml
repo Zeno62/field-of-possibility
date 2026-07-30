@@ -1,11 +1,11 @@
 name: Revise v4 edition note
 
 on:
-  push:
+  pull_request:
     branches:
       - v4.0-revision-sync
     paths:
-      - .github/workflows/revise-v4-edition-note.yml
+      - .automation/revise-v4-edition-note.trigger
 
 permissions:
   contents: write
