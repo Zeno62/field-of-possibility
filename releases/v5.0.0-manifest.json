@@ -1,0 +1,97 @@
+{
+  "version": "5.0.0",
+  "released": "2026-09-08",
+  "default_edition": "5.0",
+  "historical_editions_in_navigation": false,
+  "restore_historical_display_requires_author_authorization": true,
+  "sources": {
+    "zh-Hans": {
+      "approved_source_git_blob": "2c0ec2ef2215d3c09dcb584d647ce0cf9dbf1c61",
+      "approved_body_sha256": "bdca224ab7f047cdab819dbf125003ceae6aef3e1bf81c24f158ba72ada38dc0",
+      "pdf_validation": {
+        "pages": 68,
+        "out_of_bounds_spans": [],
+        "paragraphs_not_found": [],
+        "sampled_full_pages": [
+          1,
+          2,
+          8,
+          26,
+          31,
+          43,
+          49,
+          62,
+          68
+        ],
+        "toc_entries": 79
+      }
+    },
+    "en": {
+      "approved_source_git_blob": "0e39379ffc6ea7188401451d7b0b32496ffa1f77",
+      "approved_body_sha256": "2abf6bf80aa1479ea7a6960183a44b7bfde814959418e8a79d83c32c3854988d",
+      "pdf_validation": {
+        "pages": 79,
+        "out_of_bounds_spans": [],
+        "paragraphs_not_found": [],
+        "sampled_full_pages": [
+          1,
+          2,
+          9,
+          31,
+          36,
+          51,
+          58,
+          72,
+          79
+        ],
+        "toc_entries": 79
+      }
+    }
+  },
+  "assets": {
+    "whitepaper/zh-Hans/full/field-of-possibility-whitepaper-v5.0-zh-Hans.md": {
+      "sha256": "55c32bf1350a5849cfd683dfca609d57d8af74c8dfad8e90e4031a1d7fbc981c",
+      "bytes": 104014
+    },
+    "whitepaper/zh-Hans/obsidian/field-of-possibility-whitepaper-v5.0-zh-Hans-obsidian.md": {
+      "sha256": "eac23a90ed7d03d087a855589f5cd9c637bdb9050d3ce237c3465ba6f7ec7304",
+      "bytes": 105700
+    },
+    "whitepaper/zh-Hans/packages/field-of-possibility-whitepaper-v5.0-zh-Hans-chapters.zip": {
+      "sha256": "2953cb9b58a35632eff3bace54e6eca56a4744d24e2dd747f032fdee76041618",
+      "bytes": 52302
+    },
+    "whitepaper/zh-Hans/pdf/field-of-possibility-whitepaper-v5.0-zh-Hans.pdf": {
+      "sha256": "feb53e15778441cfa15514a22208ee7dde6f3fde1ae4821043f9be8048af3abc",
+      "bytes": 1334529
+    },
+    "whitepaper/en/full/field-of-possibility-whitepaper-v5.0-en.md": {
+      "sha256": "431113739411038e24a63fcd56e51a07f265e46201872ea8f9ff76e87d2213ae",
+      "bytes": 128326
+    },
+    "whitepaper/en/obsidian/field-of-possibility-whitepaper-v5.0-en-obsidian.md": {
+      "sha256": "97685b36cd8f82474b34257ad1b025811661d7e5b55eecb353605ae9bc01f1ca",
+      "bytes": 130588
+    },
+    "whitepaper/en/packages/field-of-possibility-whitepaper-v5.0-en-chapters.zip": {
+      "sha256": "87f500b73e9f25ab55a5ec617daddf8da70c2bdceed81d7ddfcbf1a3b149ee61",
+      "bytes": 54427
+    },
+    "whitepaper/en/pdf/field-of-possibility-whitepaper-v5.0-en.pdf": {
+      "sha256": "8d107adff6e27500c77d76e1899843fdf82c0535fa202a63c3a51dc1d69a25f4",
+      "bytes": 432936
+    },
+    "releases/field-of-possibility-whitepaper-v5.0-bilingual.zip": {
+      "sha256": "e846c6a8a534616babe112d3c7a0ecf2defdeeafbd72faf9d55a8f2ff1d6c78a",
+      "bytes": 2056972
+    }
+  },
+  "validation": {
+    "approved_body_preserved": true,
+    "numbered_chapters_each_language": 14,
+    "qa_each_language": 10,
+    "appendix_sections_each_language": 11,
+    "references_each_language": 12,
+    "generated_local_links_checked": true
+  }
+}
