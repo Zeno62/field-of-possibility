@@ -1,0 +1,113 @@
+name: Publish reviewed white paper v5.0
+
+on:
+  push:
+    branches: [release/v5.0.0, main]
+    paths:
+      - 'tools/**'
+      - '.github/workflows/v5-release.yml'
+      - 'VERSION'
+      - 'releases/v5.0.0-manifest.json'
+  workflow_dispatch:
+
+concurrency:
+  group: v5-publication-${{ github.ref }}
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  package:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 25
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: ${{ github.ref_name }}
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install rendering dependencies
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y fonts-noto-cjk fonts-noto-core fonts-dejavu-core libpango-1.0-0 libpangoft2-1.0-0 libharfbuzz0b libharfbuzz-subset0
+          python -m pip install 'weasyprint==68.0' 'markdown-it-py==4.0.0' 'beautifulsoup4==4.14.3' 'PyMuPDF==1.26.7' 'Pillow==12.0.0'
+      - name: Record current deployment settings
+        run: |
+          mkdir -p .build-v5/qa
+          gh api "repos/$GITHUB_REPOSITORY/pages" > .build-v5/qa/pages-settings.json || true
+          git ls-files > .build-v5/qa/repository-before.txt
+      - name: Build all formats from approved source blobs
+        if: github.ref == 'refs/heads/release/v5.0.0'
+        run: python tools/publish_v5.py
+      - name: Verify previously rendered release assets
+        if: github.ref == 'refs/heads/main'
+        run: python tools/publish_v5.py --verify-only
+      - name: Commit verified staged assets
+        if: github.ref == 'refs/heads/release/v5.0.0'
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A README.md CONTRIBUTING.md CHANGELOG.md VERSION docs whitepaper glossary translation releases
+          git diff --cached --stat > .build-v5/qa/staged-diff-stat.txt
+          if ! git diff --cached --quiet; then
+            git commit -m 'release: package reviewed v5.0 bilingual editions and switch current entry points'
+            git push origin HEAD:release/v5.0.0
+          fi
+          git rev-parse HEAD > .build-v5/qa/packaged-commit.txt
+      - name: Upload layout previews and source-integrity reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: v5-publication-preflight-${{ github.run_id }}
+          include-hidden-files: true
+          retention-days: 14
+          if-no-files-found: warn
+          path: |
+            .build-v5/qa/
+            whitepaper/zh-Hans/pdf/*v5.0*.pdf
+            whitepaper/en/pdf/*v5.0*.pdf
+            whitepaper/zh-Hans/full/*v5.0*.md
+            whitepaper/en/full/*v5.0*.md
+            releases/*v5.0*
+      - name: Publish v5.0.0 release without rewriting historical tags
+        if: github.ref == 'refs/heads/main'
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          data=json.loads(Path('releases/v5.0.0-manifest.json').read_text())
+          Path('.build-v5/release-assets.txt').write_text('\n'.join(data['assets'])+'\nreleases/v5.0.0-manifest.json\n')
+          PY
+          if gh release view v5.0.0 --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
+            echo 'Release already exists; not rewriting tag or replacing historical assets.'
+            gh release view v5.0.0 --repo "$GITHUB_REPOSITORY" --json tagName,url,isDraft,publishedAt
+          else
+            mapfile -t assets < .build-v5/release-assets.txt
+            gh release create v5.0.0 "${assets[@]}" --repo "$GITHUB_REPOSITORY" --target "$GITHUB_SHA" --title '可能性网络白皮书 v5.0｜中英文正式版' --notes-file releases/v5.0.0.md --latest
+          fi
+
+  deploy:
+    if: github.ref == 'refs/heads/main'
+    needs: package
+    runs-on: ubuntu-24.04
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+      - name: Deploy current edition
+        id: deployment
+        uses: actions/deploy-pages@v4

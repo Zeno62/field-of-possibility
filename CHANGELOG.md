@@ -1,5 +1,10 @@
 # Changelog
 
+## 2026-09-08｜v5.0 bilingual official edition
+
+Published the author-reviewed Chinese source and complete official English translation; regenerated all reading/download formats; aligned terminology and contribution guidance; switched current entry points to v5.0. Historical commits and tags are retained, not replaced.
+
+
 ## 2026-06-28｜Website reader and PDF experience upgrade
 
 - Redesigned the GitHub Pages homepage into a clearer project landing page.
