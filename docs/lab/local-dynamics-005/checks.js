@@ -1,0 +1,31 @@
+(function(root){
+'use strict';
+const F=root.Field005||(typeof require==='function'?require('./core.js'):null);
+function run(){const rows=[];const check=(name,fn)=>{try{const detail=fn();rows.push({name,pass:detail!==false,detail});}catch(e){rows.push({name,pass:false,detail:String(e.message)});}};
+check('64 卦名称与 384 次单爻逆变',()=>{const names=new Set();let n=0;for(const lo of F.TRIS)for(const up of F.TRIS){const b=lo[1].concat(up[1]),h=F.hex(b);names.add(h.number);for(let k=0;k<6;k++){const a=F.flip(b,k);if(a.filter((v,i)=>v!==b[i]).length!==1||F.flip(a,k).join('')!==b.join(''))return false;n++;}}return names.size===64&&n===384;});
+check('泰、否、蒙、蹇上下卦校验',()=>F.hex([1,1,1,0,0,0]).name==='泰'&&F.hex([0,0,0,1,1,1]).name==='否'&&F.hex([0,1,0,0,0,1]).name==='蒙'&&F.hex([0,0,1,0,1,0]).name==='蹇');
+check('六位数值相的 64 个 Gray 编码往返',()=>{for(let i=0;i<64;i++){if(F.ungray(F.gray(i))!==i)return false;if(i<63&&F.gray(i).filter((v,k)=>v!==F.gray(i+1)[k]).length!==1)return false;}return true;});
+check('当前网所有引用均在网内',()=>!!F.validate(F.initial()));
+check('同一域共享于行与列，不复制两份',()=>{const s=F.initial();return s.g['row-group/2'].links.includes('region/19')&&s.g['col-group/5'].links.includes('region/19');});
+check('趋势读取不改变当前相',()=>{const s=F.initial(),before=F.snapshot(s);for(let k=0;k<6;k++){F.flip(s.g['shape/19'].bits,k);F.suggest(s,19);}return F.snapshot(s)===before;});
+check('提交只翻一枚局部本卦位，全部量值不变',()=>{const a=F.initial(),b=F.clone(a);F.intervene(b,19,3);const d=F.differences(a,b);return d.length===1&&d[0].region===19&&d[0].changed.join('')==='shape'&&F.mass(a)===F.mass(b);});
+check('参入行为先有玩家相与共同关系相',()=>{const s=F.initial();F.intervene(s,19,3);return s.g.participation.links[0]==='participant-contact'&&s.g['participant-contact'].links.includes('player/test')&&s.g['participant-contact'].links.includes('region/19');});
+check('A / B 世界没有可变引用串扰',()=>{const a=F.initial(),b=F.clone(a),h=F.snapshot(a);F.intervene(b,19,3);F.advance(b,100);return F.snapshot(a)===h;});
+check('长跑 16,384 步守恒且无量值越界',()=>{const s=F.initial(),m=F.mass(s);F.advance(s,16384);return F.mass(s)===m&&Object.keys(s.g).filter(id=>/^(solid|mobile|store)\//.test(id)).every(id=>F.read(s,id)>=0&&F.read(s,id)<=63);});
+check('每一次份额转移都在本域或一条真实接面内',()=>{const s=F.initial();for(let k=0;k<4096;k++){const t=F.step(s);if(!t.changed.length)continue;const ids=t.changed.map(x=>Number(x.id.split('/')[1]));if(!ids.includes(t.region)||ids.some(i=>i!==t.region&&!F.neighbours(s,t.region).some(n=>n.j===i)))return false;if(t.edge&&!F.contactOpen(s,t.edge))return false;for(const c of t.changed)if(F.gray(c.before).filter((v,i)=>v!==F.gray(c.after)[i]).length!==1)return false;}return true;});
+check('不用历史日志：当前快照恢复后续演完全相同',()=>{const a=F.initial();F.intervene(a,19,3);F.advance(a,777);const b=F.fromJSON(F.snapshot(a));F.advance(a,1024);F.advance(b,1024);return F.snapshot(a)===F.snapshot(b);});
+check('序列化键的排列不影响续演',()=>{const a=F.initial(),b=F.clone(a);b.g=Object.fromEntries(Object.entries(b.g).reverse());F.advance(a,321);F.advance(b,321);return F.snapshot(a)===F.snapshot(b);});
+check('当前共同相不同；初始量、角色与位置完全相同',()=>{const a=F.initial(),b=F.initial([0,0,0,1,1,1]);const changed=Object.keys(a.g).filter(k=>JSON.stringify(a.g[k])!==JSON.stringify(b.g[k]));return changed.join('')==='common';});
+check('泰 / 否共用同一接面算法',()=>{const a=F.initial(),b=F.initial([0,0,0,1,1,1]);const x=F.advance(a,4096),y=F.advance(b,4096);return {taiCrossings:x.crossing,piCrossings:y.crossing,taiOpen:F.metrics(a).open,piOpen:F.metrics(b).open,expected:x.crossing>0&&y.crossing===0};});
+check('取消共同接面条件后，泰 / 否量值演化一致',()=>{const a=F.initial(),b=F.initial([0,0,0,1,1,1]);F.write(a,'contact-mode',0);F.write(b,'contact-mode',0);F.advance(a,1024);F.advance(b,1024);return F.differences(a,b).length===0;});
+check('八种作用确实各有运行事件',()=>{const s=F.initial(),a=F.advance(s,4096);return a.ops.every(n=>n>0)?a.ops:false;});
+check('停用任一作用会改变量值结果，而不只是改标签',()=>{const a=F.initial();F.advance(a,4096);const counts=[];for(let k=0;k<8;k++){const b=F.initial();F.write(b,'enabled/'+k,0);F.advance(b,4096);counts.push(F.differences(a,b).filter(d=>d.changed.some(c=>c!=='shape')).length);}return counts.every(n=>n>0)?counts:false;});
+check('64 种共同卦均可运行且保持份额总数',()=>{for(const lo of F.TRIS)for(const up of F.TRIS){const s=F.initial(lo[1].concat(up[1])),m=F.mass(s);F.advance(s,64);if(F.mass(s)!==m)return false;}return true;});
+check('没有随机漂移或时钟读取进入运算',()=>{const rand=Math.random,now=Date.now;try{Math.random=()=>{throw Error('Unexpected RNG');};Date.now=()=>{throw Error('Unexpected wall clock');};const a=F.initial();F.advance(a,128);return true;}finally{Math.random=rand;Date.now=now;}});
+check('不接受悬空引用、伪快照或超大输入',()=>{let n=0;for(const a of [null,{version:'wrong',g:{}},(()=>{const s=F.initial();s.g.world.links.push('missing');return s;})()]){try{F.fromJSON(JSON.stringify(a));}catch(e){n++;}}return n===3;});
+check('固定单爻参入有局部后果，不一瞬间修改全网',()=>{const a=F.initial(),b=F.clone(a);F.intervene(b,19,3);const before=F.differences(a,b).length;F.advance(a,1024);F.advance(b,1024);const after=F.differences(a,b).length;return before===1&&after>1&&after<49?{before,after}:false;});
+check('共同接面只读三组上下位：64 卦暂归 8 类（模型限制）',()=>{const signatures=new Set();for(const lo of F.TRIS)for(const up of F.TRIS){const s=F.initial(lo[1].concat(up[1]));signatures.add(s.g.contacts.links.map(id=>F.contactOpen(s,id)?1:0).join(''));}return {contactClasses:signatures.size,hexagrams:64,limitation:'不代表完整六十四卦语义'};});
+for(const r of rows)if(r.detail&&r.detail.expected===false)r.pass=false;
+return {version:F.VERSION,passed:rows.filter(r=>r.pass).length,total:rows.length,rows};}
+root.Field005Checks=run;if(typeof module!=='undefined'&&module.exports)module.exports=run;
+})(typeof globalThis!=='undefined'?globalThis:this);
