@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="zh-Hans" data-ready="false">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Field Lab 004 · 八象显化核</title>
+<style>
+:root{--bg:#f0efe9;--ink:#111;--muted:#6b6a66;--line:#c6c3bb;--panel:#f8f7f2;--ghost:#9b9992;--dark:#181817}
+*{box-sizing:border-box}html,body{margin:0;background:var(--bg);color:var(--ink);font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}body{min-height:100vh}
+header{display:flex;gap:16px;justify-content:space-between;align-items:flex-start;padding:18px 22px;border-bottom:1px solid var(--line)}
+.brand{font-weight:800;letter-spacing:.08em}.sub{font-size:11px;color:var(--muted);line-height:1.55;margin-top:4px}.status{font-size:11px;color:var(--muted);text-align:right}.ok{color:#222}
+main{padding:16px;max-width:1500px;margin:auto}.toolbar{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:12px}.btn{border:1px solid #111;background:transparent;padding:9px 12px;font:inherit;font-size:12px;cursor:pointer}.btn.on{background:#111;color:#fff}.btn.ghost{border-color:var(--line);color:var(--muted)}
+.grid{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(320px,.85fr);gap:12px}.panel{background:var(--panel);border:1px solid var(--line);position:relative;overflow:hidden}.panel h2{font-size:12px;margin:0;padding:10px 12px;border-bottom:1px solid var(--line);letter-spacing:.08em}.canvasWrap{height:min(62vh,650px);min-height:430px;position:relative}canvas{width:100%;height:100%;display:block;touch-action:none}.hud{position:absolute;left:12px;bottom:10px;font-size:10px;color:#555;background:rgba(248,247,242,.8);padding:5px 7px;border:1px solid #d4d1c9}.legend{position:absolute;right:12px;top:38px;font-size:10px;color:#666;line-height:1.7;text-align:right}
+.side{display:grid;grid-template-rows:auto auto 1fr;gap:12px}.card{background:var(--panel);border:1px solid var(--line)}.card h3{font-size:11px;margin:0;padding:9px 11px;border-bottom:1px solid var(--line);letter-spacing:.08em}.card .body{padding:11px}.big{font-size:22px;font-weight:700}.meta{font-size:11px;color:var(--muted);line-height:1.7}.kv{display:grid;grid-template-columns:90px 1fr;gap:5px 9px;font-size:11px;margin-top:9px}.kv b{font-weight:500;color:#555}.lines{display:grid;grid-template-columns:repeat(6,1fr);gap:5px;margin-top:10px}.lineBtn{padding:7px 3px;border:1px solid var(--line);background:transparent;font:inherit;font-size:10px;cursor:pointer}.lineBtn.on{background:#111;color:#fff;border-color:#111}.trend{margin-top:10px;padding-top:9px;border-top:1px solid var(--line);font-size:11px;line-height:1.7}.trend strong{font-size:15px}.audit{font-size:10px;line-height:1.65;color:#555;max-height:220px;overflow:auto;white-space:pre-wrap}
+.matrixWrap{margin-top:12px;background:var(--panel);border:1px solid var(--line);overflow:auto}.matrixTitle{padding:10px 12px;border-bottom:1px solid var(--line);font-size:11px;display:flex;justify-content:space-between;gap:10px}.matrix{display:grid;grid-template-columns:80px repeat(8,72px);width:max-content;padding:8px}.mhead,.mrow{font-size:9px;color:#666;padding:5px}.cell{width:68px;height:58px;border:1px solid #ddd;background:#f7f6f1;cursor:pointer;position:relative;padding:0}.cell canvas{position:absolute;inset:0}.cell span{position:absolute;left:3px;bottom:2px;background:rgba(247,246,241,.76);font-size:8px;padding:1px 2px}.cell.current{outline:2px solid #111;outline-offset:-2px}
+.foot{padding:13px 4px 28px;font-size:10px;color:#777;line-height:1.6}
+@media(max-width:800px){header{padding:14px 14px}main{padding:10px}.grid{grid-template-columns:1fr}.canvasWrap{height:52vh;min-height:360px}.side{grid-template-columns:1fr;grid-template-rows:auto}.matrix{grid-template-columns:62px repeat(8,58px)}.cell{width:54px;height:50px}.mhead,.mrow{font-size:8px}.kv{grid-template-columns:80px 1fr}.status{display:none}}
+@media(max-width:360px){.canvasWrap{min-height:320px;height:48vh}.btn{padding:8px 9px}.big{font-size:19px}}
+</style>
+</head>
+<body>
+<header><div><div class="brand">FIELD / MANIFESTATION LAB 004</div><div class="sub">八象显化核 · Ordered trigram composition · 当前相 / 动爻 / 趋势相分离</div></div><div id="status" class="status">INIT</div></header>
+<main>
+<div class="toolbar"><button class="btn on" id="taiBtn">泰</button><button class="btn" id="piBtn">否</button><button class="btn ghost" id="resetBtn">复位观察</button><button class="btn" id="commitBtn">测试局部变爻</button></div>
+<div class="grid">
+<section class="panel"><h2>WORLD PROJECTION / 同一显化器</h2><div class="canvasWrap"><canvas id="world"></canvas><div class="legend">实线：当前相<br>虚线：动爻所示趋势相<br>拖动：旋转 · 双指/滚轮：缩放</div><div class="hud" id="hud"></div></div></section>
+<div class="side">
+<section class="card"><h3>CURRENT GUA / 当前卦相</h3><div class="body"><div class="big" id="currentName"></div><div class="meta" id="currentStruct"></div><div class="kv" id="currentKV"></div></div></section>
+<section class="card"><h3>MOVING LINE / 当前变势位置</h3><div class="body"><div class="lines" id="lineButtons"></div><div class="trend" id="trend"></div></div></section>
+<section class="card"><h3>RELATION NETWORK / 八象与关系位</h3><div class="body"><canvas id="network" style="height:260px"></canvas><div class="audit" id="audit"></div></div></section>
+</div>
+</div>
+<section class="matrixWrap"><div class="matrixTitle"><span>64 ORDERED COMPOSITIONS / 同一八象核生成 64 个上下组合</span><span id="matrixStats"></span></div><div id="matrix" class="matrix"></div></section>
+<div class="foot">实验边界：八经卦的自然象、方位、五行与“动/散/润/烜/止/说/君/藏”等依据《说卦》传统；将三爻结构映射为连续场、将阴阳升降用于上下卦空间重叠，是 Field 的实验性计算抽象，不等同于经典原文。64 卦名称只用于核对有序上下卦，不把名称硬编码成几何模板。</div>
+</main>
+<script>
+'use strict';
+const TRIS=[
+ {id:'乾',sym:'☰',bits:[1,1,1],nature:'天',core:'君 / 健',phase:'金',dir:'西北',angle:135},
+ {id:'兑',sym:'☱',bits:[1,1,0],nature:'泽',core:'说 / 开',phase:'金',dir:'西',angle:180},
+ {id:'离',sym:'☲',bits:[1,0,1],nature:'火',core:'明 / 烜',phase:'火',dir:'南',angle:-90},
+ {id:'震',sym:'☳',bits:[1,0,0],nature:'雷',core:'动 / 出',phase:'木',dir:'东',angle:0},
+ {id:'巽',sym:'☴',bits:[0,1,1],nature:'风木',core:'散 / 入',phase:'木',dir:'东南',angle:-45},
+ {id:'坎',sym:'☵',bits:[0,1,0],nature:'水',core:'润 / 劳',phase:'水',dir:'北',angle:90},
+ {id:'艮',sym:'☶',bits:[0,0,1],nature:'山',core:'止 / 成终始',phase:'土',dir:'东北',angle:45},
+ {id:'坤',sym:'☷',bits:[0,0,0],nature:'地',core:'藏 / 承',phase:'土',dir:'西南',angle:-135}
+];
+const TI=Object.fromEntries(TRIS.map((t,i)=>[t.id,i]));
+const HEX=[
+ [['乾',1],['夬',43],['大有',14],['大壮',34],['小畜',9],['需',5],['大畜',26],['泰',11]],
+ [['履',10],['兑',58],['睽',38],['归妹',54],['中孚',61],['节',60],['损',41],['临',19]],
+ [['同人',13],['革',49],['离',30],['丰',55],['家人',37],['既济',63],['贲',22],['明夷',36]],
+ [['无妄',25],['随',17],['噬嗑',21],['震',51],['益',42],['屯',3],['颐',27],['复',24]],
+ [['姤',44],['大过',28],['鼎',50],['恒',32],['巽',57],['井',48],['蛊',18],['升',46]],
+ [['讼',6],['困',47],['未济',64],['解',40],['涣',59],['坎',29],['蒙',4],['师',7]],
+ [['遁',33],['咸',31],['旅',56],['小过',62],['渐',53],['蹇',39],['艮',52],['谦',15]],
+ [['否',12],['萃',45],['晋',35],['豫',16],['观',20],['比',8],['剥',23],['坤',2]]
+];
+function hexInfo(lower,upper){const [name,num]=HEX[TI[lower]][TI[upper]];return {name,num,lower:TRIS[TI[lower]],upper:TRIS[TI[upper]]};}
+function linesOf(info){return [...info.lower.bits,...info.upper.bits];}
+function triFromBits(bits){return TRIS.find(t=>t.bits.every((b,i)=>b===bits[i]));}
+function flipLine(info,k){const ls=linesOf(info);ls[k-1]^=1;const lo=triFromBits(ls.slice(0,3)), up=triFromBits(ls.slice(3));return hexInfo(lo.id,up.id);}
+function polarity(t){return (t.bits.reduce((a,b)=>a+b,0)*2-3)/3;}
+const GENERATES={木:'火',火:'土',土:'金',金:'水',水:'木'};
+const CONTROLS={木:'土',土:'水',水:'火',火:'金',金:'木'};
+function phaseRel(a,b){if(a===b)return '比和';if(GENERATES[a]===b)return a+'生'+b;if(GENERATES[b]===a)return b+'生'+a;if(CONTROLS[a]===b)return a+'克'+b;if(CONTROLS[b]===a)return b+'克'+a;return '—';}
+let current=hexInfo('乾','坤');
+let selectedLine=3;
+let yaw=-0.5,pitch=0.55,zoom=1;
+let dragging=false,lastX=0,lastY=0;
+function trigField(t,x,y,layer){
+ const ang=t.angle*Math.PI/180,ca=Math.cos(ang),sa=Math.sin(ang);const xr=x*ca-y*sa,yr=x*sa+y*ca;const center=layer+polarity(t)*0.34;let v=0;
+ for(let i=0;i<3;i++){const ly=center+(i-1)*0.17,dy=yr-ly;if(t.bits[i])v+=Math.exp(-(dy*dy/0.018+xr*xr/0.9));else{v+=0.72*Math.exp(-(dy*dy/0.018+(xr-.36)*(xr-.36)/0.18));v+=0.72*Math.exp(-(dy*dy/0.018+(xr+.36)*(xr+.36)/0.18));}}
+ return v/3;
+}
+function composite(info,x,y){const lo=trigField(info.lower,x,y,-.34),up=trigField(info.upper,x,y,.34),couple=Math.sqrt(Math.max(0,lo*up));return .62*lo+.62*up+.52*couple;}
+function currentTrend(){return flipLine(current,selectedLine);}
+function fieldSignature(info){let s='';for(let j=0;j<9;j++)for(let i=0;i<11;i++){const x=-1+2*i/10,y=-1+2*j/8;s+=Math.round(composite(info,x,y)*9).toString(16);}return s;}
+function overlapIndex(info){let sum=0,n=0;for(let j=0;j<24;j++)for(let i=0;i<24;i++){const x=-1+2*i/23,y=-1+2*j/23,lo=trigField(info.lower,x,y,-.34),up=trigField(info.upper,x,y,.34);sum+=Math.sqrt(Math.max(0,lo*up));n++;}return sum/n;}
+function fitCanvas(c){const r=c.getBoundingClientRect(),d=Math.min(2,devicePixelRatio||1);if(c.width!==Math.floor(r.width*d)||c.height!==Math.floor(r.height*d)){c.width=Math.max(1,Math.floor(r.width*d));c.height=Math.max(1,Math.floor(r.height*d));}const ctx=c.getContext('2d');ctx.setTransform(d,0,0,d,0,0);return [ctx,r.width,r.height];}
+function proj(x,y,z,w,h){const cy=Math.cos(yaw),sy=Math.sin(yaw),cp=Math.cos(pitch),sp=Math.sin(pitch);let X=x*cy-z*sy,Z=x*sy+z*cy,Y=y;let Y2=Y*cp-Z*sp,Z2=Y*sp+Z*cp;const sc=Math.min(w,h)*.34*zoom/(1+.12*Z2);return [w*.5+X*sc,h*.57-Y2*sc,Z2];}
+function drawMesh(ctx,w,h,info,ghost=false){const N=30,M=24,pts=[];for(let j=0;j<M;j++){pts[j]=[];for(let i=0;i<N;i++){const x=-1.25+2.5*i/(N-1),z=-1+2*j/(M-1),v=composite(info,x,z),y=(v-.44)*.92;pts[j][i]=proj(x,y,z,w,h);}}ctx.save();ctx.lineWidth=ghost?1:.75;ctx.strokeStyle=ghost?'rgba(25,25,25,.30)':'rgba(20,20,20,.62)';if(ghost)ctx.setLineDash([4,5]);for(let j=0;j<M;j++){ctx.beginPath();for(let i=0;i<N;i++){const p=pts[j][i];i?ctx.lineTo(p[0],p[1]):ctx.moveTo(p[0],p[1]);}ctx.stroke();}for(let i=0;i<N;i++){ctx.beginPath();for(let j=0;j<M;j++){const p=pts[j][i];j?ctx.lineTo(p[0],p[1]):ctx.moveTo(p[0],p[1]);}ctx.stroke();}ctx.restore();}
+function renderWorld(){const c=document.getElementById('world'),[ctx,w,h]=fitCanvas(c);ctx.clearRect(0,0,w,h);ctx.fillStyle='#f8f7f2';ctx.fillRect(0,0,w,h);ctx.strokeStyle='#dedbd3';ctx.lineWidth=1;ctx.beginPath();ctx.moveTo(0,h*.78);ctx.lineTo(w,h*.78);ctx.stroke();drawMesh(ctx,w,h,current,false);drawMesh(ctx,w,h,currentTrend(),true);document.getElementById('hud').textContent=`CURRENT ${current.name} · overlap ${overlapIndex(current).toFixed(3)} · TREND ${currentTrend().name}`;}
+function renderNetwork(){const c=document.getElementById('network'),[ctx,w,h]=fitCanvas(c);ctx.clearRect(0,0,w,h);ctx.fillStyle='#f8f7f2';ctx.fillRect(0,0,w,h);const cx=w/2,cy=h/2+4,R=Math.min(w,h)*.36,pos={},order=['震','巽','离','坤','兑','乾','坎','艮'];for(let i=0;i<8;i++){const a=(-Math.PI/2)+i*Math.PI/4;pos[order[i]]=[cx+Math.cos(a)*R,cy+Math.sin(a)*R];}ctx.strokeStyle='#ddd9d0';ctx.lineWidth=1;ctx.beginPath();for(let i=0;i<8;i++){const p=pos[order[i]],q=pos[order[(i+1)%8]];ctx.moveTo(p[0],p[1]);ctx.lineTo(q[0],q[1]);}ctx.stroke();[current.lower.id,current.upper.id].forEach((id,idx)=>{const p=pos[id];ctx.strokeStyle=idx?'#666':'#111';ctx.lineWidth=2;ctx.beginPath();ctx.moveTo(cx,cy);ctx.lineTo(p[0],p[1]);ctx.stroke();});const tr=currentTrend();let changed=tr.lower.id!==current.lower.id?tr.lower.id:tr.upper.id,gp=pos[changed];ctx.setLineDash([4,4]);ctx.strokeStyle='#999';ctx.lineWidth=1.5;ctx.beginPath();ctx.moveTo(cx,cy);ctx.lineTo(gp[0],gp[1]);ctx.stroke();ctx.setLineDash([]);ctx.fillStyle='#111';ctx.beginPath();ctx.arc(cx,cy,22,0,Math.PI*2);ctx.fill();ctx.fillStyle='#fff';ctx.font='11px monospace';ctx.textAlign='center';ctx.textBaseline='middle';ctx.fillText(current.name,cx,cy);TRIS.forEach(t=>{const p=pos[t.id],active=t.id===current.lower.id||t.id===current.upper.id;ctx.fillStyle=active?'#111':'#f8f7f2';ctx.strokeStyle='#777';ctx.lineWidth=1;ctx.beginPath();ctx.arc(p[0],p[1],18,0,Math.PI*2);ctx.fill();ctx.stroke();ctx.fillStyle=active?'#fff':'#222';ctx.font='12px serif';ctx.fillText(t.id,p[0],p[1]-2);ctx.fillStyle=active?'#fff':'#777';ctx.font='8px monospace';ctx.fillText(t.phase,p[0],p[1]+9);});}
+function renderInfo(){const tr=currentTrend();document.getElementById('currentName').textContent=`${current.num} ${current.name} · ${current.upper.sym}/${current.lower.sym}`;document.getElementById('currentStruct').textContent=`上 ${current.upper.id}${current.upper.sym} · 下 ${current.lower.id}${current.lower.sym} · 六爻 ${linesOf(current).join('')}`;document.getElementById('currentKV').innerHTML=`<b>上卦</b><span>${current.upper.nature} · ${current.upper.core} · ${current.upper.phase} · ${current.upper.dir}</span><b>下卦</b><span>${current.lower.nature} · ${current.lower.core} · ${current.lower.phase} · ${current.lower.dir}</span><b>五行关系</b><span>${phaseRel(current.lower.phase,current.upper.phase)}</span><b>阴阳升降重叠</b><span>${overlapIndex(current).toFixed(4)}</span>`;const lb=document.getElementById('lineButtons');lb.innerHTML='';for(let k=1;k<=6;k++){const b=document.createElement('button');b.className='lineBtn'+(k===selectedLine?' on':'');b.textContent=['初','二','三','四','五','上'][k-1];b.onclick=()=>{selectedLine=k;renderAll();};lb.appendChild(b);}const changed=tr.lower.id!==current.lower.id?`${current.lower.id}→${tr.lower.id}`:`${current.upper.id}→${tr.upper.id}`;document.getElementById('trend').innerHTML=`动爻仅作当前趋势观察，不修改本相。<br><strong>${tr.num} ${tr.name}</strong> · ${changed}<br>之卦六爻 ${linesOf(tr).join('')} · 重叠 ${overlapIndex(tr).toFixed(4)}`;const sigs=new Set();for(const lo of TRIS)for(const up of TRIS)sigs.add(fieldSignature(hexInfo(lo.id,up.id)));document.getElementById('matrixStats').textContent=`unique field signatures ${sigs.size}/64`;document.getElementById('audit').textContent=`MODEL AUDIT\n• 3爻线型直接生成基础场\n• 后天方位只决定场方向\n• 阴阳升降只决定上下层场中心移动\n• 上下次序直接决定 64 组合\n• 泰/否没有绘图特判\n• 动爻 preview 不修改 current\n• 五行当前只读，不参与几何\n\nTai overlap ${overlapIndex(hexInfo('乾','坤')).toFixed(4)}\nPi  overlap ${overlapIndex(hexInfo('坤','乾')).toFixed(4)}\nExpected Tai > Pi: ${overlapIndex(hexInfo('乾','坤'))>overlapIndex(hexInfo('坤','乾'))?'PASS':'FAIL'}`;}
+function miniDraw(c,info){const ctx=c.getContext('2d'),w=c.width,h=c.height;ctx.fillStyle='#f7f6f1';ctx.fillRect(0,0,w,h);let mn=99,mx=-99,vals=[];for(let j=0;j<15;j++){vals[j]=[];for(let i=0;i<18;i++){const v=composite(info,-1+2*i/17,-1+2*j/14);vals[j][i]=v;mn=Math.min(mn,v);mx=Math.max(mx,v);}}for(let j=0;j<15;j++)for(let i=0;i<18;i++){const q=(vals[j][i]-mn)/(mx-mn+1e-8),g=Math.round(245-q*190);ctx.fillStyle=`rgb(${g},${g},${g})`;ctx.fillRect(i*w/18,j*h/15,w/18+1,h/15+1);}}
+function renderMatrix(){const el=document.getElementById('matrix');el.innerHTML='<div></div>'+TRIS.map(t=>`<div class="mhead">上 ${t.id}</div>`).join('');for(const lo of TRIS){const rh=document.createElement('div');rh.className='mrow';rh.textContent='下 '+lo.id;el.appendChild(rh);for(const up of TRIS){const info=hexInfo(lo.id,up.id),b=document.createElement('button');b.className='cell'+(info.num===current.num?' current':'');const c=document.createElement('canvas');c.width=68;c.height=58;const s=document.createElement('span');s.textContent=info.num+' '+info.name;b.append(c,s);b.onclick=()=>{current=info;selectedLine=3;setToolbar();renderAll();};el.appendChild(b);miniDraw(c,info);}}}
+function setToolbar(){document.getElementById('taiBtn').classList.toggle('on',current.num===11);document.getElementById('piBtn').classList.toggle('on',current.num===12);}
+function renderAll(){renderWorld();renderNetwork();renderInfo();renderMatrix();document.documentElement.dataset.ready='true';document.getElementById('status').innerHTML='<span class="ok">READY · SELF-CONTAINED</span>';}
+function selectTai(){current=hexInfo('乾','坤');selectedLine=3;setToolbar();renderAll();}function selectPi(){current=hexInfo('坤','乾');selectedLine=3;setToolbar();renderAll();}
+document.getElementById('taiBtn').onclick=selectTai;document.getElementById('piBtn').onclick=selectPi;document.getElementById('resetBtn').onclick=()=>{yaw=-.5;pitch=.55;zoom=1;selectedLine=3;renderAll();};document.getElementById('commitBtn').onclick=()=>{current=currentTrend();selectedLine=3;setToolbar();renderAll();};
+const wc=document.getElementById('world');wc.addEventListener('pointerdown',e=>{dragging=true;lastX=e.clientX;lastY=e.clientY;wc.setPointerCapture(e.pointerId)});wc.addEventListener('pointermove',e=>{if(!dragging)return;yaw+=(e.clientX-lastX)*.008;pitch=Math.max(-.15,Math.min(1.2,pitch+(e.clientY-lastY)*.006));lastX=e.clientX;lastY=e.clientY;renderWorld();});wc.addEventListener('pointerup',()=>dragging=false);wc.addEventListener('wheel',e=>{e.preventDefault();zoom=Math.max(.55,Math.min(2.1,zoom*Math.exp(-e.deltaY*.001)));renderWorld();},{passive:false});let pinch=null;wc.addEventListener('touchstart',e=>{if(e.touches.length===2){pinch=Math.hypot(e.touches[0].clientX-e.touches[1].clientX,e.touches[0].clientY-e.touches[1].clientY)}},{passive:true});wc.addEventListener('touchmove',e=>{if(e.touches.length===2&&pinch){const d=Math.hypot(e.touches[0].clientX-e.touches[1].clientX,e.touches[0].clientY-e.touches[1].clientY);zoom=Math.max(.55,Math.min(2.1,zoom*d/pinch));pinch=d;renderWorld();}},{passive:true});window.addEventListener('resize',()=>{renderWorld();renderNetwork();});
+window.__FIELD_CHECKS__=()=>{let inv=true,count=0;for(const lo of TRIS)for(const up of TRIS){const h=hexInfo(lo.id,up.id);for(let k=1;k<=6;k++){const f=flipLine(h,k),back=flipLine(f,k);inv=inv&&linesOf(back).join('')===linesOf(h).join('');count++;}}const sigs=new Set();for(const lo of TRIS)for(const up of TRIS)sigs.add(fieldSignature(hexInfo(lo.id,up.id)));return {mutations:count,inverse:inv,signatures:sigs.size,taiOverlap:overlapIndex(hexInfo('乾','坤')),piOverlap:overlapIndex(hexInfo('坤','乾')),taiGreater:overlapIndex(hexInfo('乾','坤'))>overlapIndex(hexInfo('坤','乾'))};};
+try{renderAll();}catch(err){document.getElementById('status').textContent='ERROR '+err.message;console.error(err)}
+</script>
+<noscript><style>#status:after{content:' · JavaScript required for live projection'}</style></noscript>
+</body></html>
