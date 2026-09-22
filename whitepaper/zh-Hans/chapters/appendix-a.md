@@ -1,141 +1,140 @@
 # 附录 A｜科学不能证明本体论，但能迫使直觉接受修正
 
-本附录只讨论现代科学中与本书若干结构直觉形成对话的材料。它不是《可能性网络》的证明链。
+正文把能知与所知、全量与局部、意识与自我模型分别讨论。科学并不使用同一套概念，也不负责替这些区分背书。它可以提供的，是一些有明确条件、能够继续检验的发现与解释，让“事情当然如此”的直觉不再轻易充当理由。
 
-本版所列主要来源已经重新核对；不同材料必须按其科学地位阅读：实验结果、数学定理、理论框架、量子解释和哲学类比，不具有相同的认识论权重。
+以下各节先呈现问题，再说明研究回答了什么；实验结果、数学定理、理论模型、物理解释与哲学类比分别交代。与正文的结构直觉相呼应，不等于科学证明了本书的本体论，书目与原文核对也不能替代这一论证。编号对应附录后的参考来源。
 
 ## A.1｜量子“潜能”：可能与实际的区分曾进入物理学的解释语言
 
-Werner Heisenberg 曾用 Aristotelian *potentia* 的语言描述量子概率所表达的“客观倾向或可能性”。这是一种对量子形式主义的哲学解释语言，而不是量子力学定理，更不是“纯粹可能性”本体的科学证明。
+“还不知道结果”可以有两种不同含义：结果早已确定，只是尚未被看见；或者，理论描述的是取得不同结果的可能性，不能直接当作一份已经写好的答案。
 
-它真正值得保留的启发很有限也很具体：现代物理学的基础讨论中，“可能”与“实际”并不总能被朴素地理解为“一个对象早已拥有确定属性，只是我们暂时不知道”。
+Heisenberg 曾借 Aristotelian *potentia* 讨论后一种理解。Jaeger 对其文本的研究指出，这种解释把量子态与系统后来实际取得某种物理属性的客观潜能联系起来，同时区分这种潜能与单纯的知识欠缺。[12]
 
-这与本书关于可能与显化的讨论可以发生概念对话，但二者不能直接画等号。
+这里发生的是对量子形式主义的解释，不是一项另行证实“潜能本体”的实验。不同解释如何理解量子态，并没有被一个词统一解决。
+
+本书可以由此追问“可能”与“显现”是否必须等同于未知答案与揭晓答案，却不能把物理系统取得属性的潜能直接换成本书的“纯粹可能性”，更不能据此推出母网全量。
 
 ## A.2｜Kochen–Specker contextuality：属性不必具有脱离语境的预存值
 
-Kochen–Specker 定理及其后续 contextuality 研究表明，量子力学与一类经典图景存在冲突：不能普遍设想所有相关可观测量都预先具有与共同测量语境无关的确定值。
+设想为一组量子测量预先填写答案：某个可观测量不论与哪些相容的可观测量一起测量，都使用同一个值；这些值还必须满足量子理论规定的关系。
 
-这不意味着“人的意识创造物理现实”。
+Kochen–Specker 定理表明，在适用的量子系统中——标准结果要求至少三维的希尔伯特空间——不存在能够对所有相关测量始终一致地这样赋值的方案。[1]
 
-它真正挑战的是更朴素的实体直觉：对象的全部物理属性是否必须在任何关系与测量安排之前，以同一种方式独立写好。
+被排除的不是某一次测量有结果，而是这套“所有答案预先写好，而且不依赖相容测量语境”的总体安排。这里的语境指哪些测量能够共同进行，不是人的情绪、立场或注意力。
 
-这与《可能性网络》“关系不能被当作对象之后的附属注释”的直觉形成结构呼应。
+因此，“对象的全部属性都像标签一样，事先独立贴好”不再是可以无条件使用的直觉。这与正文要求说明关系的做法可以对话；但具体定理不能被改写成“想法决定物理属性”。
 
 ## A.3｜Bell 与纠缠：经典局域预定值图景不足以解释量子关联
 
-2022 年诺贝尔物理学奖表彰了纠缠光子实验、Bell 不等式违反及量子信息科学的奠基工作。
+两处相隔的装置，各自选择测量设置，各自记录结果，最后才把记录放在一起比较。要检验的不是两次结果是否偶然相同，而是不同设置下的整组统计关联能达到什么程度。
 
-Bell 类型实验排除了广泛类别的局域隐变量解释。它们并不证明母网，也不意味着人的念头能够任意影响远方。
+在测量设置与待测系统的隐藏变量独立、结果满足相应局域性条件等前提下，这些关联须满足 Bell 不等式。量子理论允许某些纠缠态违反这种界限。Hensen 等人的实验使用相隔约 1.3 千米的电子自旋，并通过快速设置选择和有效读出处理局域性与探测漏洞，报告了不等式违反。[13] 相关实验发展也是 2022 年诺贝尔物理学奖表彰的内容。[2]
 
-更准确的结论是：量子关联不能被一种简单的经典图景完整解释——即空间分离的对象各自携带一整套局域、预先决定的答案，测量只是把答案读出来。
+这不能被简化成“一切实在论都错了”，也不是只要相距很远，任何两个对象就能任意影响对方。结论针对的是带有明确前提的一类解释。
 
-这迫使我们对“彼此彻底独立的对象”保持谨慎，但不把量子非局域性偷换成哲学上的“万物一体证明”。
+与本书有关的提醒是：空间上的分离，不能直接充当“全部关联都能由各自携带的局域答案解释”的证明。这也不是用人的意念向远方传递指令的依据。
 
 ## A.4｜关系量子力学：关系可以进入物理理论的解释核心
 
-Relational Quantum Mechanics（RQM）是一种量子力学解释。它把物理变量的取值理解为在系统相互作用中、相对于另一个系统成立，而不是要求所有量都具有绝对、观察者无关的取值。
+一台仪器与系统相互作用，记录了一个结果。另一系统尚未与它们相互作用，可以对“系统＋仪器”整体作量子描述。这两种描述怎样对应，是 Rovelli 原始论文讨论的入口。[3]
 
-RQM 的“关系”是严格物理语境中的解释概念，不等于本书的可能性母网。
+关系量子力学将变量的取值理解为相对于发生相互作用的另一物理系统成立，而不先要求存在一份对所有系统都相同的绝对状态描述。这里的“观察者”可以是普通物理系统，不要求意识、生命或判断能力。
 
-但它说明了一件重要的思想史事实：把关系置于解释核心，并不只是文学隐喻；量子基础内部确实存在系统性地重新思考“绝对状态／绝对属性”的方案。
+它是一种量子解释，不是已被单独证实为唯一答案的世界图景。也不能把它的物理观察者替换成正文的明性：明性不是系统之间的一个参与者。
 
-这是一种对话对象，不是本体论背书。
+真正可以继续对话的，是“某个属性相对于什么成立”这一追问，而不是把两处出现的“关系”直接当作同一个理论。
 
 ## A.5｜测量问题：从量子形式主义到确定经验事实，解释并未终结
 
-量子理论在预测上极其成功，但“它究竟描述怎样的世界”仍存在多种相互竞争的解释。
+一台指针仪器原本准备显示两个可能结果之一。若把待测系统与仪器一并按线性量子演化处理，系统的叠加会成为与不同指针位置关联的整体叠加。日常读数却呈现为一个确定结果。[4]
 
-测量问题正集中体现这种张力：线性量子演化与我们经验到确定测量结果之间如何理解，不同解释给出不同回答。
+问题不只是“我们暂时不知道指针在哪里”，而是理论中的整体描述与确定结果怎样相接。为整体叠加取一个“测量完成”的名字，并没有自行回答这一点。
 
-因此，“量子测量需要意识，所以证明明性”不是本书接受的推理。量子理论中的 measurement 也不能简单等同于一个人的主观观看。
+不同量子解释在这里采用不同的理解或补充。物理测量也不等同于人的主观观看，不能留下一个解释问题，就用“意识使它确定”来填空。
 
-真正值得保留的是：从形式上允许的量子状态，到稳定而确定的经验事实，其概念解释并不是一句“测量发生了”便自动结束。
+这节要求保留的是问题本身，而不是从尚待解释处推导出本书的本体论。
 
 ## A.6｜退相干：经典稳定性与系统—环境关系有关
 
-环境诱导退相干研究系统与环境相互作用如何迅速抑制局部可见的量子相干，使某些状态表现出稳定的经典行为。
+仪器并非只与待测系统接触，还不断与光子、空气等环境自由度相互作用。环境带走相关信息后，只看系统或仪器自身时，不同分量之间可见的干涉会受到抑制；某些状态也因相互作用的形式而较为稳定。[4][5]
 
-退相干是理解量子—经典过渡的关键部分，但它本身并没有在所有解释中独立解决测量问题。
+这解释了经典稳定性为什么必须考虑环境，而不能只给一个完全孤立对象指定“它本来就这样”。
 
-对本书而言，最有价值的只是一个结构提醒：我们经验到的稳定形态，与系统如何嵌入环境关系密切相关；“稳定对象”不必意味着底层理论首先给出一组完全孤立、永不受关系影响的经典实体。
+但局部干涉受到抑制，不等于整体叠加已自行选出唯一结果。退相干处理了量子—经典过渡的重要部分，却不能被直接当作上一节全部问题的答案。[4]
+
+这一具体分工比“环境让可能变成现实”的笼统比喻更有用：稳定怎样形成，与确定结果怎样解释，需要分别说明。
 
 ## A.7｜Quantum Darwinism：稳定“客观事实”与环境中的冗余记录
 
-Quantum Darwinism 研究某些被环境选择的系统信息如何以大量冗余记录的形式扩散到环境，使多个观察者能够通过不同环境片段取得相同信息，从而解释经典客观性的一个来源。
+几个人同时看一页纸，并不是各自直接取得纸的全部状态。他们分别接收来自纸面的部分散射光。环境既能影响系统，也能携带关于系统的记录。
 
-这里的重点不是“观察者创造现实”，而是环境可以同时承担退相干与信息传播通道的作用。
+Quantum Darwinism 研究的是：某些由环境相互作用选择的状态信息，怎样在环境的许多片段中留下冗余记录，使不同观察者能够分别取得相同信息。[5]
 
-这与《可能性网络》关于“稳定相如何在关系中成立”的问题形成很好的对话：可公共获得的稳定事实，与关系、记录和冗余之间可能存在深刻联系。
+这里反复传播的是特定可观测信息，不是任意未知量子态的完整副本。哪些环境片段携带有用记录、无关部分怎样影响读取，也是模型需要回答的问题；并非一切环境相互作用都自动产生同样的公共可读性。[6]
 
-但 Quantum Darwinism 仍然是量子基础中的理论研究框架，不是明性、全知或母网的证明。
+本书可以借此把“稳定”与“可被多人分别获得”分开追问。共同看到某项记录，与全部存在具有何种本体，仍然不是同一个结论。
 
-## A.8｜Landauer 原理：信息操作具有物理代价
+## A.8｜Landauer 原理：信息擦除具有条件明确的物理代价
 
-Landauer 原理把逻辑不可逆的信息擦除与最低热耗散联系起来，2012 年的实验在一比特记忆模型中直接验证了 Landauer bound 的相关预测。
+把一颗胶体粒子限制在两个势阱中，可以用左右位置表示 0 和 1。无论起初在哪一边，都用同一种程序把它复位到指定一边，原来的两种逻辑状态就归为一种。
 
-这说明信息处理并不是与物理过程完全断裂的幽灵活动。
+Bérut 等人的实验用这种一比特记忆模型研究擦除。通过降低势垒、施加偏置，再恢复势垒完成复位，并由粒子运动估算向环境耗散的热。[7][14]
 
-它并不能推出“意识就是信息”，更不能推出“信息就是本体”。
+对于初始两态等概率、在温度为 T 的热浴中按相应循环条件完成的理想擦除，平均热耗散的 Landauer 下界是 kBT ln 2，其中 kB 为玻尔兹曼常数。实验在足够缓慢的操作中接近这一界限；允许擦除失败时，还须计入成功率。[14]
 
-在本书中，它只提醒我们：记录、擦除、重排这些信息操作，与具体物理关系可以不可分离。
+所以，“信息有物理载体”不等于每次读取、复制或重排都要付出同一个下限。这里讨论的是条件明确的逻辑不可逆操作，也不能把它直接套到一个人“放下记忆”的经验上。
 
 ## A.9｜预测与感知：感知并非简单的被动复印
 
-预测处理、Bayesian perception 与 free-energy 相关理论并不是一套毫无争议的统一脑理论，但大量研究都在讨论先验、期待、预测误差和内部模型如何参与感知与行动。
+感官输入带有噪声，也可能不足以唯一确定外界原因。预测处理研究既有信息怎样参与对输入的解释：不是只有外界向内输送内容，已有的规律和模型也会约束哪些解释更有可能。[9]
 
-这足以挑战一种过于简单的图景：世界完整原样进入感官，大脑只是被动播放器。
+例如，在含混的声音中辨认一句话，可以同时受到输入细节与此前期待的影响。这里的例子只帮助理解问题，不作为本书新报告的实验。
 
-它与本书关于记忆、预测、权重和自我模型参与当前经验组织的讨论形成结构呼应。
+几组常被并称的理论仍须分开。贝叶斯感知关注先验信息与输入怎样影响推断；预测编码是一类具体处理方案；自由能原理试图把感知、行动与学习放入更广的数学框架。Friston 的“变分自由能”是信息论量，不能直接当作身体热量或内心紧张程度。[8]
 
-但“感知受到模型影响”绝不等于“外部现实只是意识幻想”。
+Teufel 与 Fletcher 还强调，预测信息不只通过高层向低层的反馈发挥作用，也可能嵌入自下而上的处理约束。[9] 因而，“大脑先想好，再命令感官照着看”同样过于简单。
+
+这与正文关于经验如何被组织的问题可以对话，却不使外部条件成为意识任意创造的图画，也没有把本书的“权重”直接等同于一种神经机制。
 
 ## A.10｜Shannon 与 Turing：信息关系与结构生成
 
-Shannon 的通信理论严格区分信源、信道、噪声、编码和接收，并把通信中的信息量转化为可计算问题。它不负责解释语义本身，却让“传播不是内容原样搬运”成为可以严密分析的技术问题。
+先看一条消息如何到达。信源选择消息，发射端把它编码成适合信道的信号，接收端再从收到的信号重建消息。噪声可能造成错误，编码则参与可靠传输的问题。[10]
 
-Turing 的反应—扩散模型则展示：局部反应、扩散与反馈在一定条件下可以由近乎均匀的状态产生空间图案。
+Shannon 理论的任务，是研究在给定条件下怎样准确或近似地再现所选消息，而不是证明传播必然改变意义。他明确将语义问题排除在这一工程任务之外。
 
-两者共同提供的是非常有限但有用的提醒：复杂结构、稳定信息和可辨形态，可以从关系与局部规则中产生，而不需要在每一步假设一个外部设计者逐笔绘制。
+于是，两个人收到相同字句却理解不同，可以成为正文关于关系和解释的例子，却不能被说成 Shannon 定理已经说明了这种心理过程。字句传对了，与意思被怎样理解，是不同问题。
 
-这仍然不能证明母网。
+再看形态如何出现。Turing 考察相互反应并扩散的物质：在一定条件下，近乎均匀的状态会变得不稳定，微小差异不再被抹平，而可发展成空间图案。[11]
 
-## A.11｜科学真正提供的，是边界与谦逊
+模型给出的是反应、扩散和稳定性条件下的结构生成途径，不是说任何局部规则都能形成生命，也不是所有生物形态均已由它解释。
 
-如果把这一附录压缩成一句话：
+这两项工作提供不同的工具：一项研究消息怎样可靠传递，另一项研究关系怎样产生图案。它们的共同启发不是“科学已经证明网络本体”，而是具体的组织方式必须进入解释。
 
-> **科学没有证明《可能性网络》。**
+## A.11｜科学真正提供的，是可以追问的具体区别
 
-它提供的是另一种价值：一次又一次迫使人类修正那些“看起来显然如此”的世界图景。
+回看这些材料，留下的不应只是同一句“不证明母网”。
 
-因此，本书可以大胆思辨，但必须始终把以下内容分开：
+量子语境与 Bell 检验，分别限制了某些预存属性与局域解释；关系量子力学提出一种解释路径；测量问题、退相干和冗余记录，又把确定结果、局部稳定性与公共可读性分开。信息擦除、预测处理、通信和形态发生，各自要求不同的条件与证据。
 
-```text
-哲学定义与本体论主张
-数学定理
-实验结果
-理论模型
-物理解释
-科学争议
-哲学类比
-实践观察
-```
+正因为问题不同，它们才不能只凭“关系”“信息”“可能性”等相似词汇，被拼成同一条证明链。
 
-混在一起，哲学就会伪装成科学。
+对本书而言，科学的作用是让某些直觉接受检查，也让类比知道在哪里停止。正文的哲学判断仍须由自身的前提、理由与反例来审查。
 
-分开以后，它们才真正能够对话。
+> **概念能够相遇，不等于结论可以互相借用。**
 
-## 参考来源（本版已核）
+## 参考来源
 
-1. Budroni, C., Cabello, A., Gühne, O., Kleinmann, M. & Larsson, J.-Å. “Kochen-Specker contextuality.” *Reviews of Modern Physics* 94, 045007 (2022). https://doi.org/10.1103/RevModPhys.94.045007
-2. The Royal Swedish Academy of Sciences. “The Nobel Prize in Physics 2022” — experiments with entangled photons and violations of Bell inequalities. https://www.nobelprize.org/prizes/physics/2022/press-release/
-3. Rovelli, C. et al. “Relational Quantum Mechanics.” *Stanford Encyclopedia of Philosophy*, substantive revision 2025. https://plato.stanford.edu/entries/qm-relational/
-4. Schlosshauer, M. “Decoherence, the measurement problem, and interpretations of quantum mechanics.” *Reviews of Modern Physics* 76, 1267 (2005). https://doi.org/10.1103/RevModPhys.76.1267
-5. Zurek, W. H. “Quantum Darwinism.” *Nature Physics* 5, 181–188 (2009). https://doi.org/10.1038/nphys1202
-6. Zwolak, M. & Zurek, W. H. “Redundancy of einselected information in quantum Darwinism.” *Physical Review A* 95, 030101(R) (2017). https://doi.org/10.1103/PhysRevA.95.030101
-7. Bérut, A. et al. “Experimental verification of Landauer’s principle linking information and thermodynamics.” *Nature* 483, 187–189 (2012). https://doi.org/10.1038/nature10872
-8. Friston, K. “The free-energy principle: a unified brain theory?” *Nature Reviews Neuroscience* 11, 127–138 (2010). https://doi.org/10.1038/nrn2787
-9. Teufel, C. & Fletcher, P. C. “Forms of prediction in the nervous system.” *Nature Reviews Neuroscience* 21, 231–242 (2020). https://doi.org/10.1038/s41583-020-0275-5
-10. Shannon, C. E. “A Mathematical Theory of Communication.” *Bell System Technical Journal* 27, 379–423 and 623–656 (1948). https://doi.org/10.1002/j.1538-7305.1948.tb01338.x
-11. Turing, A. M. “The Chemical Basis of Morphogenesis.” *Philosophical Transactions of the Royal Society B* 237, 37–72 (1952). https://doi.org/10.1098/rstb.1952.0012
-12. Heisenberg, W. *Physics and Philosophy* (1958), discussion of quantum possibilities as Aristotelian *potentia*; for a modern historical analysis see Jaeger, G. “Quantum potentiality revisited.” *Philosophical Transactions of the Royal Society A* 375, 20160390 (2017). https://doi.org/10.1098/rsta.2016.0390
+1. Budroni, C., Cabello, A., Gühne, O., Kleinmann, M. & Larsson, J.-Å. “Kochen-Specker contextuality.” *Reviews of Modern Physics* 94, 045007 (2022). DOI: 10.1103/RevModPhys.94.045007. 作者稿：https://arxiv.org/abs/2102.13036
+2. The Royal Swedish Academy of Sciences. “The Nobel Prize in Physics 2022.” (2022). https://www.nobelprize.org/prizes/physics/2022/press-release/
+3. Rovelli, C. “Relational Quantum Mechanics.” *International Journal of Theoretical Physics* 35, 1637–1678 (1996). DOI: 10.1007/BF02302261. 作者稿：https://arxiv.org/abs/quant-ph/9609002
+4. Schlosshauer, M. “Decoherence, the measurement problem, and interpretations of quantum mechanics.” *Reviews of Modern Physics* 76, 1267–1305 (2005). DOI: 10.1103/RevModPhys.76.1267. 作者稿：https://arxiv.org/abs/quant-ph/0312059
+5. Zurek, W. H. “Quantum Darwinism.” *Nature Physics* 5, 181–188 (2009). DOI: 10.1038/nphys1202. 作者稿：https://arxiv.org/abs/0903.5082
+6. Zwolak, M. & Zurek, W. H. “Redundancy of einselected information in quantum Darwinism: The irrelevance of irrelevant environment bits.” *Physical Review A* 95, 030101(R) (2017). DOI: 10.1103/PhysRevA.95.030101. 作者稿：https://arxiv.org/abs/1703.10096
+7. Bérut, A. et al. “Experimental verification of Landauer’s principle linking information and thermodynamics.” *Nature* 483, 187–189 (2012). DOI: 10.1038/nature10872. 本轮实验程序说明另据作者的第14项详述，不将书目信息核对冒称本轮通读此文。
+8. Friston, K. “The free-energy principle: a unified brain theory?” *Nature Reviews Neuroscience* 11, 127–138 (2010). DOI: 10.1038/nrn2787. 作者网站全文：https://www.fil.ion.ucl.ac.uk/~karl/NRN.pdf
+9. Teufel, C. & Fletcher, P. C. “Forms of prediction in the nervous system.” *Nature Reviews Neuroscience* 21, 231–242 (2020). DOI: 10.1038/s41583-020-0275-5. 作者稿：https://orca.cardiff.ac.uk/id/eprint/129285/
+10. Shannon, C. E. “A Mathematical Theory of Communication.” *Bell System Technical Journal* 27, 379–423 and 623–656 (1948). DOI: 10.1002/j.1538-7305.1948.tb01338.x. 原文重印：https://people.math.harvard.edu/~ctm/home/text/others/shannon/entropy/entropy.pdf
+11. Turing, A. M. “The Chemical Basis of Morphogenesis.” *Philosophical Transactions of the Royal Society B* 237, 37–72 (1952). DOI: 10.1098/rstb.1952.0012. 原文扫描：https://www.dna.caltech.edu/courses/cs191/paperscs191/turing.pdf
+12. Jaeger, G. “Quantum potentiality revisited.” *Philosophical Transactions of the Royal Society A* 375, 20160390 (2017). DOI: 10.1098/rsta.2016.0390. 本节对 Heisenberg 的说明依据此文所引原著及分析；历史来源为 Heisenberg, W., *Physics and Philosophy* (1958)，本轮未另行通读该书。
+13. Hensen, B. et al. “Loophole-free Bell inequality violation using electron spins separated by 1.3 kilometres.” *Nature* 526, 682–686 (2015). DOI: 10.1038/nature15759. 作者稿：https://arxiv.org/abs/1508.05949
+14. Bérut, A., Petrosyan, A. & Ciliberto, S. “Information and thermodynamics: Experimental verification of Landauer’s erasure principle.” *Journal of Statistical Mechanics: Theory and Experiment* (2015), P06015. DOI: 10.1088/1742-5468/2015/06/P06015. 作者稿：https://arxiv.org/abs/1503.06537

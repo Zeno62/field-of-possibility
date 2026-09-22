@@ -1,141 +1,140 @@
-# Appendix A｜Science Cannot Prove an Ontology, but It Can Require Intuition to Change
+# Appendix A | Science Cannot Prove an Ontology, but It Can Challenge Intuition
 
-This appendix discusses only material from modern science that can enter into dialogue with some of the book’s structural intuitions. It is not a chain of proof for the Field of Possibility.
+The main text distinguishes Knowing from the known, Totality from the local, and consciousness from the self-model. Science does not use the same concepts, nor is it responsible for endorsing those distinctions. What it can offer are findings and explanations with specified conditions, open to further testing, that prevent “Surely things are like this” from too readily passing for a reason.
 
-The principal sources listed in this edition have been rechecked. Different materials must be read according to their scientific status: experimental results, mathematical theorems, theoretical frameworks, quantum interpretations, and philosophical analogies do not carry the same epistemic weight.
+Each section first presents a question, then explains what the research answers. Experimental results, mathematical theorems, theoretical models, physical interpretations, and philosophical analogies are distinguished. A resonance with the main text’s structural intuitions does not mean that science has proved this book’s ontology; checking bibliographies and original texts cannot substitute for that argument either. Numbers refer to the sources at the end of the appendix.
 
-## A.1｜Quantum Potentiality: The Distinction Between the Possible and the Actual Entered the Language of Physical Interpretation
+## A.1 | Quantum “Potentiality”: Possibility and Actuality in the Language of Physical Interpretation
 
-Werner Heisenberg used the Aristotelian language of *potentia* to describe the “objective tendencies or possibilities” expressed by quantum probability. This is philosophical language for interpreting the quantum formalism, not a theorem of quantum mechanics, still less scientific proof of the ontological ground called Pure Possibility.
+“Not yet knowing the outcome” can mean two different things: the result is already fixed but has not been seen, or the theory describes the possibility of different results and cannot simply be treated as an answer already written down.
 
-The insight worth retaining is limited and specific: in foundational discussions of modern physics, “possible” and “actual” cannot always be understood simply as an object already having definite properties of which we are temporarily ignorant.
+Heisenberg drew on Aristotelian *potentia* in discussing the latter understanding. Jaeger’s study of his writing explains how this interpretation connects the quantum state with an objective potential for a system subsequently to acquire a physical property, while distinguishing that potential from a mere lack of knowledge. [12]
 
-This can enter into conceptual dialogue with the book’s discussion of possibility and manifestation, but the two cannot be directly equated.
+This is an interpretation of quantum formalism, not a separate experiment establishing an “ontology of potentiality.” A single word has not resolved how different interpretations understand the quantum state.
 
-## A.2｜Kochen–Specker Contextuality: Properties Need Not Have Pre-Existing Values Independent of Context
+The book can therefore ask whether “possibility” and “appearing” must mean an unknown answer followed by its disclosure. It cannot substitute its own Pure Possibility for a physical system’s potential to acquire a property, still less derive the Totality of the Mother Field from it.
 
-The Kochen–Specker theorem and subsequent research on contextuality show a conflict between quantum mechanics and a class of classical pictures: we cannot generally suppose that all relevant observables possess definite values in advance, independently of the context in which they are jointly measured.
+## A.2 | Kochen–Specker Contextuality: Properties Need Not Have Pre-existing Values Independent of Context
 
-This does not mean that human consciousness creates physical reality.
+Imagine filling in the answers to a set of quantum measurements in advance. An observable is assigned the same value regardless of which compatible observables are measured with it. These values must also satisfy the relations specified by quantum theory.
 
-What it challenges is a more elementary intuition about entities: must all an object’s physical properties already be independently fixed in the same way, before any relation or measurement arrangement?
+The Kochen–Specker theorem shows that, for the applicable quantum systems—the standard result requires a Hilbert space of at least three dimensions—no such assignment can remain consistent across all the relevant measurements. [1]
 
-This structurally resonates with the Field of Possibility’s intuition that relations cannot be treated as annotations added after the object.
+What is ruled out is not a particular measurement having an outcome, but the overall arrangement in which every answer is written in advance and independent of the context of compatible measurements. “Context” here concerns which measurements can be performed together, not a person’s mood, standpoint, or attention.
 
-## A.3｜Bell and Entanglement: Classical Local Predetermined-Value Pictures Cannot Fully Explain Quantum Correlations
+The intuition that an object’s properties are independent labels attached in advance can therefore no longer be used without qualification. This can enter into dialogue with the main text’s call for an account of relations. The theorem cannot, however, be rewritten as “Thoughts determine physical properties.”
 
-The 2022 Nobel Prize in Physics recognized experiments with entangled photons, violations of Bell inequalities, and foundational work in quantum information science.
+## A.3 | Bell and Entanglement: Classical Local Preassigned Values Do Not Account for Quantum Correlations
 
-Bell-type experiments rule out broad classes of local hidden-variable explanations. They do not prove the Mother Field, nor do they mean that human thoughts can arbitrarily affect distant things.
+Two separated apparatuses each choose a measurement setting and record an outcome. Only afterward are the records compared. The test is not whether two results happen to match, but how strong the entire pattern of statistical correlations can be across different settings.
 
-More precisely, quantum correlations cannot be fully explained by a simple classical picture in which spatially separated objects each carry a complete set of local, predetermined answers and measurement merely reads those answers out.
+Given premises including independence between measurement settings and the hidden variables of the tested system, and the appropriate locality conditions on outcomes, these correlations must satisfy a Bell inequality. Quantum theory allows certain entangled states to violate that bound. Hensen and colleagues used electron spins approximately 1.3 kilometers apart, addressing locality and detection loopholes through rapid setting choices and effective readout, and reported a violation. [13] Developments in these experiments were also among the achievements recognized by the 2022 Nobel Prize in Physics. [2]
 
-This requires caution about “completely independent objects.” It does not turn quantum nonlocality into philosophical proof that “all things are one.”
+This cannot be reduced to “All realism is wrong.” Nor does it mean that any two distant objects can influence each other at will. The conclusion concerns a class of explanations with specified premises.
 
-## A.4｜Relational Quantum Mechanics: Relations Can Enter the Explanatory Core of Physics
+For this book, the reminder is that spatial separation cannot itself prove that every correlation is explained by local answers carried by the objects separately. Nor is it a basis for transmitting commands to a distance through thought.
 
-Relational Quantum Mechanics (RQM) is an interpretation of quantum mechanics. It understands the values of physical variables as established in interactions between systems, relative to another system, rather than requiring every quantity to have an absolute, observer-independent value.
+## A.4 | Relational Quantum Mechanics: Relations at the Center of Physical Interpretation
 
-“Relation” in RQM is an interpretive concept within a specifically physical context. It is not the Mother Field of Possibility described in this book.
+An instrument interacts with a system and records a result. Another system, not yet interacting with them, may give a quantum description of the combined system and instrument. How these descriptions relate is a starting point in Rovelli’s original paper. [3]
 
-Yet it demonstrates an important point in the history of ideas: placing relations at the center of explanation is not only a literary metaphor. Within quantum foundations, there are systematic approaches that rethink “absolute states” and “absolute properties.”
+Relational quantum mechanics understands the values of variables as established relative to another physical system with which an interaction occurs, rather than first requiring an absolute state description shared by all systems. An “observer” here can be an ordinary physical system; consciousness, life, and the capacity to judge are not required.
 
-This is a partner in dialogue, not an endorsement of an ontology.
+This is an interpretation of quantum mechanics, not a world-picture independently established as the only answer. Its physical observer cannot be replaced by the Luminosity of the main text: Luminosity is not one participant among systems.
 
-## A.5｜The Measurement Problem: Interpretation Does Not End Between Quantum Formalism and Definite Experienced Facts
+What can sustain a dialogue is the question “Relative to what is a property established?”—not the assumption that two uses of “relation” constitute the same theory.
 
-Quantum theory is extraordinarily successful in prediction, but there remain competing interpretations of what kind of world it describes.
+## A.5 | The Measurement Problem: Quantum Formalism Does Not End the Question of Definite Experienced Facts
 
-The measurement problem concentrates this tension: how should the relation between linear quantum evolution and the definite measurement outcomes we experience be understood? Different interpretations offer different answers.
+A pointer instrument is prepared to display one of two possible outcomes. If both system and instrument are treated according to linear quantum evolution, a superposition of the system becomes an overall superposition correlated with different pointer positions. An ordinary reading, however, presents a definite outcome. [4]
 
-This book therefore does not accept the inference “Quantum measurement requires consciousness, so it proves Luminosity.” Measurement in quantum theory cannot simply be equated with a person’s subjective act of looking.
+The issue is not simply that we do not yet know where the pointer is. It is how the theory’s overall description relates to a definite result. Calling the overall superposition “a completed measurement” does not answer the question.
 
-The point worth retaining is that the conceptual account of how formally allowed quantum states relate to stable, definite experienced facts does not automatically end with the words “a measurement occurred.”
+Different interpretations adopt different accounts or additions here. Physical measurement is not equivalent to a person’s subjective looking, and an explanatory gap cannot simply be filled with “Consciousness makes it definite.”
 
-## A.6｜Decoherence: Classical Stability Is Related to System–Environment Relations
+What this section preserves is the question itself, not a derivation of this book’s ontology from what remains unexplained.
 
-Environment-induced decoherence studies how interactions between a system and its environment rapidly suppress locally observable quantum coherence, allowing certain states to exhibit stable classical behavior.
+## A.6 | Decoherence: Classical Stability and System–Environment Relations
 
-Decoherence is a crucial part of understanding the quantum-to-classical transition, but it has not, by itself, independently solved the measurement problem across all interpretations.
+An instrument interacts not only with the tested system, but continually with environmental degrees of freedom such as photons and air. As the environment carries away correlated information, interference between components visible in the system or instrument considered alone is suppressed. Certain states are also more stable because of the form of the interaction. [4][5]
 
-For this book, its most useful contribution is a structural reminder: the stable forms we experience are closely related to how a system is embedded in environmental relations. A “stable object” need not mean that the underlying theory begins with a set of completely isolated classical entities forever unaffected by relations.
+This explains why an account of classical stability must include the environment, rather than simply assign a wholly isolated object the property “It was already like that.”
 
-## A.7｜Quantum Darwinism: Stable “Objective Facts” and Redundant Environmental Records
+Yet suppression of local interference does not mean that the overall superposition has selected a unique outcome on its own. Decoherence addresses an important part of the quantum–classical transition, but cannot simply be taken as the answer to every question in the preceding section. [4]
 
-Quantum Darwinism studies how certain environmentally selected information about a system spreads through the environment in many redundant records. Multiple observers can then obtain the same information through different fragments of the environment, offering an account of one source of classical objectivity.
+This specific division of work is more useful than the loose metaphor “The environment turns possibility into reality.” How stability forms and how a definite result is explained need separate accounts.
 
-The emphasis is not that observers create reality. It is that the environment can serve both as a source of decoherence and as a channel for the spread of information.
+## A.7 | Quantum Darwinism: Stable “Objective Facts” and Redundant Environmental Records
 
-This enters into a useful dialogue with the Field of Possibility’s question of how stable appearances become established relationally: there may be deep connections between publicly accessible stable facts, relations, records, and redundancy.
+Several people looking at a sheet of paper do not each directly acquire its entire state. They receive different portions of light scattered from its surface. The environment can affect a system and also carry records of it.
 
-Quantum Darwinism nevertheless remains a theoretical research framework in quantum foundations. It is not proof of Luminosity, Total Knowing, or the Mother Field.
+Quantum Darwinism studies how information about certain states selected through environmental interaction leaves redundant records in many fragments of the environment, allowing different observers to obtain the same information separately. [5]
 
-## A.8｜Landauer’s Principle: Information Operations Have Physical Costs
+What is repeatedly distributed is particular observable information, not a complete copy of an arbitrary unknown quantum state. Which environmental fragments carry useful records, and how irrelevant parts affect readout, are also questions for the models. Not every environmental interaction automatically yields the same public accessibility. [6]
 
-Landauer’s principle connects logically irreversible information erasure with a minimum heat-dissipation bound. A 2012 experiment directly verified predictions concerning the Landauer bound in a one-bit memory model.
+This allows the book to ask separately about “stability” and “availability to multiple people independently.” Sharing access to a record and determining the ontological ground of all existence are still different conclusions.
 
-This shows that information processing is not a ghostly activity completely disconnected from physical processes.
+## A.8 | Landauer’s Principle: The Physical Cost of Erasure Under Specified Conditions
 
-It does not imply that “consciousness is information,” still less that “information is the ontological ground.”
+A colloidal particle confined in two potential wells can represent 0 and 1 by its left or right position. Use the same procedure to reset it to a specified side regardless of where it began, and two initial logical states are reduced to one.
 
-In this book, it serves only as a reminder that informational operations such as recording, erasing, and rearranging can be inseparable from concrete physical relations.
+Bérut and colleagues studied erasure using this one-bit memory model. They lowered the barrier, applied a bias, and restored the barrier to complete the reset, estimating heat dissipated into the environment from the particle’s motion. [7][14]
 
-## A.9｜Prediction and Perception: Perception Is Not Simply Passive Copying
+For ideal erasure with initially equiprobable states, performed under the relevant cyclic conditions in a heat bath at temperature T, Landauer’s lower bound on average heat dissipation is k<sub>B</sub>T ln 2, where k<sub>B</sub> is Boltzmann’s constant. The experiments approached this bound with sufficiently slow operations. When erasure failure is allowed, the success rate must also be taken into account. [14]
 
-Predictive processing, Bayesian perception, and free-energy-related theories are not one uncontested, unified theory of the brain. Yet a substantial body of research examines how priors, expectations, prediction errors, and internal models participate in perception and action.
+“Information has a physical carrier” therefore does not mean that every reading, copying, or rearrangement incurs the same lower bound. The principle concerns logically irreversible operations under specified conditions. It cannot be applied directly to a person’s experience of “letting go of a memory.”
 
-This is enough to challenge an overly simple picture in which the world enters the senses whole and unchanged while the brain is merely a passive player.
+## A.9 | Prediction and Perception: Perception Is Not Passive Copying
 
-It structurally resonates with the book’s account of memory, prediction, Weight, and self-models participating in the organization of present experience.
+Sensory input contains noise and may not uniquely determine its external causes. Predictive processing examines how existing information participates in interpreting input. Content does not only travel inward from the outside world; established regularities and models also constrain which interpretations are more likely. [9]
 
-But “perception is influenced by models” does not mean that external reality is merely a fantasy of consciousness.
+For example, recognizing a sentence in an ambiguous sound can be influenced both by the details of the input and by prior expectations. This example illustrates the question; it is not an experiment newly reported by this book.
 
-## A.10｜Shannon and Turing: Informational Relations and the Generation of Structure
+Several theories often grouped together must remain distinct. Bayesian perception concerns how prior information and input affect inference; predictive coding is a class of specific processing schemes; the free-energy principle seeks to bring perception, action, and learning into a broader mathematical framework. Friston’s “variational free energy” is an information-theoretic quantity, not bodily heat or a direct measure of inner tension. [8]
 
-Shannon’s theory of communication rigorously distinguishes source, channel, noise, encoding, and reception, and turns the quantity of information in communication into a calculable problem. It does not undertake to explain semantics itself, but it makes the idea that transmission is not simply moving content unchanged into a technical question open to rigorous analysis.
+Teufel and Fletcher also emphasize that predictive information need not work only through higher-to-lower feedback; it may be embedded in constraints on bottom-up processing. [9] “The brain decides first and then orders the senses to see accordingly” is therefore too simple as well.
 
-Turing’s reaction–diffusion model shows that local reactions, diffusion, and feedback can, under certain conditions, produce spatial patterns from a nearly uniform state.
+This can enter into dialogue with the main text’s question of how experience is organized. It does not make external conditions a picture freely created by consciousness, or directly equate the book’s Weight with a neural mechanism.
 
-Together they offer a limited but useful reminder: complex structures, stable information, and distinguishable forms can arise from relations and local rules without positing, at each step, an external designer drawing every detail.
+## A.10 | Shannon and Turing: Information Relations and the Generation of Structure
 
-This still does not prove the Mother Field.
+First consider how a message arrives. A source selects a message, a transmitter encodes it into a signal suited to a channel, and a receiver reconstructs the message from the signal received. Noise can introduce errors; coding is part of the problem of reliable transmission. [10]
 
-## A.11｜What Science Offers Is Boundaries and Humility
+Shannon’s theory asks how, under given conditions, a selected message can be reproduced exactly or approximately. It does not prove that transmission must alter meaning. Shannon explicitly excluded semantic questions from this engineering task.
 
-If this appendix were reduced to one sentence, it would be:
+Two people receiving the same words and understanding them differently can therefore illustrate the main text’s discussion of relations and interpretation. It cannot be said that Shannon’s theorem has explained that psychological process. Transmitting words correctly and understanding their meaning are different questions.
 
-> **Science has not proved the Field of Possibility.**
+Now consider how a form appears. Turing studied substances that react and diffuse: under certain conditions, a nearly uniform state becomes unstable. Small differences are no longer smoothed out but can develop into spatial patterns. [11]
 
-Its value is of another kind: again and again, it requires human beings to revise pictures of the world that appear self-evident.
+The model provides a route to structural formation under conditions involving reaction, diffusion, and stability. It does not say that any local rules produce life, or that all biological forms have been explained by it.
 
-This book can therefore speculate boldly, but it must always distinguish:
+These two works provide different tools: one studies reliable transmission of messages, the other how relations produce patterns. Their shared implication is not that science has proved a network ontology, but that specific modes of organization must enter the explanation.
 
-```text
-philosophical definitions and ontological claims
-mathematical theorems
-experimental results
-theoretical models
-physical interpretations
-scientific controversies
-philosophical analogies
-observations of practice
-```
+## A.11 | What Science Offers: Specific Distinctions Open to Further Inquiry
 
-When these are mixed together, philosophy disguises itself as science.
+What remains after these materials should be more than the repeated statement “They do not prove the Mother Field.”
 
-Only when they are distinguished can they genuinely enter into dialogue.
+Quantum contextuality and Bell tests constrain certain accounts of pre-existing properties and local explanations respectively. Relational quantum mechanics proposes an interpretive route. The measurement problem, decoherence, and redundant records distinguish definite outcomes, local stability, and public accessibility. Information erasure, predictive processing, communication, and morphogenesis each require their own conditions and evidence.
 
-## References (Rechecked in This Edition)
+Precisely because the questions differ, shared words such as “relation,” “information,” and “possibility” cannot join them into one chain of proof.
 
-1. Budroni, C., Cabello, A., Gühne, O., Kleinmann, M. & Larsson, J.-Å. “Kochen-Specker contextuality.” *Reviews of Modern Physics* 94, 045007 (2022). https://doi.org/10.1103/RevModPhys.94.045007
-2. The Royal Swedish Academy of Sciences. “The Nobel Prize in Physics 2022” — experiments with entangled photons and violations of Bell inequalities. https://www.nobelprize.org/prizes/physics/2022/press-release/
-3. Rovelli, C. et al. “Relational Quantum Mechanics.” *Stanford Encyclopedia of Philosophy*, substantive revision 2025. https://plato.stanford.edu/entries/qm-relational/
-4. Schlosshauer, M. “Decoherence, the measurement problem, and interpretations of quantum mechanics.” *Reviews of Modern Physics* 76, 1267 (2005). https://doi.org/10.1103/RevModPhys.76.1267
-5. Zurek, W. H. “Quantum Darwinism.” *Nature Physics* 5, 181–188 (2009). https://doi.org/10.1038/nphys1202
-6. Zwolak, M. & Zurek, W. H. “Redundancy of einselected information in quantum Darwinism.” *Physical Review A* 95, 030101(R) (2017). https://doi.org/10.1103/PhysRevA.95.030101
-7. Bérut, A. et al. “Experimental verification of Landauer’s principle linking information and thermodynamics.” *Nature* 483, 187–189 (2012). https://doi.org/10.1038/nature10872
-8. Friston, K. “The free-energy principle: a unified brain theory?” *Nature Reviews Neuroscience* 11, 127–138 (2010). https://doi.org/10.1038/nrn2787
-9. Teufel, C. & Fletcher, P. C. “Forms of prediction in the nervous system.” *Nature Reviews Neuroscience* 21, 231–242 (2020). https://doi.org/10.1038/s41583-020-0275-5
-10. Shannon, C. E. “A Mathematical Theory of Communication.” *Bell System Technical Journal* 27, 379–423 and 623–656 (1948). https://doi.org/10.1002/j.1538-7305.1948.tb01338.x
-11. Turing, A. M. “The Chemical Basis of Morphogenesis.” *Philosophical Transactions of the Royal Society B* 237, 37–72 (1952). https://doi.org/10.1098/rstb.1952.0012
-12. Heisenberg, W. *Physics and Philosophy* (1958), discussion of quantum possibilities as Aristotelian *potentia*; for a modern historical analysis see Jaeger, G. “Quantum potentiality revisited.” *Philosophical Transactions of the Royal Society A* 375, 20160390 (2017). https://doi.org/10.1098/rsta.2016.0390
+For this book, science helps submit certain intuitions to examination and shows where analogies must stop. The philosophical judgments in the main text must still be examined through their own premises, reasons, and counterexamples.
+
+> **Concepts can meet without their conclusions becoming interchangeable.**
+
+## References
+
+1. Budroni, C., Cabello, A., Gühne, O., Kleinmann, M. & Larsson, J.-Å. “Kochen-Specker contextuality.” *Reviews of Modern Physics* 94, 045007 (2022). DOI: 10.1103/RevModPhys.94.045007. Author manuscript: https://arxiv.org/abs/2102.13036
+2. The Royal Swedish Academy of Sciences. “The Nobel Prize in Physics 2022.” (2022). https://www.nobelprize.org/prizes/physics/2022/press-release/
+3. Rovelli, C. “Relational Quantum Mechanics.” *International Journal of Theoretical Physics* 35, 1637–1678 (1996). DOI: 10.1007/BF02302261. Author manuscript: https://arxiv.org/abs/quant-ph/9609002
+4. Schlosshauer, M. “Decoherence, the measurement problem, and interpretations of quantum mechanics.” *Reviews of Modern Physics* 76, 1267–1305 (2005). DOI: 10.1103/RevModPhys.76.1267. Author manuscript: https://arxiv.org/abs/quant-ph/0312059
+5. Zurek, W. H. “Quantum Darwinism.” *Nature Physics* 5, 181–188 (2009). DOI: 10.1038/nphys1202. Author manuscript: https://arxiv.org/abs/0903.5082
+6. Zwolak, M. & Zurek, W. H. “Redundancy of einselected information in quantum Darwinism: The irrelevance of irrelevant environment bits.” *Physical Review A* 95, 030101(R) (2017). DOI: 10.1103/PhysRevA.95.030101. Author manuscript: https://arxiv.org/abs/1703.10096
+7. Bérut, A. et al. “Experimental verification of Landauer’s principle linking information and thermodynamics.” *Nature* 483, 187–189 (2012). DOI: 10.1038/nature10872. The account of the experimental procedure in the Chinese source draws on the authors’ detailed treatment in item 14. Its source review checked this paper’s bibliographic details and did not claim to have read it in full.
+8. Friston, K. “The free-energy principle: a unified brain theory?” *Nature Reviews Neuroscience* 11, 127–138 (2010). DOI: 10.1038/nrn2787. Full text on the author’s website: https://www.fil.ion.ucl.ac.uk/~karl/NRN.pdf
+9. Teufel, C. & Fletcher, P. C. “Forms of prediction in the nervous system.” *Nature Reviews Neuroscience* 21, 231–242 (2020). DOI: 10.1038/s41583-020-0275-5. Author manuscript: https://orca.cardiff.ac.uk/id/eprint/129285/
+10. Shannon, C. E. “A Mathematical Theory of Communication.” *Bell System Technical Journal* 27, 379–423 and 623–656 (1948). DOI: 10.1002/j.1538-7305.1948.tb01338.x. Reprint: https://people.math.harvard.edu/~ctm/home/text/others/shannon/entropy/entropy.pdf
+11. Turing, A. M. “The Chemical Basis of Morphogenesis.” *Philosophical Transactions of the Royal Society B* 237, 37–72 (1952). DOI: 10.1098/rstb.1952.0012. Scan of the original: https://www.dna.caltech.edu/courses/cs191/paperscs191/turing.pdf
+12. Jaeger, G. “Quantum potentiality revisited.” *Philosophical Transactions of the Royal Society A* 375, 20160390 (2017). DOI: 10.1098/rsta.2016.0390. The account of Heisenberg in this section follows the original passages quoted and analyzed in this paper. The historical source is Heisenberg, W., *Physics and Philosophy* (1958); that book was not separately read in full during the Chinese source review.
+13. Hensen, B. et al. “Loophole-free Bell inequality violation using electron spins separated by 1.3 kilometres.” *Nature* 526, 682–686 (2015). DOI: 10.1038/nature15759. Author manuscript: https://arxiv.org/abs/1508.05949
+14. Bérut, A., Petrosyan, A. & Ciliberto, S. “Information and thermodynamics: Experimental verification of Landauer’s erasure principle.” *Journal of Statistical Mechanics: Theory and Experiment* (2015), P06015. DOI: 10.1088/1742-5468/2015/06/P06015. Author manuscript: https://arxiv.org/abs/1503.06537

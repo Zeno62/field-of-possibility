@@ -1,167 +1,131 @@
-# 7｜Weight and Single-Frame Interruption: Stepping Out of the Temporal Net
+# 7 | Weight and Single-Frame Interruption: Stepping Out of the Web of Time
 
-“I know. It is only a thought.”
+“I know. It’s only a thought.”
 
-Yet the next time something happens, the same judgment may arrive before reflection, bringing familiar tension, interpretation, and impulse, and once again claiming the position of “this is me.”
+Yet the next time something happens, the same judgment may arrive before reflection. Familiar tension, explanations, and impulses return together, bringing back the feeling “This is me.”
 
-Knowing that a judgment can be questioned and no longer having experience governed by it are two different things.
+Knowing that a judgment can be questioned and no longer having experience governed by it are different things.
 
-This book uses **Weight** to describe a tendency: existing bodily states, memories, experiences, and relational feedback make certain interpretations, feelings, and reactions easier to re-establish.
+The book uses Weight to describe a tendency: existing bodily states, memories, experiences, and relational feedback make certain interpretations, feelings, and responses more likely to become established again.
 
-Take “I always fail.” This judgment may come from particular experiences. When a new situation arises, it is rapidly called up again, evoking familiar feelings and actions. The results of those actions may then be incorporated into the original interpretation, reinforcing the same pattern:
+Take “I always fail.” This judgment may have arisen from particular experiences. In a new situation, it is quickly called upon again, stirring familiar feelings and actions. The results of those actions may then be absorbed into the original interpretation, reinforcing the same pattern:
 
 ```text
-a familiar interpretation is called up
-→ the corresponding feelings and actions recur
-→ the results reinforce the existing relations
-→ the same interpretation becomes easier to call up again
+A familiar interpretation is called upon.
+→ The associated feelings and actions recur.
+→ Their results reinforce the existing relations.
+→ The same interpretation becomes more likely to reappear.
 ```
 
-A change of environment therefore does not mean that the pattern has changed. If the relations sustaining that “I” continue to operate, it may re-establish itself around new events.
+Changing the setting therefore does not mean that the pattern has changed. As long as the relations sustaining that “I” remain at work, it may become established again in new circumstances.
 
-Nor does reinforcement occur only within the individual. If family, school, work, and platforms repeatedly use the same scale of value, a local judgment may gradually become the common sense of a group.
+This reinforcement does not happen only within an individual. If families, schools, workplaces, and platforms repeatedly use the same scale of value, a local judgment can gradually become a group’s shared common sense.
 
-For example, “Only success deserves recognition” begins as an evaluation. When it is repeated across many relationships, a person may stop asking how that evaluation was formed and use it directly to judge “who I am.”
+“Only success deserves recognition,” for example, begins as an evaluation. Repeated across different relations, it may no longer be questioned as an evaluation at all, but used directly to decide “who I am.”
 
-> **The power of ideology lies precisely here: an interpretation is no longer recognized as an interpretation, but is taken to be how things simply are.**
+> **The power of ideology lies in an interpretation no longer being recognized as an interpretation, but taken as the way things simply are.**
 
-Two things need to be distinguished. Weight influences what is more likely to appear; identification allows what appears to claim the position of “this is me.”
+Two things need to be distinguished: Weight influences what is more likely to appear; identification gives what appears the position of “This is me.”
 
-Single-Frame Interruption cuts into the latter.
+Single-Frame Interruption addresses the latter.
 
-It does not require all previous experiences to be cleared away before freedom can begin. When a familiar judgment appears again now, it directly examines how that judgment is being claimed as “I.”
+It does not require all past experience to be cleared away before freedom can begin. When a familiar judgment reappears now, it examines directly how that judgment is claimed as “me.”
 
-“I have always been this way” appears now as memory and narrative. “This is all I can ever be” appears now as prediction and imagination. The past has passed and the future has not yet arrived, but contents concerning both can occupy this frame at once.
+“I have always been this way” appears now as memory and narrative. “This is all I can ever be” appears now as prediction and imagination. The past has passed and the future has not arrived, yet contents concerning both can occupy the same frame.
 
-> **The past becomes identity, the future becomes fate; both are being known now.**
+> **The past becomes identity; the future becomes fate. Both are being known now.**
 
-Do not continue working out this life story for the moment. Look at the present: judgment, tension, impulse, and the “I” that must answer immediately—are they not already within the scene?
+Let the life story pause here. Look: are judgment, tension, impulse, and the “I” who must answer immediately all within the picture now?
 
 ---
 
-## Single-Frame Interruption: Before Improving This Frame, Recognize It
+## Single-Frame Interruption: Before Improving the Frame, Recognize It
 
-Suppose a powerful emotion has taken hold of you now.
+There may be fear, shame, anger, envy, a sense of failure, or an impulse difficult to resist. Perhaps there is only tension that you cannot yet name.
 
-Fear.
+Begin with something already recognizable. Pause when the words move beyond what you can follow; there is no need to locate every feeling. Urgent matters in life need not wait until these pages are finished either.
 
-Shame.
-
-Anger.
-
-Envy.
-
-A sense of failure.
-
-Or an almost irresistible impulse.
-
-Ordinarily, consciousness completes an entire sequence in a very short time:
+Consciousness ordinarily carries out a whole sequence in a very short time:
 
 ```text
-content arises
+Content arises.
 ↓
-this is mine
+This is mine.
 ↓
-this says something about me
+This says something about me.
 ↓
-this is reality
+This is reality.
 ↓
-I must act accordingly
+I must act on it.
 ```
 
-Single-Frame Interruption does not argue with this chain.
+Single-Frame Interruption does not rush to dispute each thought. It addresses the step in which content, as soon as it appears, becomes “This is me.”
 
-It cuts through it directly.
-
-### The First Cut｜Cutting Through the Past
+### First Cut | Cut Through the Past
 
 Ask:
 
 > **Where is the past?**
 
-Do not answer with a theory.
+Do not answer with theory.
 
 Look directly at this moment.
 
-What you find may be a memory, an image, a tightening in the body, or the sentence “That is how he treated me then.”
+What you find may be a memory, an image, a tightening in the body, or the sentence “That is how they treated me then.”
 
 Where are these now?
 
-All are in this frame.
+All within this frame.
 
 The past has passed.
 
-What you sense now is memory, imagery, bodily response, and narrative within this present frame.
+What you perceive now is memory, imagery, bodily response, and narrative within the present frame.
 
-### The Second Cut｜Cutting Through the Future
+### Second Cut | Cut Through the Future
 
 Ask again:
 
 > **Where is the future?**
 
-Perhaps these appear immediately:
+Perhaps these thoughts appear immediately:
 
 > “What if I fail again tomorrow?”
 >
 > “What if he leaves me?”
 >
-> “What if there is never another chance?”
+> “What if I never get another chance?”
 
-Where are these now?
+Where are they now?
 
-Still in this frame.
+Still within this frame.
 
 The future has not arrived before you.
 
-What you are sensing is prediction and imagination within this present frame.
+What you are perceiving is prediction and imagination within the present frame.
 
-At this point, past and future are returned to the places they actually occupy now:
+Past and future have now been returned to their actual position in this moment:
 
-> **Contents within the present scene.**
+> **Contents within the present picture.**
 
-### The Third Cut｜Whatever Can Be Pointed To Belongs to the Known
+### Third Cut | Whatever Can Be Pointed To Is Known
 
-Do not solve the problem yet.
+Look first at what is already recognizable within this frame.
 
-Look only at this frame.
+It may be fear, memory, or bodily tension. It may be “I can’t take this,” “I must do something,” or “This is my pain.”
 
-Fear is here.
+Which of these can be noticed now? Not all need be present, and they need not be described clearly at once. Being unable to put something into words is not the same as noticing nothing.
 
-Memory is here.
-
-Bodily tension is here.
-
-“I cannot bear this” is here.
-
-“I must do something” is here.
-
-“This is my pain” is here too.
-
-Can you point to them?
-
-Yes.
-
-Can you feel them?
-
-Yes.
-
-Can you describe them?
-
-Yes.
-
-Then all of them already occupy the same position:
+Whatever can already be pointed to, felt, or noticed occupies the same position:
 
 > **The known.**
 
-Do not rush to judge whether they are right or wrong, true or false.
+First recognize that it is being known, without rushing to judge it right or wrong or replacing it with a better thought. Stop where recognition has reached. The word “known” on the page cannot substitute for what is actually noticed now.
 
-Simply recognize where they belong.
+### Fourth Cut | Turn to Knowing
 
-### The Fourth Cut｜Turning Back to Knowing
+Follow the distinction a little further.
 
-Now comes the decisive step.
-
-If all of this belongs to the known—
+If all of this is known—
 
 > **Who knows?**
 
@@ -171,152 +135,97 @@ Consciousness may immediately answer:
 >
 > “I am observing.”
 >
-> “I am very clear now.”
+> “I am lucid now.”
 
-Make one further cut.
+Notice this answer in turn.
 
-Can this “I know” itself be known?
+If “I know” appears as a sentence, an image, or a certainty, is it also being noticed? What about the feeling “I am observing”?
 
-Yes.
-
-Can the feeling “I am observing” be noticed?
-
-Yes.
-
-Then it is still within the scene.
-
-It still belongs to the known.
+Whatever can be noticed remains within the picture, within the known. Look at what appears now. The answer need not arrive ahead of recognition.
 
 At this point, do not manufacture another “I” farther back.
 
 Do not search for an observer hidden behind experience.
 
-Rest with a fact that cannot be bypassed:
+What can be recognized now is:
 
 > **All of this is being known.**
 
 You will not “see” Knowing.
 
-For once it can be seen as an object, it has entered the scene again.
+Once it can be seen as an object, it has entered the picture again.
 
-“The audience” is only a convenient metaphor.
+“Audience” is only a convenient metaphor.
 
-The shift in position is this:
+The actual shift in position is this:
 
-> **The whole film is recognized as a film again.**
+> **The whole film appears as a film again.**
 >
-> **Knowing has never become any of its characters.**
+> **And Knowing has never become any character within it.**
 
-The plot may still be intense. The heart may still be racing.
+The story may remain intense; the heart may still be racing.
 
-Now discern once more:
+Now distinguish once more:
 
-> **Pain is being known. Is the Luminosity by which all this is known itself in pain?**
+> **Pain is being known. Is the Luminosity that knows all of this also in pain?**
 
-There is no need to rush to answer “No.” First look at this moment: fear, tension, and the sentence “I still cannot bear it” are all being known.
+There is no need to rush to “No.” Look first at this moment: fear, tension, and the sentence “I still can’t bear it” are all being known.
 
-If a feeling appears—“I am watching all of this, but I am still in pain”—keep looking. This image of a watcher, together with its pain, is also within the scene.
+If the feeling “I am watching this, yet I am still in pain” appears, continue to distinguish: the image of this watcher, together with its pain, is also in the picture.
 
-Do not preserve it as the final subject.
+Do not leave it as the final subject.
 
-> **An “I” is trapped within the scene; that does not mean Knowing is trapped there too.**
+> **An “I” trapped within the picture does not mean that Knowing is trapped there too.**
 
-There is no need to wait for the scene to become quiet, nor to construct an unaffected self. Right now, discern whether the experiences of the known have been confused with Knowing.
+The picture need not grow quiet first, and there is no need to construct an unaffected self. Here, now, distinguish whether what happens to the known has been conflated with Knowing.
 
 Stop.
 
-Single-Frame Interruption does not point first toward the disappearance of pain. It points toward identification being able to loosen even while pain remains.
+Single-Frame Interruption does not first seek the disappearance of pain. It points to identification loosening even while pain remains.
 
 ---
 
 ## The Shortest Practice: Four Questions, Then Stop
 
-There is no need to repeat the entire theory. Right now, discern these in order:
+There is no need to repeat the whole theory. At this moment, distinguish in turn:
 
 1. **Where is the past?**  
-   It has passed. What appears now is memory and reaction concerning the past.
+   It has passed. What appears now is memory and response concerning the past.
 
 2. **Where is the future?**  
    It has not yet arrived. What appears now is prediction and imagination concerning the future.
 
-3. **What is being known within this frame?**  
-   Thoughts, emotions, bodily sensations, identities, impulses—whatever can be pointed to belongs to the known.
+3. **What is being known in this frame?**  
+   Thought, emotion, bodily sensation, identity, impulse—whatever can be pointed to is known.
 
 4. **Who knows all of this?**  
-   If the feeling “I am knowing” appears, it too is being known. Discern again: pain is in the scene; is Knowing in pain as well? If a “knower in pain” can be pointed to, it still belongs to the known.
+   If the feeling “I am knowing” appears, it too is being known. Distinguish again: pain is in the picture; is Knowing also in pain? If a “knower in pain” can be pointed to, it remains within the known.
 
 Stop.
 
-Do not seek another image for Knowing, or make calmness an answer you must obtain.
+Do not seek another image for Knowing, or make calm the answer that must be obtained.
 
 > **All of this is being known.**
 >
-> **Entanglement within the scene does not mean Knowing is entangled too.**
+> **Entanglement within the picture does not mean that Knowing is entangled too.**
 
 ---
 
-## Why This May Offer a Structural Acceleration
+## Why We Need Not Wait for Every Old Pattern to Disappear
 
-Most methods of change work on content:
+A fear reinforced over years will not necessarily disappear after a few sentences. But its return does not mean we must wait for it to vanish before recognizing how it becomes “This is me.”
 
-```text
-old belief → new belief
-bad habit → good habit
-negative emotion → stable emotion
-mistaken narrative → more reasonable narrative
-```
+Changing a habit or addressing a relationship can take place alongside recognizing subject-identification. The former changes specific conditions; the latter examines how those conditions and feelings acquire the power to define the whole “I.”
 
-These methods have their uses.
+Matters still need attention; the body still needs care. Recognition and these tasks can proceed together. Neither replaces the other, and neither must be completed before the other begins.
 
-But they often take a long time because they adjust elements one by one within a relational network.
+The directness of Single-Frame Interruption lies in its point of entry: the story need not first be rewritten with a satisfying ending before the character loosens its hold on subjecthood. This distinguishes what the method addresses; it is not a measured advantage in speed or therapeutic effect.
 
-Single-Frame Interruption addresses another aspect:
+Sometimes there is a little relief; sometimes there is none. If “I’ve failed again” immediately sounds, that demand is also being known. Whether the words have truly helped must be answered by lived experience. The book’s conclusions cannot answer in its place.
 
-> **What takes these contents to be “I”?**
+> **Manifestation may continue, and roles may continue, without consciousness remaining confined entirely within those roles.**
 
-A fear reinforced for twenty years may continue to appear.
-
-An identity formed in childhood may continue to appear.
-
-You do not need to wait for them all to disappear before encountering relative freedom for the first time.
-
-Whenever they appear, you can recognize, right there:
-
-> This is the present frame.
->
-> The past has passed.
->
-> The future has not yet arrived.
->
-> All of this is being known.
->
-> Even “I am knowing” is being known.
-
-Change therefore need not begin with “making the character better.”
-
-It can begin with the character no longer monopolizing the position of the subject.
-
-This is a more direct structural path.
-
-It does not bypass Weight.
-
-It does not erase experience.
-
-It cuts directly into the aspect on which Weight most depends:
-
-> **Subject-identification.**
-
-Ease, freedom, and a sense of release may sometimes appear at this moment.
-
-Do not cling to them.
-
-They too belong to the known.
-
-What matters is not obtaining a special feeling, but clearly experiencing for the first time:
-
-> **Manifestation can continue, the character can continue, yet consciousness need not remain confined to the character alone.**
-
-This is the shortest entry into relative freedom.
+What room does a moment of loosening leave in life? The next chapter considers relative freedom and how identification can loosen while consciousness continues to function. To try the practice first in a concrete situation, you can also turn to Chapter 10 and return here afterward.
 
 ---
 

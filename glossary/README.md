@@ -1,3 +1,3 @@
-# Terminology · v5.0
+# Terminology · v5.1
 
 [Current bilingual terminology](translation-map.md)

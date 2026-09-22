@@ -1,78 +1,74 @@
-# 11｜Boundaries: Concepts Must Not Be Shifted Between Levels
+# 11 | Boundaries: Concepts Must Not Cross Layers
 
-In the previous chapter, a comment, a relationship, and a judgment about the future could each be recognized anew as belonging to the known. But consciousness may immediately say:
+Gaining some understanding and turning that understanding into a superior identity are two different things.
 
-> “I have mastered this method.”
->
-> “I am clearer than I used to be.”
->
-> “I should remain this way from now on.”
+What calls for further recognition is the step that may follow: “I understand this” gradually becomes “I am more lucid than others.” We begin using the book’s vocabulary to measure ourselves and judge other people. The practice is then enlisted once more in maintaining an “I.”
 
-A method just used to loosen identification can become an identity in an instant. The problem has not moved elsewhere; the content of “I” has merely become more refined.
-
-Boundaries are therefore not a set of prohibitions added after practice. They continue the examination: is a concept being made to perform a function it does not possess?
+Satisfaction itself is not the problem. The question is whether a concept has begun to serve a function it does not possess.
 
 ## First Boundary: Do Not Personify Luminosity Again
 
-Luminosity is not an enlarged consciousness thinking, judging, choosing, and arranging things on the world’s behalf. Whatever can be imagined as “some thing” or described as an observer still belongs to the known.
+As soon as Luminosity is described as a subject that thinks, judges, chooses, and arranges things for the world, what is being described is still an enlarged consciousness.
 
-Even if that image is extraordinarily clear and seems to stand behind all experience, it has not thereby become Knowing. Luminosity is not the last character preserved within the scene.
+Whatever can be imagined or described as an observer belongs to the known. Even something utterly lucid, seemingly behind all experience, has not become Knowing. Luminosity is not the last character left within the picture.
 
 ## Second Boundary: Do Not Turn the Mother Field into a Machine of Fate
 
-The Mother Field as Totality does not mean that a subject has scripted life in advance, nor that every encounter carries a secret intention. It is not a container, a lottery machine, or an external program controlling life.
+Totality does not mean that someone has scripted a life in advance, or that every encounter conceals an intention directed specifically at you. The Mother Field is not a container, a random lottery, or an external control program.
 
-The establishment of all possible relations and the paths a local consciousness can enter under present conditions are different questions. Totality does not imply “I can choose anything at will,” nor does it imply “All of this was arranged specifically for me.”
+The establishment of all possible relations and the paths accessible to a locality now are different questions. Neither “I can choose anything at will” nor “All this has been arranged for me” follows from Totality.
 
-## Third Boundary: Do Not Make Single-Frame Interruption Another Technique of Control
+## Third Boundary: Do Not Turn Single-Frame Interruption into Another Technique of Control
 
-“I must remain clear at all times” can become a new compulsion. “I must not become immersed again” can become a new fear.
+“I must remain lucid at all times.”
 
-Single-Frame Interruption does not require the scene to remain peaceful, much less a self permanently standing outside experience. The demand to maintain clarity, the fear of losing it, and the identity “I have finally learned” can all be recognized again as belonging to the known.
+“I must never become absorbed in the story again.”
 
-The final discernment is no exception. “Is Knowing in pain too?” does not demand that consciousness must never feel pain again. If it is rewritten as “I should already be unaffected,” that self-image required to remain unaffected still needs to be recognized.
+The first may become compulsion, the second fear. The practice does not require the picture to remain calm forever, or a self to be maintained perpetually outside experience.
 
-> **Do not train freedom back into a posture.**
+“Is Knowing also in pain?” is not a command that consciousness must never hurt again. If it becomes “I should already be unaffected,” that self-image, obliged to remain unaffected, still needs to be recognized.
 
-## Fourth Boundary: Do Not Turn “All of It Is Known” into Nihilism
+> **Do not train freedom into another posture.**
 
-“It belongs to the known” identifies an ontological position. “What consequences will it have?” asks how relations operate. Neither question can replace the other.
+## Fourth Boundary: Do Not Turn “All Is Known” into Nihilism
 
-The body, commitments, harm, and institutions are appearances, yet they do not thereby lose their relational effects. Recognizing that a character is not the final subject does not cancel the relations already established between that character and others.
+“It belongs to the known” concerns ontological position. “What consequences does it have?” concerns relational effects. Neither cancels the other.
 
-> **Seeing appearance as appearance is not erasing appearance.**
+Bodies, commitments, harm, and institutions are appearances; they do not lose their effects on that account. A role not being the ultimate subject does not annul its relations with others, its responsibilities, or its consequences.
 
-## Fifth Boundary: Do Not Substitute Omnipotent Will for Relative Freedom
+> **To see an appearance as an appearance is not to erase it.**
 
-Relative freedom is not departure from the Mother Field, nor the control of all manifestation through a thought. The body, resources, other people, and the environment continue to constitute the conditions of local action.
+## Fifth Boundary: Do Not Substitute an All-Powerful Will for Relative Freedom
 
-It points first to a more specific change: when a familiar reaction appears, it no longer instantly acquires the absolute position of “this is me,” without any interval. The compelling force of old Weight can loosen, but this is not total control over outcomes.
+When a familiar response appears without immediately acquiring the absolute position of “This is me,” we reach the book’s point of entry into relative freedom.
 
-## Sixth Boundary: Do Not Ask Science to Endorse Philosophy
+This does not mean leaving the Mother Field or controlling manifestation through a thought. Bodies, resources, other people, and surroundings remain conditions of action. The weakening of old Weight’s compelling force does not place every outcome at the command of individual will.
 
-Scientific material can help examine intuitions; it cannot substitute for this framework’s own explanations. Quantum entanglement does not prove the Mother Field. Decoherence does not prove that consciousness creates reality. Predictive processing and information theory cannot directly establish Luminosity or the two-layer model either.
+## Sixth Boundary: Do Not Make Science Endorse Philosophy
 
-Scientific facts, theoretical interpretations, and philosophical analogies must be identified separately. The appendix is a dialogue, not an authority that exempts the main text from further questions.
+Quantum entanglement, decoherence, predictive processing, and information theory do not directly establish Luminosity, the Mother Field, or the two-layer model.
+
+Scientific findings, theoretical interpretations, and philosophical analogies require separate accounts. The appendix can help examine intuitions; it cannot complete this framework’s arguments on its behalf, much less provide an authority that makes further inquiry unnecessary.
 
 ## Seventh Boundary: Do Not Mystify AI Again
 
-Within this framework, ordinary AI is a simulated consciousness-image formed within a living consciousness subnet. Its increasing complexity is not an ontological route to the generation of life; silicon-based life is not the upgrade endpoint of that branch either.
+In this framework, ordinary AI is a simulated consciousness-image formed within a living consciousness subnet. Its increasing complexity is not a route to generating life, and silicon-based life is not the eventual upgrade of that branch. Chapter 9 distinguished the premise underlying this judgment from what still needs explanation.
 
-But assigning AI this position does not mean ignoring its effects within actual relations. It can participate in the feedback of Individual Weight and Collective Weight and change how information and interpretations are organized and circulated. It should neither be worshipped as a new god nor have its relational effects erased merely because it is not alive.
+A judgment about its status as life does not cancel AI’s role in actual relations. It can still participate in information, interpretation, and the feedback of individual and Collective Weight. Its effects do not justify making it a new god; its not being alive does not erase those effects either.
 
-## Final Boundary: Do Not Turn the Field of Possibility Itself into Another Ideology
+## Final Boundary: Do Not Turn Field of Possibility Itself into Another Ideology
 
-“They have not awakened yet. I have understood.”
+“They haven’t awakened. I understand.”
 
-This sentence can borrow every term in the book while preserving subject-identification intact.
+This sentence can borrow every term in the book while leaving subject-identification intact. “The person who understands” can be described, felt, and compared with others, and therefore remains within the known.
 
-Look now at that “person who has understood.” Can this person also be described, felt, and used in comparison with others? If so, it still belongs to the known. This book grants that identity no exemption.
+> **Any theory that can become an identity can also become another prison.**
 
-> **Any theory that can become an identity can also become a prison again.**
+Likewise, using “Mother Field,” “Luminosity,” or “Weight” does not mean that a question has been explained. Names cannot replace relations, and definitions do not automatically complete an argument.
 
-Likewise, using “Mother Field,” “Luminosity,” or “Weight” in an explanation does not mean the question has been answered. Concepts still need to explain their meanings and ranges of application; they cannot simply give different phenomena the same new name.
+This book faces the same tests. Even a question that belongs to the known still calls for a reasoned response. Pointing out a reader’s identification is not an answer to the counterexample they raise.
 
-This framework must submit to the same examination. The next distinction is between the Mother Field as Totality and our still-unfinished account of it.
+The next task is not to protect the framework from doubt, but to face what remains unclear.
 
 ---
 
