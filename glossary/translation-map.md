@@ -1,6 +1,6 @@
-# v5.0 中英文术语对照 / Terminology
+# v5.1 中英文术语对照 / Terminology
 
-中文为源版本；术语含义以 v5.0 完整正文为准。Chinese is the source edition; definitions are governed by the v5.0 full text.
+中文为源版本；术语含义以 v5.1 完整正文为准。Chinese is the source edition; definitions are governed by the v5.1 full text.
 
 | 中文 | English | 本版使用说明 |
 |---|---|---|

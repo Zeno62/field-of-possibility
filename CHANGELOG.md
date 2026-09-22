@@ -1,5 +1,10 @@
 # Changelog
 
+## 2026-09-22｜v5.1 bilingual reading edition
+
+Published the approved revised Chinese reader and corresponding English translation; separated the philosophical afterword; refreshed all current reading and download entries. Historical versioned assets remain unchanged.
+
+
 ## 2026-09-08｜v5.0 bilingual official edition
 
 Published the author-reviewed Chinese source and complete official English translation; regenerated all reading/download formats; aligned terminology and contribution guidance; switched current entry points to v5.0. Historical commits and tags are retained, not replaced.
