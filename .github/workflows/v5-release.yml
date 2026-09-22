@@ -1,17 +1,18 @@
-name: Publish reviewed white paper v5.0
+name: Publish approved bilingual reading edition v5.1
 
 on:
   push:
-    branches: [release/v5.0.0, main]
+    branches: [release/v5.1.0, main]
     paths:
-      - 'tools/**'
+      - 'tools/publish_v51.py'
+      - 'releases/v5.1.0-source/**'
       - '.github/workflows/v5-release.yml'
       - 'VERSION'
-      - 'releases/v5.0.0-manifest.json'
+      - 'releases/v5.1.0-manifest.json'
   workflow_dispatch:
 
 concurrency:
-  group: v5-publication-${{ github.ref }}
+  group: v51-publication-${{ github.ref }}
   cancel-in-progress: false
 
 permissions:
@@ -31,65 +32,64 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Install rendering dependencies
+      - name: Install pinned publication tools
         run: |
           sudo apt-get update -qq
-          sudo apt-get install -y fonts-noto-cjk fonts-noto-core fonts-dejavu-core libpango-1.0-0 libpangoft2-1.0-0 libharfbuzz0b libharfbuzz-subset0
-          python -m pip install 'weasyprint==68.0' 'markdown-it-py==4.0.0' 'beautifulsoup4==4.14.3' 'PyMuPDF==1.26.7' 'Pillow==12.0.0'
-      - name: Record current deployment settings
-        run: |
-          mkdir -p .build-v5/qa
-          gh api "repos/$GITHUB_REPOSITORY/pages" > .build-v5/qa/pages-settings.json || true
-          git ls-files > .build-v5/qa/repository-before.txt
-      - name: Build all formats from approved source blobs
-        if: github.ref == 'refs/heads/release/v5.0.0'
-        run: python tools/publish_v5.py
-      - name: Verify previously rendered release assets
+          sudo apt-get install -y fonts-noto-cjk fonts-noto-core fonts-dejavu-core libpango-1.0-0 libpangoft2-1.0-0 libharfbuzz-subset0
+          python -m pip install weasyprint==68.0 markdown-it-py==4.0.0 beautifulsoup4==4.14.3 PyMuPDF==1.26.7 Pillow==12.0.0
+      - name: Build from approved source identities on release branch
+        if: github.ref == 'refs/heads/release/v5.1.0'
+        run: python tools/publish_v51.py
+      - name: Verify committed assets on main without rewriting them
         if: github.ref == 'refs/heads/main'
-        run: python tools/publish_v5.py --verify-only
-      - name: Commit verified staged assets
-        if: github.ref == 'refs/heads/release/v5.0.0'
+        run: python tools/publish_v51.py --verify-only
+      - name: Commit generated current edition; retain historical assets
+        if: github.ref == 'refs/heads/release/v5.1.0'
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add -A README.md CONTRIBUTING.md CHANGELOG.md VERSION docs whitepaper glossary translation releases
-          git diff --cached --stat > .build-v5/qa/staged-diff-stat.txt
+          git add -A -- README.md CONTRIBUTING.md CHANGELOG.md VERSION docs whitepaper glossary translation releases
           if ! git diff --cached --quiet; then
-            git commit -m 'release: package reviewed v5.0 bilingual editions and switch current entry points'
-            git push origin HEAD:release/v5.0.0
+            git commit -m 'release: build approved v5.1 bilingual readers and current public entries'
+            git push origin HEAD:release/v5.1.0
           fi
-          git rev-parse HEAD > .build-v5/qa/packaged-commit.txt
-      - name: Upload layout previews and source-integrity reports
+      - name: Archive publication output and visual review evidence
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: v5-publication-preflight-${{ github.run_id }}
+          name: v51-publication-${{ github.run_id }}
           include-hidden-files: true
-          retention-days: 14
-          if-no-files-found: warn
           path: |
-            .build-v5/qa/
-            whitepaper/zh-Hans/pdf/*v5.0*.pdf
-            whitepaper/en/pdf/*v5.0*.pdf
-            whitepaper/zh-Hans/full/*v5.0*.md
-            whitepaper/en/full/*v5.0*.md
-            releases/*v5.0*
-      - name: Publish v5.0.0 release without rewriting historical tags
+            .build-v51/qa/
+            whitepaper/zh-Hans/pdf/*v5.1*.pdf
+            whitepaper/en/pdf/*v5.1*.pdf
+            whitepaper/zh-Hans/full/*v5.1*.md
+            whitepaper/en/full/*v5.1*.md
+            releases/v5.1.0-manifest.json
+          retention-days: 30
+          if-no-files-found: error
+      - name: Create immutable v5.1.0 release; do not retag previous editions
         if: github.ref == 'refs/heads/main'
         run: |
           python - <<'PY'
-          import json
-          from pathlib import Path
-          data=json.loads(Path('releases/v5.0.0-manifest.json').read_text())
-          Path('.build-v5/release-assets.txt').write_text('\n'.join(data['assets'])+'\nreleases/v5.0.0-manifest.json\n')
+          import json, os, subprocess
+          manifest = json.load(open('releases/v5.1.0-manifest.json'))
+          if subprocess.run(['gh','release','view','v5.1.0'],capture_output=True).returncode:
+              subprocess.run(['gh','release','create','v5.1.0',*manifest['assets'],'releases/v5.1.0-manifest.json','--target',os.environ['GITHUB_SHA'],'--title','Field of Possibility · 可能性网络 v5.1','--notes-file','releases/v5.1.0.md','--latest'],check=True)
           PY
-          if gh release view v5.0.0 --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
-            echo 'Release already exists; not rewriting tag or replacing historical assets.'
-            gh release view v5.0.0 --repo "$GITHUB_REPOSITORY" --json tagName,url,isDraft,publishedAt
-          else
-            mapfile -t assets < .build-v5/release-assets.txt
-            gh release create v5.0.0 "${assets[@]}" --repo "$GITHUB_REPOSITORY" --target "$GITHUB_SHA" --title '可能性网络白皮书 v5.0｜中英文正式版' --notes-file releases/v5.0.0.md --latest
-          fi
+      - name: Verify all downloadable release attachments
+        if: github.ref == 'refs/heads/main'
+        run: |
+          mkdir -p .build-v51/release
+          gh release download v5.1.0 --dir .build-v51/release --clobber
+          python - <<'PY'
+          import hashlib,json,pathlib
+          m=json.load(open('releases/v5.1.0-manifest.json'))
+          for p in m['assets']:
+              downloaded=pathlib.Path('.build-v51/release')/pathlib.Path(p).name
+              assert hashlib.sha256(downloaded.read_bytes()).hexdigest()==m['files'][p],p
+          print('All',len(m['assets']),'release attachment hashes match the published assets.')
+          PY
 
   deploy:
     if: github.ref == 'refs/heads/main'
@@ -104,10 +104,40 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
           path: docs
-      - name: Deploy current edition
+      - name: Deploy current public edition
         id: deployment
         uses: actions/deploy-pages@v4
+
+  live-verification:
+    if: github.ref == 'refs/heads/main'
+    needs: [package, deploy]
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install read-only verification tools
+        run: python -m pip install weasyprint==68.0 markdown-it-py==4.0.0 beautifulsoup4==4.14.3 PyMuPDF==1.26.7 Pillow==12.0.0
+      - name: Verify public home, readers, afterword and all download hashes
+        run: python tools/publish_v51.py --live-check
+      - name: Save live HTTP evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: v51-live-verification-${{ github.run_id }}
+          include-hidden-files: true
+          path: .build-v51/qa/live-check.json
+          retention-days: 30
+          if-no-files-found: error
